@@ -1,5 +1,5 @@
 import pyodbc
-from ..Bowling import combine_table
+from Prev_Matches.Bowling import combine_table
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
@@ -19,22 +19,24 @@ cursor = conn.cursor()
 if not cursor.tables(table=table_name, tableType='TABLE').fetchone():
     cursor.execute('''
         CREATE TABLE Bowling (
-            Innings nvarchar(255),
-            Venue nvarchar(255),
-            Team nvarchar(255),
-            Date nvarchar(255),
-            Player_name nvarchar(255),
-            Overs nvarchar(255),
-            Maidens nvarchar(255),
-            Runs nvarchar(255),
-            Wickets nvarchar(255),
-            Economy_rate nvarchar(255),
-            Dot_ball nvarchar(255),
-            Fours nvarchar(255),
-            Sixes nvarchar(255),
-            Wides nvarchar(255),
-            No_balls nvarchar(255)
-        )
+    Bowling_ID int IDENTITY(1,1) PRIMARY KEY,
+    Innings nvarchar(255),
+    Venue nvarchar(255),
+    Team nvarchar(255),
+    Date nvarchar(255),
+    Player_name nvarchar(255),
+    Overs nvarchar(255),
+    Maidens nvarchar(255),
+    Runs nvarchar(255),
+    Wickets nvarchar(255),
+    Economy_rate nvarchar(255),
+    Dot_ball nvarchar(255),
+    Fours nvarchar(255),
+    Sixes nvarchar(255),
+    Wides nvarchar(255),
+    No_balls nvarchar(255)
+)
+
     ''')
     print(f"Table '{table_name}' created successfully.")
 
@@ -61,7 +63,7 @@ for player_data in combine_table.itertuples():
 
         # Check if the player data already exists in the database
         cursor.execute('''
-            SELECT * FROM Bowling 
+            SELECT Bowling_ID, * FROM Bowling 
             WHERE Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
         ''', innings, venue, team, date, player_name)
 
@@ -72,8 +74,9 @@ for player_data in combine_table.itertuples():
             cursor.execute('''
                 UPDATE Bowling 
                 SET Overs = ?, Maidens = ?, Runs = ?, Wickets = ?, Economy_rate = ?, Dot_ball = ?, Fours = ?, Sixes = ?, Wides = ?, No_balls = ?
-                WHERE Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-            ''', overs, maidens, runs, wickets, economy_rate, dot_ball, fours, sixes, wides, no_balls, innings, venue, team, date, player_name)
+                WHERE Bowling_ID = ? AND Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
+            ''', (overs, maidens, runs, wickets, economy_rate, dot_ball, fours, sixes, wides, no_balls,
+                  player_data.Bowling_ID, innings, venue, team, date, player_name))
 
             # Commit the transaction
             conn.commit()
@@ -83,9 +86,10 @@ for player_data in combine_table.itertuples():
         else:
             # If the player data does not exist, insert it into the database
             cursor.execute('''
-                INSERT INTO Bowling (Innings, Venue, Team, Date, Player_name, Overs, Maidens, Runs, Wickets, Economy_rate, Dot_ball, Fours, Sixes, Wides, No_balls)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', innings, venue, team, date, player_name, overs, maidens, runs, wickets, economy_rate, dot_ball, fours, sixes, wides, no_balls)
+                INSERT INTO Bowling (Bowling_ID, Innings, Venue, Team, Date, Player_name, Overs, Maidens, Runs, Wickets, Economy_rate, Dot_ball, Fours, Sixes, Wides, No_balls)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (player_data.Bowling_ID, innings, venue, team, date, player_name, overs, maidens, runs, wickets,
+                  economy_rate, dot_ball, fours, sixes, wides, no_balls))
 
             # Commit the transaction
             conn.commit()

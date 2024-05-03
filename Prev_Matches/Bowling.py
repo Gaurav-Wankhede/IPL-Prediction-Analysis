@@ -36,7 +36,6 @@ for All_link in All_links:
 
     # Find the specific div element using the provided XPath expression
     div_element1 = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT1)
-    print("\nBowling Div Element1:\n",div_element1.text)
     div_element2 = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT2)
 
     # Wrap HTML content in StringIO object
@@ -44,17 +43,13 @@ for All_link in All_links:
     data = pd.read_html(html_buffer)
 
     match_info = div_element1.text.split(", ")
-    print("\n Bowling Match Info:\n", match_info)
 
     # Extracting individual components
     innings = match_info[0]
     venue = match_info[1]
-    date_str = match_info[2:4]  # Take the third and fourth elements after splitting
-    date_str[0] = date_str[0].replace("Match Date: ", "")
-    date_str[1] = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
-    date_str = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
-
-    date_str = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
+    date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(
+        ",\nPepsi Indian Premier League", "")
+    date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
 
     # Check if the string contains the delimiter " - "
     if " - " in date_str:
@@ -70,24 +65,10 @@ for All_link in All_links:
         # If the delimiter is not present, use the original string as it is
         date_to_use = date_str
 
-    # Now date_to_use contains the desired date, either the first date from the split operation or the original string
-
-    date_str = " ".join(date_str)
-
-    # Print Extracted components
-    print("\nInnings:", innings)
-    print("Venue:", venue)
-    print("Date:", date_str)
-
     if date_str:
-        # Check if the date string contains the year
-        if len(date_str.split()) == 3:  # Assuming the date string format is "Month Day Year"
-            date_format = '%B %d %Y'
-        else:
-            date_format = '%B %d'  # No year in the date string
-
         # Convert the date string to the desired format
-        date_obj = datetime.strptime(date_str, date_format)
+        date_obj = datetime.strptime(date_str, '%B %d %Y')
+        # Format the date as 'dd-MMM-YYYY'
         date_str = date_obj.strftime('%d-%b-%Y')
 
     teams_results_text = div_element2.text.split('\n')
@@ -96,7 +77,6 @@ for All_link in All_links:
     # Check if teams_results_text has enough elements before accessing index 2
     if len(teams_results_text) >= 3:
         team2 = teams_results_text[2]
-        print(f"\nTeam 1: {team1}\nTeam 2: {team2}")
     else:
         # Handle the case where teams_results_text doesn't have enough elements
         print("Match was Canceled that day.")
@@ -106,6 +86,12 @@ for All_link in All_links:
     bowling_tables.append(data[1].copy())
     bowling_tables.append(data[3].copy())
     match_info_list.extend([[innings, venue, date_str, team1], [innings, venue, date_str, team2]])
+
+    print("\nMatch Info:")
+    print(f"Inning: {innings}, Venue: {venue}, Date: {date_str}")
+    print(f"Team 1: {team1}, Team 2: {team2}")
+    print(f"Bowling Match info list: {match_info_list[-2]} \t {match_info_list[-1]}")
+
 
 combine_table = pd.DataFrame()
 for i, table in enumerate(bowling_tables):

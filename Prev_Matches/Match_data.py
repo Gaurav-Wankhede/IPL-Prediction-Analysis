@@ -40,9 +40,9 @@ def process_match_link(driver, link):
     match_result_text = div_element3.text
 
     # Extracting individual components
-    innings, venue, date_str = match_info[0], match_info[1], " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(",\nIndian Premier League", "")
-
-    date_str = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
+    innings, venue = match_info[0], match_info[1]
+    date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(
+        ",\nPepsi Indian Premier League", "")
 
     # Check if the string contains the delimiter " - "
     if " - " in date_str:

@@ -1,4 +1,3 @@
-import pandas as pd
 import pyodbc
 from Prev_Matches.Match_data import all_matches_data  # Import the DataFrame
 
@@ -19,6 +18,7 @@ cursor = conn.cursor()
 if not cursor.tables(table='Match_Data', tableType='TABLE').fetchone():
     cursor.execute('''
         CREATE TABLE Match_Data (
+            Match_ID int IDENTITY(1,1) PRIMARY KEY,
             Innings nvarchar(255),
             Venue nvarchar(255),
             Date nvarchar(255),
@@ -55,8 +55,8 @@ for index, row in all_matches_data.iterrows():
         cursor.execute('''
             UPDATE Match_Data 
             SET Team1_runs = ?, Team1_wickets = ?, Team2_runs = ?, Team2_wickets = ?, Target = ?, Team1_played_Overs = ?, Team2_played_Overs = ?, Match_Result = ?
-            WHERE Innings = ? AND Venue = ? AND Date = ? AND Team1 = ? AND Team2 = ?
-        ''', row_list[5], row_list[6], row_list[7], row_list[8], row_list[9], row_list[10], row_list[11], row_list[12], row_list[0], row_list[1], row_list[2], row_list[3], row_list[4])
+            WHERE Match_ID = ?
+        ''', row_list[5], row_list[6], row_list[7], row_list[8], row_list[9], row_list[10], row_list[11], row_list[12], existing_row.Match_ID)
         print(f"Values updated for match: {row_list[0]} {row_list[1]} {row_list[2]} {row_list[3]} {row_list[4]}")
     else:
         # If the row does not exist, insert it

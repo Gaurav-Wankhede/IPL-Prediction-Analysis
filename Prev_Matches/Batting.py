@@ -1,4 +1,5 @@
 import os
+import re
 
 import pd
 from selenium.webdriver.common.by import By
@@ -47,15 +48,13 @@ for url in All_links:  # Changed from Links to All_links
 
     # Find the specific div element using the provided XPath expression
     match_info = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT1).text.split(", ")
-    print("Batting Match Info:\n", match_info)
 
     # Extracting individual components
     innings = match_info[0]
     venue = match_info[1]
-    date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(",\nIndian Premier League", "")
-    date_str = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
-
-    date_str = date_str[1].replace(",\nIndian Premier League", "").replace(",\nPepsi Indian Premier League", "")
+    date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(
+        ",\nPepsi Indian Premier League", "")
+    date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
 
     # Check if the string contains the delimiter " - "
     if " - " in date_str:
@@ -81,7 +80,6 @@ for url in All_links:  # Changed from Links to All_links
     team1 = teams_results_text[0]
     if len(teams_results_text) >= 3:
         team2 = teams_results_text[2]
-        print(f"\nTeam 1: {team1}\nTeam 2: {team2}")
     else:
         # Handle the case where teams_results_text doesn't have enough elements
         print("Match was Canceled that day.")
@@ -90,7 +88,11 @@ for url in All_links:  # Changed from Links to All_links
     batting_tables.extend([data[0].copy(), data[2].copy()])
     match_info_list.extend([[innings, venue, date_str, team1], [innings, venue, date_str, team2]])
 
-    print(f"\nBatting Match info list: {match_info_list[-2]} \t {match_info_list[-1]}")
+    print("\nMatch Info:")
+    print(f"Inning: {innings}, Venue: {venue}, Date: {date_str}")
+    print(f"Team 1: {team1}, Team 2: {team2}")
+    print(f"Batting Match info list: {match_info_list[-2]} \t {match_info_list[-1]}")
+
 
 # Define a dictionary of team names and their abbreviations
 team_abbreviations = {

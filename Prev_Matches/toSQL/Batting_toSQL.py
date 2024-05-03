@@ -1,5 +1,5 @@
 import pyodbc
-from ..Batting import combine_table  # Import Batting.py and get access to combine_table
+from Prev_Matches.Batting import combine_table  # Import Batting.py and get access to combine_table
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
@@ -19,6 +19,7 @@ cursor = conn.cursor()
 if not cursor.tables(table=table_name, tableType='TABLE').fetchone():
     cursor.execute('''
         CREATE TABLE Batting (
+            Batting_ID int IDENTITY(1,1) PRIMARY KEY,
             Innings nvarchar(255),
             Venue nvarchar(255),
             Team nvarchar(255),
@@ -38,8 +39,7 @@ if not cursor.tables(table=table_name, tableType='TABLE').fetchone():
 # Commit the transaction
 conn.commit()
 
-
-
+# Loop through combine_table and insert/update records
 for player_data in combine_table.itertuples():
     try:
         innings = player_data[1]  # Accessing the first column
@@ -50,9 +50,7 @@ for player_data in combine_table.itertuples():
         dismissal_type = player_data[6]  # Accessing the sixth column
         r = player_data[7]  # Accessing the seventh column
         b = player_data[8]  # Accessing the eighth column
-        m = player_data[9]  # Accessing the ninth column
-        if m == '':
-            m = "0"
+        m = player_data[9] if player_data[9] else "0"  # Accessing the ninth column, handle empty string case
         sr = player_data[10]  # Accessing the tenth column
         fours = player_data[11]  # Accessing the eleventh column
         sixes = player_data[12]  # Accessing the twelfth column
@@ -70,8 +68,8 @@ for player_data in combine_table.itertuples():
             cursor.execute('''
                 UPDATE Batting
                 SET Dismissal_type = ?, Runs = ?, Balls = ?, Dot_Balls = ?, Strike_Rate = ?, Fours = ?, Sixes = ?
-                WHERE Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-            ''', dismissal_type, r, b, m, sr, fours, sixes, innings, venue, team, date, player_name)
+                WHERE Batting_ID = ? AND Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
+            ''', dismissal_type, r, b, m, sr, fours, sixes, existing_player.Batting_ID, innings, venue, team, date, player_name)
 
             # Commit the transaction
             conn.commit()
