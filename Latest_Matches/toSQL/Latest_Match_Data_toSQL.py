@@ -1,5 +1,5 @@
 import pyodbc
-from Prev_Matches.Match_data import all_matches_data  # Import the DataFrame
+from Latest_Matches.Latest_Match_Data import all_matches_data  # Import the DataFrame
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'

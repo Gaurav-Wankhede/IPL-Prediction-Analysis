@@ -1,5 +1,5 @@
 import pyodbc
-from Prev_Matches.Bowling import combine_table
+from Latest_Matches.Latest_Bowling import combine_table
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'

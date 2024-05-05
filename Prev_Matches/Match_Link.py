@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import Season
 
+
 def fetch_links():
     # Create a new instance of the Chrome driver
     driver = webdriver.Chrome()

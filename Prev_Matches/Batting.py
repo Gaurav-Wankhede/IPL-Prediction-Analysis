@@ -1,9 +1,7 @@
 import os
 import re
-
-import pd
-from selenium.webdriver.common.by import By
 import pandas as pd
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from io import StringIO
 from datetime import datetime
@@ -11,6 +9,19 @@ from datetime import datetime
 # Define constants
 XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo-mid3']"
 XPATH_DIV_ELEMENT2 = "//div[@class='ds-flex ds-flex-col ds-mt-3 md:ds-mt-0 ds-mt-0 ds-mb-1']"
+
+# Define the function to extract date parts
+def extract_date_parts(date_str):
+    # Regular expression pattern to match the date, month, and end day
+    match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
+    if match:
+        day = int(match.group(2))
+        month = match.group(1)
+        end_day = int(match.group(3)) if match.group(3) else day
+        year = int(match.group(4))
+        return day, month, end_day, year
+    else:
+        raise ValueError("Invalid date format")
 
 # Initialize Selenium WebDriver
 driver = webdriver.Chrome()
@@ -29,7 +40,7 @@ with open(file_path, 'r') as f:
 batting_tables = []
 match_info_list = []
 
-for url in All_links:  # Changed from Links to All_links
+for url in All_links:
     while True:
         try:
             driver.get(url)
@@ -56,34 +67,25 @@ for url in All_links:  # Changed from Links to All_links
         ",\nPepsi Indian Premier League", "")
     date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
 
+
     # Check if the string contains the delimiter " - "
     if " - " in date_str:
-        # Split the string by " - " to separate the start and end dates
-        date_parts = date_str.split(" - ")
-
-        # Take the first date
-        date_to_use = date_parts[0]
-
-        # Update date_str with the first date
-        date_str = date_to_use
-    else:
-        # If the delimiter is not present, use the original string as it is
-        date_to_use = date_str
-
-    if date_str:
-        # Convert the date string to the desired format
-        date_obj = datetime.strptime(date_str, '%B %d %Y')
-        # Format the date as 'dd-MMM-YYYY'
-        date_str = date_obj.strftime('%d-%b-%Y')
+        # Extract day, month, year, and end day using the extract_date_parts function
+        day, month, end_day, year = extract_date_parts(date_str)
+        # Format the date string
+        if end_day != day:
+            date_str = f"{month} {day}-{end_day} {year}"
+            date_str =datetime.strptime(date_str, '%B %d-%d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+        else:
+            date_str = f"{month} {day} {year}"
+            date_str =datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+    date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
 
     teams_results_text = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT2).text.split('\n')
     team1 = teams_results_text[0]
-    if len(teams_results_text) >= 3:
-        team2 = teams_results_text[2]
-    else:
-        # Handle the case where teams_results_text doesn't have enough elements
-        print("Match was Canceled that day.")
-        print("\nteams_results_text:", teams_results_text)
+    team2 = teams_results_text[2] if len(teams_results_text) >= 3 else ""
 
     batting_tables.extend([data[0].copy(), data[2].copy()])
     match_info_list.extend([[innings, venue, date_str, team1], [innings, venue, date_str, team2]])

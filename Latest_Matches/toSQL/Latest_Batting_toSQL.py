@@ -1,5 +1,5 @@
 import pyodbc
-from Prev_Matches.Batting import combine_table  # Import Batting.py and get access to combine_table
+from Latest_Matches.Latest_Batting import combine_table  # Import Batting.py and get access to combine_table
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'

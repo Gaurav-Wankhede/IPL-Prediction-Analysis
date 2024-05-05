@@ -1,59 +1,119 @@
-from selenium.webdriver.common.by import By
-import Latest_Match_Link
+import os
+import re
 import pandas as pd
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from io import StringIO
 from datetime import datetime
+import pyodbc
+
+
+# Define your SQL Server connection parameters
+server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
+database = r'IPL_Prediction_Analysis'
+
+# Define the table name
+table_name = 'Batting'
+
+# Connect to the database
+conn = pyodbc.connect(r'DRIVER={SQL Server};'
+                      r'SERVER=DESKTOP-F8QC9QH\SQLEXPRESS;'
+                      r'DATABASE=IPL_Prediction_Analysis;'
+                      r'Trusted_Connection=yes;')
+
+# Define the function to extract date parts
+def extract_date_parts(date_str):
+    # Regular expression pattern to match the date, month, and end day
+    match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
+    if match:
+        day = int(match.group(2))
+        month = match.group(1)
+        end_day = int(match.group(3)) if match.group(3) else day
+        year = int(match.group(4))
+        return day, month, end_day, year
+    else:
+        raise ValueError("Invalid date format")
+
+# Initialize Selenium WebDriver
+driver = webdriver.Chrome()
 
 # Define constants
 XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo-mid3']"
 XPATH_DIV_ELEMENT2 = "//div[@class='ds-flex ds-flex-col ds-mt-3 md:ds-mt-0 ds-mt-0 ds-mb-1']"
 
-# Initialize Selenium WebDriver
-driver = webdriver.Chrome()
+# Get the directory of the current script
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
-Links = Latest_Match_Link.fetch_match_links()
+# Define the file path for match links
+file_path = os.path.join(dir_path, "match_links.txt")
+
+# Read match links from the text file
+with open(file_path, 'r') as f:
+    All_links = f.read().splitlines()
 
 # Fetch only the batting tables at indices 0 and 2
 batting_tables = []
 match_info_list = []
-for url in Links:
+
+for url in All_links:
+    while True:
+        try:
+            driver.get(url)
+            html_content = driver.page_source
+            break
+        except Exception as e:
+            print(f"Attempt failed: {e}")
+
     try:
-        driver.get(url)
-        html_content = driver.page_source
-
-        # Find the specific div element using the provided XPath expression
-        div_element1 = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT1)
-        div_element2 = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT2)
-
         # Wrap HTML content in StringIO object
         html_buffer = StringIO(html_content)
         data = pd.read_html(html_buffer)
-
-        match_info = div_element1.text.split(", ")
-
-        # Extracting individual components
-        innings = match_info[0]
-        venue = match_info[1]
-        date_str = match_info[2:4]  # Take the third and fourth elements after splitting
-        date_str[0] = date_str[0].replace("Match Date: ", "")
-        date_str[1] = date_str[1].replace(",\nIndian Premier League", "")
-        date_str = " ".join(date_str)
-        if date_str:
-            # Convert the date string to the desired format
-            date_obj = datetime.strptime(date_str, '%B %d %Y')
-            # Format the date as 'dd-MMM-YYYY'
-            date_str = date_obj.strftime('%d-%b-%Y')
-
-        teams_results_text = div_element2.text.split('\n')
-        team1 = teams_results_text[0]
-        team2 = teams_results_text[2]
-
-        batting_tables.extend([data[0].copy(), data[2].copy()])
-        match_info_list.extend([[innings, venue, date_str, team1], [innings, venue, date_str, team2]])
     except Exception as e:
-        print("Error fetching URL:", url)
-        print(e)
+        print(f"Error parsing HTML content: {e}")
+        continue
+
+    # Find the specific div element using the provided XPath expression
+    match_info = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT1).text.split(", ")
+
+    # Extracting individual components
+    innings = match_info[0]
+    venue = match_info[1]
+    date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(
+        ",\nPepsi Indian Premier League", "")
+    date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
+
+    # Check if the string contains the delimiter " - "
+    if " - " in date_str:
+        # Extract day, month, year, and end day using the extract_date_parts function
+        day, month, end_day, year = extract_date_parts(date_str)
+        # Format the date string
+        if end_day != day:
+            date_str = f"{month} {day}-{end_day} {year}"
+            date_str = datetime.strptime(date_str, '%B %d-%d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+        else:
+            date_str = f"{month} {day} {year}"
+            date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+    date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
+
+    teams_results_text = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT2).text.split('\n')
+    team1 = teams_results_text[0]
+    if len(teams_results_text) >= 3:
+        team2 = teams_results_text[2]
+    else:
+        # Handle the case where teams_results_text doesn't have enough elements
+        print("Match was Canceled that day.")
+        print("\nteams_results_text:", teams_results_text)
+
+    batting_tables.extend([data[0].copy(), data[2].copy()])
+    match_info_list.extend([[innings, venue, date_str, team1], [innings, venue, date_str, team2]])
+
+    print("\nMatch Info:")
+    print(f"Inning: {innings}, Venue: {venue}, Date: {date_str}")
+    print(f"Team 1: {team1}, Team 2: {team2}")
+    print(f"Batting Match info list: {match_info_list[-2]} \t {match_info_list[-1]}")
+
 
 # Define a dictionary of team names and their abbreviations
 team_abbreviations = {
@@ -63,10 +123,8 @@ team_abbreviations = {
 }
 
 combine_table = pd.DataFrame()
-for i in range(len(batting_tables)):
-    table = batting_tables[i]
+for i, table in enumerate(batting_tables):
     match_info = match_info_list[i]
-
     if 'BATTING' in table.columns:
         # Remove special character Â from the 'BATTING' column
         table['BATTING'] = table['BATTING'].str.replace('Â', '')
@@ -75,28 +133,53 @@ for i in range(len(batting_tables)):
         # Process the table further if needed
         table = table.iloc[:-2, :-2]
         table.dropna(inplace=True)
+
         # Replace the second column name
-        table.columns = ['Batting_Player'] + ['Dismissal type'] + table.columns[2:].tolist()
+        table.columns = table.columns[:1].tolist() + ['Dismissal type'] + table.columns[2:].tolist()
+
         # Remove symbols from the DataFrame
         table = table.apply(
             lambda col: col.astype(str).str.replace(r'[^\w\s]', '', regex=True) if col.name != 'SR' else col)
-        # Remove 5th column
-        table = table.drop(table.columns[4], axis=1)
 
         # Add new columns for the match info
-        table['Inning'], table['Venue'], table['Date'], table['Team'] = match_info
+        table['Innings'], table['Venue'], table['Date'], table['Team'] = match_info
 
         # Reorder the columns
-        table = table[['Inning', 'Venue', 'Team', 'Date'] + [col for col in table.columns if
-                                                             col not in ['Inning', 'Venue', 'Team', 'Date']]]
+        table = table[['Innings', 'Venue', 'Team', 'Date'] + [col for col in table.columns if
+                                                             col not in ['Innings', 'Venue', 'Team', 'Date']]]
 
         # Replace full team names with abbreviations
         table['Team'] = table['Team'].map(team_abbreviations).fillna(table['Team'])
 
-        combine_table = pd.concat([table, combine_table], ignore_index=True)
+        # Add primary key column based on combination of Innings, Venue, Team, and Date
+        unique_key = table['Innings'] + '_' + table['Venue'] + '_' + table['Team'] + '_' + table['Date']
+        last_used_id_query = f"SELECT MAX(Batting_ID) FROM {table_name};"
+        last_used_id = conn.execute(last_used_id_query).fetchone()[0]
+        last_used_id = 0 if last_used_id is None else last_used_id
+        table['Batting_ID'] = range(last_used_id + 1, last_used_id + len(table) + 1)
+        table.insert(0, 'Batting_ID', table.groupby(unique_key).ngroup() + 1)
 
-    combine_table.to_csv('../Latest_Batting_Combine_table.csv', index=False, encoding='utf-8-sig')
+        combine_table = pd.concat([combine_table, table], ignore_index=True)
+
+        print(f"Batting Table:")
+        print(table)
+
+    else:
+        print("Column 'BATTING' not found in the DataFrame.")
+
+# Print the combined table
 print("Combine Table:")
 print(combine_table)
+
+# Write the combined table to a CSV file
+combine_table.to_csv('../Latest_Batting_table.csv', index=False, encoding='utf-8-sig')
+
+# Insert records into the SQL database
+combine_table.to_sql(table_name, conn, if_exists='append', index=False)
+
+# Commit changes and close the database connection
+conn.commit()
+conn.close()
+
 # Quit the Selenium WebDriver
 driver.quit()

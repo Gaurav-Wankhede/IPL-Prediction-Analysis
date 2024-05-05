@@ -5,6 +5,8 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from io import StringIO
+import pyodbc
+
 
 # Function to fetch table data from a URL using XPath
 def fetch_table_data(driver, url, xpath):
@@ -40,17 +42,21 @@ XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo
 # Initialize a counter for MVP_ID
 mvp_id_counter = 1
 
-def extract_date_parts(date_str):
-    # Regular expression pattern to match the date, month, and end day
-    match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
-    if match:
-        day = int(match.group(2))
-        month = match.group(1)
-        end_day = int(match.group(3)) if match.group(3) else day
-        year = int(match.group(4))
-        return day, month, end_day, year
-    else:
-        raise ValueError("Invalid date format")
+# Connect to the database
+server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
+database = r'IPL_Prediction_Analysis'
+conn = pyodbc.connect(r'DRIVER={SQL Server};'
+                      r'SERVER=' + server + ';'
+                      r'DATABASE=' + database + ';'
+                      r'Trusted_Connection=yes;')
+cursor = conn.cursor()
+
+# Get the maximum MVP_ID from the MVP_Data table
+cursor.execute("SELECT MAX(MVP_ID) FROM MVP_Data")
+max_mvp_id = cursor.fetchone()[0]
+
+# If max_mvp_id is None, set it to 0
+max_mvp_id = max_mvp_id if max_mvp_id is not None else 0
 
 # Iterate through each link and fetch table data
 for link in links:
@@ -68,10 +74,22 @@ for link in links:
         # Extracting individual components
         innings = match_info[0]
         venue = match_info[1]
-        date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League",
-                                                                                 "").replace(
+        date_str = " ".join(match_info[2:4]).replace("Match Date: ", "").replace(",\nIndian Premier League", "").replace(
             ",\nPepsi Indian Premier League", "")
         date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
+
+        # Define a function to extract date parts
+        def extract_date_parts(date_str):
+            # Regular expression pattern to match the date, month, and end day
+            match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
+            if match:
+                day = int(match.group(2))
+                month = match.group(1)
+                end_day = int(match.group(3)) if match.group(3) else day
+                year = int(match.group(4))
+                return day, month, end_day, year
+            else:
+                raise ValueError("Invalid date format")
 
         # Check if the string contains the delimiter " - "
         if " - " in date_str:
@@ -79,14 +97,11 @@ for link in links:
             day, month, end_day, year = extract_date_parts(date_str)
             # Format the date string
             if end_day != day:
-                date_str = f"{month} {day}-{end_day} {year}"
-                date_str = datetime.strptime(date_str, '%B %d-%d %Y').strftime("%d-%B-%Y")
+                date_str = f"{day}-{month} - {end_day}-{month}, {year}"
                 print(f"Date: {date_str}")
             else:
-                date_str = f"{month} {day} {year}"
-                date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
+                date_str = f"{day}-{month}, {year}"
                 print(f"Date: {date_str}")
-        date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
 
         # Rename columns to match the required column names
         table_data.columns = ["Player_Name", "Team", "Total_Impact", "Runs", "Impact_Runs", "Batting_Impact", "Bowl",
@@ -96,10 +111,7 @@ for link in links:
         table_data['Innings'], table_data['Venue'], table_data['Date'] = innings, venue, date_str
 
         # Add 'MVP_ID' column with unique ID for each row
-        table_data['MVP_ID'] = range(mvp_id_counter, mvp_id_counter + len(table_data))
-
-        # Update the counter
-        mvp_id_counter += len(table_data)
+        table_data['MVP_ID'] = range(max_mvp_id + mvp_id_counter, max_mvp_id + mvp_id_counter + len(table_data))
 
         # Reorder the columns
         cols = ['MVP_ID', 'Innings', 'Venue', 'Date', 'Player_Name', 'Team'] + [col for col in table_data.columns if
@@ -134,7 +146,7 @@ final_data['Wickets'] = final_data['Wickets'].astype(int)
 final_data['Runs_Conceded'] = final_data['Runs_Conceded'].astype(int)
 print(final_data)
 # Save the final DataFrame to a CSV file
-final_data.to_csv("MVP_Data.csv", index=False)
+final_data.to_csv("Latest_MVP_Data.csv", index=False)
 
 # Quit the WebDriver after processing all links
 driver.quit()

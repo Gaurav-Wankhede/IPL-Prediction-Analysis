@@ -1,5 +1,5 @@
 import pyodbc
-from Prev_Matches.MVP_Data import final_data
+from Latest_Matches.Latest_MVP_Data import final_data
 
 # Define your SQL Server connection parameters
 server = r'DESKTOP-F8QC9QH\SQLEXPRESS'

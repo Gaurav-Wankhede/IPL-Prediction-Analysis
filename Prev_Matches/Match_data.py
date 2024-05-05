@@ -9,10 +9,23 @@ import os
 XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo-mid3']"
 XPATH_DIV_ELEMENT2 = "//div[@class='ds-flex ds-flex-col ds-mt-3 md:ds-mt-0 ds-mt-0 ds-mb-1']"
 XPATH_DIV_ELEMENT3 = "//p[@class='ds-text-tight-s ds-font-medium ds-truncate ds-text-typo']"
-XPATH_TEAM1_PLAYED_OVERS = xpath = "//*[@id='main-container']/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[1]/div[2]/div/div[2]/table[1]//span[contains(@class, 'ds-font-regular') and contains(@class, 'ds-text-tight-s') and contains(text(), ' Ov')]"
+XPATH_TEAM1_PLAYED_OVERS = "//*[@id='main-container']/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[1]/div[2]/div/div[2]/table[1]//span[contains(@class, 'ds-font-regular') and contains(@class, 'ds-text-tight-s') and contains(text(), ' Ov')]"
 XPATH_TEAM2_PLAYED_OVERS = '//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[1]/div[3]/div/div[2]/table[1]//span[contains(@class, "ds-font-regular") and contains(@class, "ds-text-tight-s") and contains(text(), " Ov")]'
 XPATH_TEAM1_MAX_OVERS = "//*[@id='main-container']/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[1]/div[2]/div/div[1]/div/span/span[2]"
 XPATH_TEAM2_MAX_OVERS = '//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[1]/div[3]/div/div[1]/div/span/span[2]'
+
+# Define the function to extract date parts
+def extract_date_parts(date_str):
+    # Regular expression pattern to match the date, month, and end day
+    match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
+    if match:
+        day = int(match.group(2))
+        month = match.group(1)
+        end_day = int(match.group(3)) if match.group(3) else day
+        year = int(match.group(4))
+        return day, month, end_day, year
+    else:
+        raise ValueError("Invalid date format")
 
 # Get the directory of the current script
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -22,6 +35,7 @@ file_path = os.path.join(dir_path, "match_links.txt")
 with open(file_path, 'r') as f:
     match_links = f.read().splitlines()
 
+# Define the function to process each match link
 def process_match_link(driver, link):
     # Load the webpage
     driver.get(link)
@@ -46,19 +60,20 @@ def process_match_link(driver, link):
 
     # Check if the string contains the delimiter " - "
     if " - " in date_str:
-        # Split the string by " - " to separate the start and end dates
-        date_parts = date_str.split(" - ")
+        # Extract day, month, year, and end day using the extract_date_parts function
+        day, month, end_day, year = extract_date_parts(date_str)
+        # Format the date string
+        if end_day != day:
+            date_str = f"{month} {day}-{end_day} {year}"
+            date_str = datetime.strptime(date_str, '%B %d-%d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+        else:
+            date_str = f"{month} {day} {year}"
+            date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
+            print(f"Date: {date_str}")
+    date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
 
-        # Take the first date
-        date_to_use = date_parts[0]
 
-        # Update date_str with the first date
-        date_str = date_to_use
-    else:
-        # If the delimiter is not present, use the original string as it is
-        date_to_use = date_str
-
-    date_str = datetime.strptime(date_str, '%B %d %Y').strftime('%d-%b-%Y') if date_str else ""
 
     if len(teams_results_text) >= 4:
         team1, team1_result, team2, team2_result = teams_results_text
@@ -93,6 +108,7 @@ def process_match_link(driver, link):
 
         Team2_Max_Overs = driver.find_element(By.XPATH, XPATH_TEAM2_MAX_OVERS).text
         Team2_Max_Overs = re.search(r'(\d+)\s+ovs', Team2_Max_Overs).group().replace(" ovs", "")
+
     print("\nMatch Info:")
     print(f"Inning: {innings}, Venue: {venue}, Date: {date_str}")
     # Print Team1_runs, Team1_wickets, Team2_runs, Team2_wickets,

@@ -2,17 +2,34 @@ import os
 import pandas as pd
 import re
 from selenium import webdriver
-from selenium.common import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
+import pyodbc
+
+
+# Define your SQL Server connection parameters
+server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
+database = r'IPL_Prediction_Analysis'
+
+# Connect to the database
+conn = pyodbc.connect(r'DRIVER={SQL Server};'
+                      r'SERVER=' + server + ';'
+                      r'DATABASE=' + database + ';'
+                      r'Trusted_Connection=yes;')
+
+# Create a cursor
+cursor = conn.cursor()
+
+# Fetch the maximum Stats_ID from the Stats_Data table
+cursor.execute("SELECT MAX(Stats_ID) FROM Stats_Data")
+max_stats_id = cursor.fetchone()[0]
+mvp_id_counter = max_stats_id + 1 if max_stats_id else 1
 
 # XPath for the div element
 XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo-mid3']"
-
-# Initialize a counter for MVP_ID
-mvp_id_counter = 1
 
 # Construct the absolute path to the file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -26,18 +43,6 @@ with open(file_path, "r") as file:
 driver = webdriver.Chrome()
 
 data = []
-
-def extract_date_parts(date_str):
-    # Regular expression pattern to match the date, month, and end day
-    match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
-    if match:
-        day = int(match.group(2))
-        month = match.group(1)
-        end_day = int(match.group(3)) if match.group(3) else day
-        year = int(match.group(4))
-        return day, month, end_day, year
-    else:
-        raise ValueError("Invalid date format")
 
 for i, link in enumerate(links):
     print(f"Processing link: {link}")
@@ -60,6 +65,19 @@ for i, link in enumerate(links):
         ",\nPepsi Indian Premier League", "")
     date_str = re.sub(r",\n(?:Indian Premier League|Pepsi Indian Premier League)", "", date_str)
 
+    # Define a function to extract date parts
+    def extract_date_parts(date_str):
+        # Regular expression pattern to match the date, month, and end day
+        match = re.match(r'(\w+)\s+(\d+)(?:\s*-\s*(\d+))?,\s+(\d{4})', date_str)
+        if match:
+            day = int(match.group(2))
+            month = match.group(1)
+            end_day = int(match.group(3)) if match.group(3) else day
+            year = int(match.group(4))
+            return day, month, end_day, year
+        else:
+            raise ValueError("Invalid date format")
+
     # Check if the string contains the delimiter " - "
     if " - " in date_str:
         # Extract day, month, year, and end day using the extract_date_parts function
@@ -75,9 +93,14 @@ for i, link in enumerate(links):
             print(f"Date: {date_str}")
     date_str = datetime.strptime(date_str, '%B %d %Y').strftime("%d-%B-%Y")
 
+    # Convert the date string to the desired format
+    if date_str:
+        date_obj = datetime.strptime(date_str, '%B %d %Y')
+        date_str = date_obj.strftime('%d-%b-%Y')
+
     # XPaths for the team containers
-    xpaths = ['//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[4]/div[2]/div/div[2]/div[1]',
-              '//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[4]/div[2]/div/div[2]/div[2]']
+    xpaths = ['//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[4]/div[2]/div/div[2]/div[1]/div/div[1]',
+              '//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[4]/div[2]/div/div[2]/div[2]/div/div[1]']
 
     # XPaths for the first page
     first_page_xpaths = ['//*[@id="main-container"]/div[5]/div[1]/div/div[3]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[1]',
@@ -96,7 +119,7 @@ for i, link in enumerate(links):
         print(f"Found team container {j + 1}")
 
         # Find the team using the CSS selector within the container
-        team = container.find_element(By.CSS_SELECTOR, '.ds-text-tight-m.ds-font-bold').text
+        team = container.find_element(By.TAG_NAME, 'span').text
 
         # Find the elements using the CSS selector within the container
         elements = container.find_elements(By.CSS_SELECTOR, '.ds-flex.ds-justify-between')
@@ -128,6 +151,13 @@ for i, link in enumerate(links):
 # Close the driver
 driver.quit()
 
+# Create DataFrame
 df = pd.DataFrame(data, columns=['Stats_ID', 'Innings', 'Venue', 'Date', 'Team', 'Player 1', 'Player 2', 'Player 1 Runs', 'Player 1 Balls', 'Partnership Runs', 'Partnership Balls', 'Player 2 Runs', 'Player 2 Balls'])
 print(df)
-df.to_csv('../Stats.csv', index=False)
+
+# Export DataFrame to CSV
+df.to_csv('../Latest_Stats.csv', index=False)
+
+# Close the cursor and connection
+cursor.close()
+conn.close()
