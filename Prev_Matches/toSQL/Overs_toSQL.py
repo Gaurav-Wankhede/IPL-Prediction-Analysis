@@ -1,71 +1,90 @@
-import pyodbc
-from Prev_Matches.Overs import df
+import sqlite3
+from Prev_Matches.Overs import overs
 
-# Define your SQL Server connection parameters
-server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
-database = r'IPL_Prediction_Analysis'
+class OversSQLProcessor:
+    def __init__(self):
+        self.db_file_path = "../../database/IPL_Prediction_Analysis.db"
+        self.table_name = 'Overs_Data'
 
-# Connect to the database
-conn = pyodbc.connect(r'DRIVER={SQL Server};'
-                      r'SERVER=' + server + ';'
-                      r'DATABASE=' + database + ';'
-                      r'Trusted_Connection=yes;')
+    def create_table_if_not_exists(self, cursor):
+        cursor.execute(f'''
+            SELECT name FROM sqlite_master WHERE type='table' AND name='{self.table_name}'
+        ''')
+        existing_table = cursor.fetchone()
 
-# Create a cursor
-cursor = conn.cursor()
+        if not existing_table:
+            cursor.execute('''
+                CREATE TABLE Overs_Data (
+                    Overs_ID INTEGER PRIMARY KEY,
+                    Innings TEXT,
+                    Venue TEXT,
+                    Start_Date TEXT,
+                    End_Date TEXT,
+                    Team_Name TEXT,
+                    Overs INTEGER,
+                    Team_Runs INTEGER,
+                    Team_Wickets INTEGER,
+                    Team_Total_Runs INTEGER,
+                    Team_Total_Wickets INTEGER
+                )
+            ''')
+            print(f"Table '{self.table_name}' created successfully.")
 
-# Create Overs_Data table if it doesn't exist
-if not cursor.tables(table='Overs_Data', tableType='TABLE').fetchone():
-    cursor.execute('''
-        CREATE TABLE Overs_Data (
-            Overs_ID INT PRIMARY KEY,
-            Innings VARCHAR(255),
-            Venue VARCHAR(255),
-            Date DATE,
-            Team_Name VARCHAR(255),
-            Overs VARCHAR(255),
-            Team_Runs INT,
-            Team_Wickets INT,
-            Team_Total_Runs INT,
-            Team_Total_Wickets INT
-        )
-    ''')
+    def process_overs_data(self):
+        df = overs()
 
-# Iterate through the rows of the DataFrame and insert or update records in the database
-for index, row in df.iterrows():
-    # Check if the row already exists in the database
-    cursor.execute('''
-        SELECT * FROM Overs_Data WHERE Overs_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Team_Name = ?
-    ''', (row['Over_ID'], row['Innings'], row['Venue'], row['Date'], row['Team_Name']))
-    existing_row = cursor.fetchone()
+        # Connect to the SQLite database using a context manager
+        with sqlite3.connect(self.db_file_path) as conn:
+            cursor = conn.cursor()
 
-    # If the row exists, update it
-    if existing_row:
-        cursor.execute('''
-            UPDATE Overs_Data 
-            SET
-                Overs = ?,
-                Team_Runs = ?,
-                Team_Wickets = ?,
-                Team_Total_Runs = ?,
-                Team_Total_Wickets = ?
-            WHERE 
-                Overs_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Team_Name = ?
-        ''', (row['Overs'], row['Team_Runs'], row['Team_Wickets'], row['Team_Total_Runs'], row['Team_Total_Wickets'],
-              row['Over_ID'], row['Innings'], row['Venue'], row['Date'], row['Team_Name']))
-    else:
-        # If the row does not exist, insert it
-        cursor.execute('''
-            INSERT INTO Overs_Data 
-                (Overs_ID, Innings, Venue, Date, Team_Name, Overs, Team_Runs, Team_Wickets, Team_Total_Runs, Team_Total_Wickets)
-            VALUES
-                (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (row['Over_ID'], row['Innings'], row['Venue'], row['Date'], row['Team_Name'], row['Overs'], row['Team_Runs'],
-              row['Team_Wickets'], row['Team_Total_Runs'], row['Team_Total_Wickets']))
+            # Create the table if it does not exist
+            self.create_table_if_not_exists(cursor)
 
-# Commit the transaction
-conn.commit()
+            for index, row in df.iterrows():
+                try:
+                    # Check if the row already exists in the database
+                    cursor.execute('''
+                        SELECT * FROM Overs_Data 
+                        WHERE Overs_ID = ? AND Innings = ? AND Venue = ? AND Start_Date = ? AND End_Date = ? AND Team_Name = ?
+                    ''', (row['Over_ID'], row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team_Name']))
 
-# Close the cursor and connection
-cursor.close()
-conn.close()
+                    existing_row = cursor.fetchone()
+
+                    if existing_row:
+                        # If the row exists, update it
+                        cursor.execute('''
+                            UPDATE Overs_Data 
+                            SET
+                                Overs = ?,
+                                Team_Runs = ?,
+                                Team_Wickets = ?,
+                                Team_Total_Runs = ?,
+                                Team_Total_Wickets = ?
+                            WHERE 
+                                Overs_ID = ? AND Innings = ? AND Venue = ? AND Start_Date = ? AND End_Date = ? AND Team_Name = ?
+                        ''', (
+                            row['Overs'], row['Team_Runs'], row['Team_Wickets'], row['Team_Total_Runs'],
+                            row['Team_Total_Wickets'],
+                            row['Over_ID'], row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team_Name']))
+                    else:
+                        # If the row does not exist, insert it
+                        cursor.execute('''
+                            INSERT INTO Overs_Data 
+                                (Overs_ID, Innings, Venue, Start_Date, End_Date, Team_Name, Overs, Team_Runs, Team_Wickets, Team_Total_Runs, Team_Total_Wickets)
+                            VALUES
+                                (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        ''', (
+                            row['Over_ID'], row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team_Name'],
+                            row['Overs'], row['Team_Runs'],
+                            row['Team_Wickets'], row['Team_Total_Runs'], row['Team_Total_Wickets']))
+
+                    print(f"Data inserted/updated for overs: {row}")
+                    # Commit the transaction
+                    conn.commit()
+
+                except Exception as e:
+                    print(f"Error inserting/updating data for overs: {e}")
+
+    def run(self):
+        self.process_overs_data()
+

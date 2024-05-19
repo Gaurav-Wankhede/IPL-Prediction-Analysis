@@ -1,0 +1,10 @@
+Innings,Venue,Start_Date,End_Date,Team1,Team2,Team1_runs,Team1_wickets,Team2_runs,Team2_wickets,Target,Team1_played_Overs,Team2_played_Overs,Team1_Max_Overs,Team2_Max_Overs,Match_Result
+1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,RCB,222,3,82,10,223,20,15.1,20,20,KKR won by 140 runs
+2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,KXIP,240,5,207,4,241,20,20,20,20,CSK won by 33 runs
+3rd match (N),Delhi,19-April-2008,19-April-2008,RR,DC,129,8,132,1,130,20,15.1,20,20,Daredevils won by 9 wickets (with 29 balls remaining)
+55th match (D/N),Mohali,25-May-2014,25-May-2014,DC,KXIP,115,10,119,3,116,18.1,13.5,20,20,Kings XI won by 7 wickets (with 37 balls remaining)
+56th match (N),Wankhede,25-May-2014,25-May-2014,RR,MI,189,4,195,5,190,20,14.4,20,20,MI won by 5 wickets (with 32 balls remaining)
+Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,KXIP,163,8,135,8,164,20,20,20,20,KKR won by 28 runs
+Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,CSK,173,8,176,3,174,20,18.4,20,20,CSK won by 7 wickets (with 8 balls remaining)
+Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,KXIP,CSK,226,6,202,7,227,20,20,20,20,Kings XI won by 24 runs
+Final (N),Bengaluru,01-June-2014,01-June-2014,KXIP,KKR,199,4,200,7,200,20,19.3,20,20,KKR won by 3 wickets (with 3 balls remaining)

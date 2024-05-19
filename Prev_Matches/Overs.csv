@@ -1,0 +1,259 @@
+Over_ID,Innings,Venue,Start_Date,End_Date,Team_Name,Overs,Team_Runs,Team_Wickets,Team_Total_Runs,Team_Total_Wickets
+1,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,1,3,0,3,0
+2,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,2,18,0,21,0
+3,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,3,6,0,27,0
+4,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,4,23,0,50,0
+5,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,5,10,0,60,0
+6,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,6,1,1,61,1
+7,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,7,7,0,68,1
+8,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,8,5,0,73,1
+9,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,9,4,0,77,1
+10,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,10,10,0,87,1
+11,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,11,15,0,102,1
+12,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,12,10,0,112,1
+13,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,13,12,1,124,2
+14,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,14,6,0,130,2
+15,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,15,24,0,154,2
+16,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,16,4,0,158,2
+17,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,17,14,0,172,2
+18,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,18,7,1,179,3
+19,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,19,21,0,200,3
+20,1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,20,22,0,222,3
+21,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,1,4,0,4,0
+22,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,2,5,1,9,1
+23,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,3,3,1,12,2
+24,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,4,4,0,16,2
+25,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,5,8,1,24,3
+26,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,6,2,1,26,4
+27,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,7,7,0,33,4
+28,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,8,5,1,38,5
+29,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,9,5,2,43,7
+30,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,10,8,0,51,7
+31,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,11,5,0,56,7
+32,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,12,3,1,59,8
+33,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,13,11,0,70,8
+34,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,14,7,1,77,9
+35,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,15,4,0,81,9
+36,1st match (N),Bengaluru,18-April-2008,18-April-2008,RCB,16,1,1,82,10
+37,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,1,5,0,5,0
+38,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,2,15,0,20,0
+39,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,3,7,1,27,1
+40,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,4,6,0,33,1
+41,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,5,9,0,42,1
+42,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,6,11,0,53,1
+43,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,7,9,1,62,2
+44,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,8,8,1,70,3
+45,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,9,13,0,83,3
+46,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,10,5,0,88,3
+47,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,11,19,0,107,3
+48,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,12,20,0,127,3
+49,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,13,6,1,133,4
+50,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,14,10,0,143,4
+51,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,15,18,0,161,4
+52,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,16,8,1,169,5
+53,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,17,14,0,183,5
+54,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,18,17,0,200,5
+55,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,19,15,0,215,5
+56,2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,20,25,0,240,5
+57,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,1,9,0,9,0
+58,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,2,7,0,16,0
+59,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,3,11,0,27,0
+60,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,4,10,0,37,0
+61,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,5,10,0,47,0
+62,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,6,16,1,63,1
+63,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,7,6,0,69,1
+64,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,8,15,0,84,1
+65,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,9,13,0,97,1
+66,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,10,13,0,110,1
+67,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,11,5,1,115,2
+68,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,12,12,0,127,2
+69,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,13,14,0,141,2
+70,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,14,11,0,152,2
+71,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,15,13,1,165,3
+72,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,16,11,0,176,3
+73,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,17,10,0,186,3
+74,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,18,5,1,191,4
+75,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,19,7,0,198,4
+76,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kings XI,20,9,0,207,4
+77,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,1,9,1,9,1
+78,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,2,5,0,14,1
+79,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,3,10,0,24,1
+80,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,4,13,0,37,1
+81,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,5,4,0,41,1
+82,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,6,8,0,49,1
+83,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,7,13,0,62,1
+84,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,8,7,1,69,2
+85,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,9,4,0,73,2
+86,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,10,5,0,78,2
+87,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,11,5,0,83,2
+88,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,12,6,0,89,2
+89,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,13,0,1,89,3
+90,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,14,13,0,102,3
+91,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,15,19,1,121,4
+92,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,16,4,0,125,4
+93,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,17,2,1,127,5
+94,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,18,3,0,130,5
+95,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,19,17,0,147,5
+96,54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,20,13,2,160,7
+97,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,1,2,0,2,0
+98,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,2,5,0,7,0
+99,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,3,13,0,20,0
+100,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,4,6,0,26,0
+101,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,5,17,1,43,1
+102,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,6,6,0,49,1
+103,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,7,4,0,53,1
+104,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,8,4,1,57,2
+105,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,9,14,0,71,2
+106,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,10,7,2,78,4
+107,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,11,22,0,100,4
+108,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,12,16,1,116,5
+109,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,13,26,0,142,5
+110,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,14,12,1,154,6
+111,54th match (N),Eden Gardens,24-May-2014,24-May-2014,KKR,15,7,0,161,6
+112,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,1,6,0,6,0
+113,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,2,6,0,12,0
+114,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,3,9,1,21,1
+115,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,4,9,0,30,1
+116,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,5,13,0,43,1
+117,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,6,1,2,44,3
+118,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,7,6,0,50,3
+119,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,8,8,0,58,3
+120,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,9,7,0,65,3
+121,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,10,4,1,69,4
+122,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,11,13,0,82,4
+123,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,12,4,0,86,4
+124,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,13,6,1,92,5
+125,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,14,6,1,98,6
+126,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,15,5,0,103,6
+127,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,16,4,0,107,6
+128,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,17,3,1,110,7
+129,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,18,5,2,115,9
+130,55th match (D/N),Mohali,25-May-2014,25-May-2014,Daredevils,19,0,1,115,10
+131,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,1,10,0,10,0
+132,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,2,2,0,12,0
+133,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,3,4,1,16,1
+134,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,4,1,1,17,2
+135,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,5,13,0,30,2
+136,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,6,18,0,48,2
+137,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,7,12,0,60,2
+138,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,8,6,0,66,2
+139,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,9,3,0,69,2
+140,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,10,9,0,78,2
+141,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,11,14,0,92,2
+142,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,12,9,0,101,2
+143,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,13,10,0,111,2
+144,55th match (D/N),Mohali,25-May-2014,25-May-2014,Kings XI,14,8,1,119,3
+145,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,1,5,0,5,0
+146,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,2,0,0,5,0
+147,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,3,10,0,15,0
+148,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,4,5,0,20,0
+149,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,5,10,0,30,0
+150,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,6,5,1,35,1
+151,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,7,3,0,38,1
+152,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,8,5,0,43,1
+153,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,9,10,0,53,1
+154,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,10,6,0,59,1
+155,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,11,19,0,78,1
+156,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,12,12,0,90,1
+157,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,13,16,0,106,1
+158,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,14,15,0,121,1
+159,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,15,13,1,134,2
+160,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,16,7,1,141,3
+161,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,17,2,0,143,3
+162,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,18,18,0,161,3
+163,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,19,12,0,173,3
+164,56th match (N),Wankhede,25-May-2014,25-May-2014,RR,20,16,1,189,4
+165,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,1,12,0,12,0
+166,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,2,7,1,19,1
+167,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,3,15,0,34,1
+168,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,4,19,0,53,1
+169,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,5,8,2,61,3
+170,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,6,10,0,71,3
+171,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,7,4,0,75,3
+172,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,8,14,0,89,3
+173,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,9,15,0,104,3
+174,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,10,16,1,120,4
+175,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,11,19,0,139,4
+176,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,12,18,0,157,4
+177,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,13,13,0,170,4
+178,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,14,11,0,181,4
+179,56th match (N),Wankhede,25-May-2014,25-May-2014,MI,15,14,1,195,5
+180,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,1,2,0,2,0
+181,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,2,3,1,5,1
+182,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,3,9,0,14,1
+183,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,4,17,0,31,1
+184,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,5,11,0,42,1
+185,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,6,13,0,55,1
+186,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,7,3,0,58,1
+187,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,8,9,0,67,1
+188,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,9,0,2,67,3
+189,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,10,6,0,73,3
+190,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,11,8,0,81,3
+191,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,12,9,0,90,3
+192,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,13,6,0,96,3
+193,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,14,8,0,104,3
+194,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,15,8,2,112,5
+195,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,16,2,0,114,5
+196,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,17,14,0,128,5
+197,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,18,17,1,145,6
+198,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,19,3,1,148,7
+199,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,20,15,1,163,8
+200,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,1,5,0,5,0
+201,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,2,3,1,8,1
+202,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,3,9,0,17,1
+203,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,4,7,0,24,1
+204,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,5,15,0,39,1
+205,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,6,7,1,46,2
+206,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,7,7,0,53,2
+207,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,8,2,1,55,3
+208,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,9,5,0,60,3
+209,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,10,8,0,68,3
+210,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,11,9,0,77,3
+211,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,12,3,1,80,4
+212,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,13,6,1,86,5
+213,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,14,2,1,88,6
+214,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,15,4,0,92,6
+215,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,16,5,0,97,6
+216,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,17,12,0,109,6
+217,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,18,21,1,130,7
+218,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,19,4,0,134,7
+219,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Kings XI,20,1,1,135,8
+220,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,1,6,0,6,0
+221,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,2,7,0,13,0
+222,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,3,4,0,17,0
+223,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,4,6,0,23,0
+224,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,5,11,0,34,0
+225,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,6,19,0,53,0
+226,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,7,4,0,57,0
+227,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,8,6,0,63,0
+228,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,9,9,0,72,0
+229,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,10,10,1,82,1
+230,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,11,4,0,86,1
+231,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,12,13,0,99,1
+232,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,13,9,1,108,2
+233,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,14,9,0,117,2
+234,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,15,10,0,127,2
+235,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,16,13,0,140,2
+236,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,17,5,1,145,3
+237,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,18,8,1,153,4
+238,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,19,11,2,164,6
+239,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,20,9,2,173,8
+240,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,1,6,0,6,0
+241,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,2,10,0,16,0
+242,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,3,4,0,20,0
+243,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,4,18,0,38,0
+244,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,5,5,0,43,0
+245,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,6,17,0,60,0
+246,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,7,4,2,64,2
+247,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,8,8,0,72,2
+248,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,9,8,0,80,2
+249,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,10,9,1,89,3
+250,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,11,9,0,98,3
+251,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,12,5,0,103,3
+252,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,13,6,0,109,3
+253,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,14,9,0,118,3
+254,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,15,14,0,132,3
+255,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,16,20,0,152,3
+256,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,17,8,0,160,3
+257,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,18,10,0,170,3
+258,Eliminator (N),Brabourne,28-May-2014,28-May-2014,CSK,19,6,0,176,3

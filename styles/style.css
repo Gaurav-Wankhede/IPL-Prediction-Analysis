@@ -1,0 +1,34 @@
+[data-testid="stAppViewBlockContainer"] {
+background:
+    linear-gradient(20deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 70.71%),  /* Black with higher opacity for dominance */
+    linear-gradient(30deg, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0) 70.71%), /* Navy Blue */
+    linear-gradient(90deg, rgba(128, 0, 128, 0.1), rgba(128, 0, 128, 0) 70.71%), /* Purple */
+    linear-gradient(150deg, rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 0) 70.71%), /* Blue */
+    linear-gradient(210deg, rgba(0, 255, 255, 0.1), rgba(0, 255, 255, 0) 70.71%), /* Aqua */
+    linear-gradient(270deg, rgba(0, 255, 0, 0.1), rgba(0, 255, 0, 0) 70.71%), /* Green */
+    linear-gradient(330deg, rgba(255, 255, 0, 0.2), rgba(255, 255, 0, 0) 70.71%), /* Yellow */
+    linear-gradient(390deg, rgba(255, 165, 0, 0.2), rgba(255, 165, 0, 0) 70.71%), /* Orange */
+    linear-gradient(450deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0) 70.71%); /* Red */
+background-blend-mode: overlay;
+    }
+
+[data-testid="stHeader"] {
+background-color: rgba(0, 0, 0, 0);
+}
+
+[data-testid="stSidebarContent"] {
+background-color: black;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.footer hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}

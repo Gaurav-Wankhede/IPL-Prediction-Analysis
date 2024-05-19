@@ -1,0 +1,138 @@
+﻿Batting_ID,Innings,Venue,Team,Start Date,End Date,BATTING,Dismissal type,R,B,M,4s,6s,SR
+1,1st match (N),Bengaluru,KKR,18-April-2008,18-April-2008,Sourav Ganguly c,c Kallis b Khan,10,12,,2,0,83.33
+2,1st match (N),Bengaluru,KKR,18-April-2008,18-April-2008,Brendon McCullum ,not out,158,73,,10,13,216.43
+3,1st match (N),Bengaluru,KKR,18-April-2008,18-April-2008,Ricky Ponting,c Kumar b Kallis,20,20,,1,1,100.00
+4,1st match (N),Bengaluru,KKR,18-April-2008,18-April-2008,David Hussey,c White b Noffke,12,12,,1,0,100.00
+5,1st match (N),Bengaluru,KKR,18-April-2008,18-April-2008,Mohammad Hafeez,not out,5,3,,1,0,166.66
+6,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Rahul Dravid c,b Sharma,2,3,,0,0,66.66
+7,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Wasim Jaffer,c Ponting b Dinda,6,16,,0,0,37.50
+8,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Virat Kohli,b Dinda,1,5,,0,0,20.00
+9,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Jacques Kallis,c Kartik b Agarkar,8,7,,0,1,114.28
+10,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Cameron White,c Saha b Agarkar,6,10,,0,0,60.00
+11,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Mark Boucher ,c Kartik b Ganguly,7,9,,1,0,77.77
+12,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Balachandra Akhil,c Ponting b Agarkar,0,2,,0,0,0.00
+13,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Ashley Noffke,run out AgarkarSaha,9,10,,1,0,90.00
+14,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Praveen Kumar,not out,18,15,,1,2,120.00
+15,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Zaheer Khan,b Ganguly,3,8,,0,0,37.50
+16,1st match (N),Bengaluru,RCB,18-April-2008,18-April-2008,Sunil Joshi,c McCullum b Shukla,3,6,,0,0,50.00
+17,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,Parthiv Patel,c Sangakkara b Lee,15,10,,3,0,150.00
+18,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,Matthew Hayden,b Pathan,25,17,,4,1,147.05
+19,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,Michael Hussey,not out,116,54,,8,9,214.81
+20,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,MS Dhoni c,lbw b Hopes,2,3,,0,0,66.66
+21,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,Suresh Raina,c Pathan b Mota,32,13,,2,3,246.15
+22,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,Jacob Oram,b Pathan,13,10,,0,1,130.00
+23,2nd match (D/N),Mohali,CSK,19-April-2008,19-April-2008,S Badrinath,not out,31,14,,3,2,221.42
+24,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,Karan Goel,c Patel b Gony,24,19,,2,1,126.31
+25,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,James Hopes,c Joginder Sharma b Amarnath,71,33,,10,3,215.15
+26,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,Kumar Sangakkara ,c Joginder Sharma b Muralidaran,54,33,,5,2,163.63
+27,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,Yuvraj Singh c,c Amarnath b Joginder Sharma,23,13,,1,2,176.92
+28,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,Simon Katich,not out,21,17,,0,1,123.52
+29,2nd match (D/N),Mohali,KXIP,19-April-2008,19-April-2008,Irfan Pathan,not out,3,5,,0,0,60.00
+30,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Taruwar Kohli,c Manhas b McGrath,7,12,,0,1,58.33
+31,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Yusuf Pathan,run out ManhasGeeves,10,5,,2,0,200.00
+32,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Shane Watson,run out DhawanBhatia,21,15,,3,0,140.00
+33,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Mohammad Kaif,c Geeves b Bhatia,9,19,,0,0,47.36
+34,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Darren Lehmann,lbw b Maharoof,1,2,,0,0,50.00
+35,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Ravindra Jadeja,b Vettori,29,23,,2,2,126.08
+36,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Mahesh Rawat ,b Bhatia,2,4,,0,0,50.00
+37,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Dinesh Salunkhe,not out,26,20,,4,0,130.00
+38,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Shane Warne c,b Maharoof,14,13,,2,0,107.69
+39,3rd match (N),Delhi,RR,19-April-2008,19-April-2008,Siddharth Trivedi,not out,3,7,,0,0,42.85
+40,3rd match (N),Delhi,DC,19-April-2008,19-April-2008,Gautam Gambhir,not out,58,46,,7,1,126.08
+41,3rd match (N),Delhi,DC,19-April-2008,19-April-2008,Virender Sehwag c,b Watson,12,4,,3,0,300.00
+42,3rd match (N),Delhi,DC,19-April-2008,19-April-2008,Shikhar Dhawan,not out,52,41,,8,0,126.82
+43,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Kevin Pietersen c,lbw b Dhawan,58,41,70,9,0,141.46
+44,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Mayank Agarwal,c Sehwag b Johnson,2,5,12,0,0,40.00
+45,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Dinesh Karthik ,c Patel b Awana,13,7,14,3,0,185.71
+46,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Kedar Jadhav,c Vohra b Awana,0,4,3,0,0,0.00
+47,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Manoj Tiwary,run out DhawanBailey,8,11,18,0,0,72.72
+48,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,JeanPaul Duminy,c Patel b Karanveer Singh,8,8,14,1,0,100.00
+49,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,James Neesham,c Bailey b Karanveer Singh,12,20,20,1,0,60.00
+50,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Shahbaz Nadeem,not out,3,7,22,0,0,42.85
+51,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Mohammed Shami,b Patel,0,1,1,0,0,0.00
+52,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Imran Tahir,c Dhawan b Patel,4,4,2,1,0,100.00
+53,55th match (D/N),Mohali,DC,25-May-2014,25-May-2014,Jaydev Unadkat,c Maxwell b Johnson,0,1,1,0,0,0.00
+54,55th match (D/N),Mohali,KXIP,25-May-2014,25-May-2014,Virender Sehwag,c Karthik b Mohammed Shami,9,7,8,2,0,128.57
+55,55th match (D/N),Mohali,KXIP,25-May-2014,25-May-2014,Manan Vohra,b Imran Tahir,47,38,59,4,2,123.68
+56,55th match (D/N),Mohali,KXIP,25-May-2014,25-May-2014,Glenn Maxwell,c Pietersen b Unadkat,0,3,5,0,0,0.00
+57,55th match (D/N),Mohali,KXIP,25-May-2014,25-May-2014,David Miller,not out,47,34,47,4,2,138.23
+58,55th match (D/N),Mohali,KXIP,25-May-2014,25-May-2014,George Bailey c,not out,1,1,2,0,0,100.00
+59,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,Shane Watson c,c Pollard b Harbhajan Singh,8,18,22,1,0,44.44
+60,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,Sanju Samson ,c Harbhajan Singh b Gopal,74,47,68,7,3,157.44
+61,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,Karun Nair,c Simmons b Bumrah,50,27,42,7,2,185.18
+62,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,Brad Hodge,not out,29,16,24,2,1,181.25
+63,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,James Faulkner,c Anderson b Pollard,23,12,20,0,3,191.66
+64,56th match (N),Wankhede,RR,25-May-2014,25-May-2014,Kevon Cooper,not out,0,0,1,0,0,-
+65,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Lendl Simmons,c Faulkner b Kulkarni,12,8,8,3,0,150.00
+66,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Michael Hussey,b Cooper,22,11,23,1,2,200.00
+67,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Corey Anderson,not out,95,44,79,9,6,215.90
+68,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Kieron Pollard,c Hodge b Cooper,7,3,3,0,1,233.33
+69,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Rohit Sharma c,c Nair b Kulkarni,16,11,23,1,1,145.45
+70,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Ambati Rayudu,run out NairSamson,30,10,32,5,1,300.00
+71,56th match (N),Wankhede,MI,25-May-2014,25-May-2014,Aditya Tare ,not out,6,1,3,0,1,600.00
+72,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Robin Uthappa ,c Miller b Patel,42,30,43,4,2,140.00
+73,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Gautam Gambhir c,c Bailey b Johnson,1,3,7,0,0,33.33
+74,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Manish Pandey,b Patel,21,20,37,3,0,105.00
+75,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Shakib Al Hasan,c Miller b Karanveer Singh,18,16,30,2,0,112.50
+76,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Yusuf Pathan,c Miller b Karanveer Singh,20,18,30,2,1,111.11
+77,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Ryan ten Doeschate,c Vohra b Johnson,17,10,19,0,2,170.00
+78,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Suryakumar Yadav,b Karanveer Singh,20,14,13,3,1,142.85
+79,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Piyush Chawla,not out,17,9,13,3,0,188.88
+80,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Sunil Narine,run out Johnson,0,0,6,0,0,-
+81,Qualifier 1 (D/N),Eden Gardens,KKR,27-May-2014,28-May-2014,Morne Morkel,not out,0,0,2,0,0,-
+82,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Virender Sehwag,c Shakib Al Hasan b UT Yadav,2,3,6,0,0,66.66
+83,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Manan Vohra,c UT Yadav b Morkel,26,19,26,0,3,136.84
+84,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Wriddhiman Saha ,c UT Yadav b Morkel,35,31,49,2,2,112.90
+85,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Glenn Maxwell,lbw b UT Yadav,6,9,8,1,0,66.66
+86,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,David Miller,b Chawla,8,12,22,0,0,66.66
+87,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Axar Patel,run out ChawlaUthappa,2,2,10,0,0,100.00
+88,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,George Bailey c,c Pandey b UT Yadav,26,17,30,1,2,152.94
+89,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Rishi Dhawan,st Uthappa b Shakib Al Hasan,14,15,14,0,1,93.33
+90,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Mitchell Johnson,not out,10,11,10,0,1,90.90
+91,Qualifier 1 (D/N),Eden Gardens,KXIP,27-May-2014,28-May-2014,Karanveer Singh,not out,1,1,3,0,0,100.00
+92,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Lendl Simmons,c Raina b Jadeja,67,44,,5,4,152.27
+93,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Michael Hussey,b Jadeja,39,33,,4,1,118.18
+94,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Corey Anderson,c Pandey b Ashwin,20,10,,1,2,200.00
+95,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Rohit Sharma c,c McCullum b Sharma,20,16,,3,0,125.00
+96,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Kieron Pollard,c Sharma b Nehra,14,8,,1,1,175.00
+97,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Ambati Rayudu,c Hussey b Sharma,2,3,,0,0,66.66
+98,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Aditya Tare ,c du Plessis b Nehra,0,1,,0,0,0.00
+99,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Harbhajan Singh,not out,7,2,,0,1,350.00
+100,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Praveen Kumar,b Sharma,1,2,,0,0,50.00
+101,Eliminator (N),Brabourne,MI,28-May-2014,28-May-2014,Pragyan Ojha,not out,1,1,,0,0,100.00
+102,Eliminator (N),Brabourne,CSK,28-May-2014,28-May-2014,Dwayne Smith,c Pollard b Harbhajan Singh,24,20,,4,0,120.00
+103,Eliminator (N),Brabourne,CSK,28-May-2014,28-May-2014,Faf du Plessis,c sub BR Dunk b Harbhajan Singh,35,20,,5,1,175.00
+104,Eliminator (N),Brabourne,CSK,28-May-2014,28-May-2014,Suresh Raina,not out,54,33,,4,2,163.63
+105,Eliminator (N),Brabourne,CSK,28-May-2014,28-May-2014,Brendon McCullum,st Tare b Ojha,14,11,,0,2,127.27
+106,Eliminator (N),Brabourne,CSK,28-May-2014,28-May-2014,David Hussey,not out,40,29,,2,3,137.93
+107,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,Virender Sehwag,c du Plessis b Nehra,122,58,,12,8,210.34
+108,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,Manan Vohra,c Raina b Pandey,34,31,,1,2,109.67
+109,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,Glenn Maxwell,c Raina b Ashwin,13,6,,1,1,216.66
+110,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,David Miller,run out Dhoni,38,19,,5,1,200.00
+111,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,George Bailey c,b Nehra,1,2,,0,0,50.00
+112,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,Wriddhiman Saha ,c Smith b Sharma,6,4,,0,1,150.00
+113,Qualifier 2 (N),Wankhede,KXIP,30-May-2014,30-May-2014,Mitchell Johnson,not out,1,1,,0,0,100.00
+114,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Dwayne Smith,b Sandeep Sharma,7,11,,0,0,63.63
+115,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Faf du Plessis,c Bailey b Johnson,0,1,,0,0,0.00
+116,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Suresh Raina,run out Bailey,87,25,,12,6,348.00
+117,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Brendon McCullum,run out MaxwellSaha,11,16,,0,0,68.75
+118,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Ravindra Jadeja,c Johnson b Awana,27,21,,2,1,128.57
+119,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,David Hussey,c Sehwag b Awana,1,3,,0,0,33.33
+120,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,MS Dhoni c,not out,42,31,,3,3,135.48
+121,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Ravichandran Ashwin,st Saha b Patel,10,11,,0,0,90.90
+122,Qualifier 2 (N),Wankhede,CSK,30-May-2014,30-May-2014,Mohit Sharma,not out,1,3,,0,0,33.33
+123,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,Virender Sehwag,c Gambhir b UT Yadav,7,10,14,1,0,70.00
+124,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,Manan Vohra,c  b Chawla,67,52,75,6,2,128.84
+125,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,George Bailey c,b Narine,1,2,17,0,0,50.00
+126,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,Wriddhiman Saha ,not out,115,55,66,10,8,209.09
+127,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,Glenn Maxwell,c Morkel b Chawla,0,1,4,0,0,0.00
+128,Final (N),Bengaluru,KXIP,01-June-2014,01-June-2014,David Miller,not out,1,1,8,0,0,100.00
+129,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Robin Uthappa ,c Patel b Johnson,5,3,3,1,0,166.66
+130,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Gautam Gambhir c,c Miller b Karanveer Singh,23,17,34,3,0,135.29
+131,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Manish Pandey,c Bailey b Karanveer Singh,94,50,81,7,6,188.00
+132,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Yusuf Pathan,c Maxwell b Karanveer Singh,36,22,30,0,4,163.63
+133,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Shakib Al Hasan,run out Bailey,12,7,10,2,0,171.42
+134,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Ryan ten Doeschate,c Miller b Karanveer Singh,4,3,6,1,0,133.33
+135,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Suryakumar Yadav,c Vohra b Johnson,5,6,9,0,0,83.33
+136,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Piyush Chawla,not out,13,5,16,1,1,260.00
+137,Final (N),Bengaluru,KKR,01-June-2014,01-June-2014,Sunil Narine,not out,2,4,8,0,0,50.00

@@ -1,77 +1,102 @@
-import pyodbc
-from Prev_Matches.MVP_Data import final_data
+import sqlite3
+import os
+from Prev_Matches.MVP_Data import mvp_data
 
-# Define your SQL Server connection parameters
-server = r'DESKTOP-F8QC9QH\SQLEXPRESS'
-database = r'IPL_Prediction_Analysis'
+class MVPDataSQLProcessor:
+    def __init__(self):
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.relative_db_path = os.path.normpath(os.path.join(self.script_dir, "../../database/IPL_Prediction_Analysis.db"))
 
-# Connect to the database
-conn = pyodbc.connect(r'DRIVER={SQL Server};'
-                      r'SERVER=' + server + ';'
-                      r'DATABASE=' + database + ';'
-                      r'Trusted_Connection=yes;')
+    def connect_to_database(self):
+        if not os.path.exists(self.relative_db_path):
+            print(f"Database file does not exist: {self.relative_db_path}")
+            return None
 
-# Create a cursor
-cursor = conn.cursor()
+        conn = sqlite3.connect(self.relative_db_path)
+        conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+        return conn
 
-# Create MVP_Data table if it doesn't exist
-if not cursor.tables(table='MVP_Data', tableType='TABLE').fetchone():
-    cursor.execute('''
-        CREATE TABLE MVP_Data (
-            MVP_ID int IDENTITY(1,1) PRIMARY KEY,
-            Innings VARCHAR(255),
-            Venue VARCHAR(255),
-            Date DATE,
-            Player_Name VARCHAR(255),
-            Team VARCHAR(255),
-            Total_Impact INT,
-            Runs INT,
-            Balls_Faced INT,
-            Impact_Runs INT,
-            Batting_Impact INT,
-            Wickets INT,
-            Runs_Conceded INT,
-            Impact_Wickets INT,
-            Bowling_Impact INT
-        )
-    ''')
+    def create_mvp_table(self, conn):
+        try:
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='MVP_Data'")
+            table_exists = cursor.fetchone()
+            if table_exists:
+                print("MVP_Data table already exists.")
+            else:
+                cursor.execute('''
+                    CREATE TABLE MVP_Data (
+                        MVP_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        Innings TEXT,
+                        Venue TEXT,
+                        Start_Date TEXT,
+                        End_Date TEXT,
+                        Player_Name TEXT,
+                        Team TEXT,
+                        Total_Impact INTEGER,
+                        Runs INTEGER,
+                        Balls_Faced INTEGER,
+                        Impact_Runs INTEGER,
+                        Batting_Impact INTEGER,
+                        Wickets INTEGER,
+                        Runs_Conceded INTEGER,
+                        Impact_Wickets INTEGER,
+                        Bowling_Impact INTEGER
+                    )
+                ''')
+                print("MVP_Data table created successfully.")
+        except sqlite3.Error as e:
+            print(f"Error creating or checking MVP_Data table: {e}")
 
-# Iterate through the rows of the final_data DataFrame and insert or update records in the database
-for index, row in final_data.iterrows():
-    # Check if the row already exists in the database
-    cursor.execute('''
-        SELECT * FROM MVP_Data 
-        WHERE MVP_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Player_Name = ? AND Team = ?
-    ''', row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"])
-    existing_row = cursor.fetchone()
+    def process_mvp_data(self, conn):
+        if not conn:
+            print("No database connection.")
+            return
 
-    # If the row exists, update it
-    if existing_row:
-        cursor.execute('''
-            UPDATE MVP_Data 
-            SET Total_Impact = ?,
-                Runs = ?,
-                Balls_Faced = ?,
-                Impact_Runs = ?,
-                Batting_Impact = ?,
-                Wickets = ?,
-                Runs_Conceded = ?,
-                Impact_Wickets = ?,
-                Bowling_Impact = ?
-            WHERE MVP_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Player_Name = ? AND Team = ?
-        ''', row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"], row["Batting_Impact"],
-           row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"], row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"])
-    else:
-        # If the row does not exist, insert it
-        cursor.execute('''
-            INSERT INTO MVP_Data (MVP_ID, Innings, Venue, Date, Player_Name, Team, Total_Impact, Runs, Balls_Faced, Impact_Runs, Batting_Impact, Wickets, Runs_Conceded, Impact_Wickets, Bowling_Impact)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"], row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"],
-           row["Batting_Impact"], row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"])
+        final_data = mvp_data()
 
-# Commit the changes to the database
-conn.commit()
+        try:
+            with conn:
+                cursor = conn.cursor()
+                for row in final_data.itertuples(index=False):
+                    cursor.execute('''
+                        SELECT MVP_ID FROM MVP_Data 
+                        WHERE Innings = ? AND Venue = ? AND Start_Date = ? AND End_Date = ? AND Player_Name = ? AND Team = ?
+                    ''', (row.Innings, row.Venue, row.Start_Date, row.End_Date, row.Player_Name, row.Team))
 
-# Close the cursor and connection
-cursor.close()
-conn.close()
+                    existing_row = cursor.fetchone()
+                    if existing_row:
+                        # Row exists, update it
+                        cursor.execute('''
+                            UPDATE MVP_Data 
+                            SET Total_Impact = ?, Runs = ?, Balls_Faced = ?, Impact_Runs = ?, Batting_Impact = ?, Wickets = ?, Runs_Conceded = ?, Impact_Wickets = ?, Bowling_Impact = ?
+                            WHERE MVP_ID = ?
+                        ''', (row.Total_Impact, row.Runs, row.Balls_Faced, row.Impact_Runs, row.Batting_Impact,
+                              row.Wickets, row.Runs_Conceded, row.Impact_Wickets, row.Bowling_Impact,
+                              existing_row[0]))
+                        print(f"Values updated for MVP: {row.Player_Name}")
+
+                    else:
+                        # Row does not exist, insert new data
+                        cursor.execute('''
+                            INSERT INTO MVP_Data (Innings, Venue, Start_Date, End_Date, Player_Name, Team, Total_Impact, Runs, Balls_Faced, Impact_Runs, Batting_Impact, Wickets, Runs_Conceded, Impact_Wickets, Bowling_Impact)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        ''', (row.Innings, row.Venue, row.Start_Date, row.End_Date, row.Player_Name, row.Team,
+                              row.Total_Impact, row.Runs, row.Balls_Faced, row.Impact_Runs, row.Batting_Impact,
+                              row.Wickets, row.Runs_Conceded, row.Impact_Wickets, row.Bowling_Impact))
+                        print(f"Values inserted for MVP: {row.Player_Name}")
+
+            print("Data processing completed.")
+        except sqlite3.Error as e:
+            print(f"Error processing MVP data: {e}")
+
+    def run(self):
+        global conn
+        try:
+            conn = self.connect_to_database()
+            if conn:
+                self.create_mvp_table(conn)
+                self.process_mvp_data(conn)
+        finally:
+            if conn:
+                conn.close()

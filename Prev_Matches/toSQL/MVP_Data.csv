@@ -1,0 +1,155 @@
+MVP_ID,Innings,Venue,Start_Date,End_Date,Player_Name,Team,Total_Impact,Runs,Impact_Runs,Batting_Impact,Bowl,Impact_Wickets,Bowling_Impact,Balls_Faced,Wickets,Runs_Conceded
+1,1st match (N),Bengaluru,18-April-2008,18-April-2008,Brendon McCullum,KKR,230.21,158,191.15,230.21,-,-,0,73,-,
+2,1st match (N),Bengaluru,18-April-2008,18-April-2008,Ashley Noffke,RCB,24.91,9,9,4.22,1/40,1.28,20.69,10,1,40
+3,1st match (N),Bengaluru,18-April-2008,18-April-2008,Ajit Agarkar,KKR,23,0,-,0,3/25,1.72,23,0,3,25
+4,1st match (N),Bengaluru,18-April-2008,18-April-2008,Ashok Dinda,KKR,20.74,0,-,0,2/9,1.07,20.74,0,2,9
+5,1st match (N),Bengaluru,18-April-2008,18-April-2008,Zaheer Khan,RCB,18.48,3,3,0.42,1/38,1.32,18.06,8,1,38
+6,1st match (N),Bengaluru,18-April-2008,18-April-2008,Ishant Sharma,KKR,18.05,0,-,0,1/7,0.62,18.05,0,1,7
+7,1st match (N),Bengaluru,18-April-2008,18-April-2008,Praveen Kumar,RCB,15.82,18,18,11.95,0/38,-,3.87,15,0,38
+8,1st match (N),Bengaluru,18-April-2008,18-April-2008,Sourav Ganguly,KKR,13.29,10,6.74,2.53,2/21,0.72,10.77,12,2,21
+9,1st match (N),Bengaluru,18-April-2008,18-April-2008,Jacques Kallis,RCB,13.27,8,8,4.74,1/48,1.23,8.52,7,1,48
+10,1st match (N),Bengaluru,18-April-2008,18-April-2008,Ricky Ponting,KKR,9.17,20,16.08,9.17,-,-,0,20,-,
+11,1st match (N),Bengaluru,18-April-2008,18-April-2008,David Hussey,KKR,4.11,12,9.78,4.11,-,-,0,12,-,
+12,1st match (N),Bengaluru,18-April-2008,18-April-2008,Sunil Joshi,RCB,4.09,3,3,2,0/26,-,2.09,6,0,26
+13,1st match (N),Bengaluru,18-April-2008,18-April-2008,Mohammad Hafeez,KKR,3.64,5,4.5,3.64,-,-,0,3,-,
+14,1st match (N),Bengaluru,18-April-2008,18-April-2008,Mark Boucher,RCB,1.71,7,7,1.71,-,-,0,9,-,
+15,1st match (N),Bengaluru,18-April-2008,18-April-2008,Wriddhiman Saha,KKR,0,0,-,0,-,-,0,0,-,
+16,1st match (N),Bengaluru,18-April-2008,18-April-2008,Murali Kartik,KKR,0,0,-,0,-,-,0,0,-,
+17,1st match (N),Bengaluru,18-April-2008,18-April-2008,Rahul Dravid,RCB,- 0.05,2,1.87,- 0.05,-,-,0,3,-,
+18,1st match (N),Bengaluru,18-April-2008,18-April-2008,Laxmi Shukla,KKR,- 1.26,0,-,0,1/12,0.29,- 1.26,0,1,12
+19,1st match (N),Bengaluru,18-April-2008,18-April-2008,Balachandra Akhil,RCB,- 1.69,0,-,- 1.69,-,-,0,2,-,
+20,1st match (N),Bengaluru,18-April-2008,18-April-2008,Virat Kohli,RCB,- 3.15,1,0.82,- 3.15,-,-,0,5,-,
+21,1st match (N),Bengaluru,18-April-2008,18-April-2008,Wasim Jaffer,RCB,- 6.47,6,5.31,- 6.47,-,-,0,16,-,
+22,1st match (N),Bengaluru,18-April-2008,18-April-2008,Cameron White,RCB,- 19.84,6,6,- 0.47,0/24,-,- 19.37,10,0,24
+23,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Michael Hussey,CSK,109.71,116,117.27,109.71,-,-,0,54,-,
+24,2nd match (D/N),Mohali,19-April-2008,19-April-2008,James Hopes,PBKS,82.43,71,71.44,56.63,1/53,1.32,25.8,33,1,53
+25,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Irfan Pathan,PBKS,48.15,3,3,- 1.95,2/47,2.84,50.1,5,2,47
+26,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Brett Lee,PBKS,47.79,0,-,0,1/35,1.4,47.79,0,1,35
+27,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Suresh Raina,CSK,46.89,32,40.09,46.89,-,-,0,13,-,
+28,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Kumar Sangakkara,PBKS,34.71,54,53.88,34.71,-,-,0,33,-,
+29,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Wilkin Mota,PBKS,25.43,0,-,0,1/24,1.27,25.43,0,1,24
+30,2nd match (D/N),Mohali,19-April-2008,19-April-2008,S Badrinath,CSK,23.91,31,29.9,23.91,-,-,0,14,-,
+31,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Matthew Hayden,CSK,21.04,25,23.89,21.04,-,-,0,17,-,
+32,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Yuvraj Singh,PBKS,15.21,23,23,15.21,-,-,0,13,-,
+33,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Parthiv Patel,CSK,13.88,15,15.29,13.88,-,-,0,10,-,
+34,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Muthiah Muralidaran,CSK,10.64,0,-,0,1/33,0.45,10.64,0,1,33
+35,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Karan Goel,PBKS,8.83,24,23.88,9.41,0/25,-,- 0.58,19,0,25
+36,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Simon Katich,PBKS,7.78,21,21,7.78,-,-,0,17,-,
+37,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Jacob Oram,CSK,6.3,13,10.12,2.34,0/37,-,3.96,10,0,37
+38,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Manpreet Gony,CSK,5.59,0,-,0,1/42,0.5,5.59,0,1,42
+39,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Palani Amarnath,CSK,5.15,0,-,0,1/42,0.48,5.15,0,1,42
+40,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Joginder Sharma,CSK,4.06,0,-,0,1/47,0.59,4.06,0,1,47
+41,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Sreesanth,PBKS,2.93,0,-,0,0/35,-,2.93,0,0,35
+42,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Pankaj Dharmani,PBKS,0,0,-,0,-,-,0,0,-,
+43,2nd match (D/N),Mohali,19-April-2008,19-April-2008,MS Dhoni,CSK,- 4.25,2,- 0.51,- 4.25,-,-,0,3,-,
+44,2nd match (D/N),Mohali,19-April-2008,19-April-2008,Piyush Chawla,PBKS,- 9.63,0,-,0,0/19,-,- 9.63,0,0,19
+45,3rd match (N),Delhi,19-April-2008,19-April-2008,Farveez Maharoof,DC,59.56,0,-,0,2/11,2.35,59.56,0,2,11
+46,3rd match (N),Delhi,19-April-2008,19-April-2008,Shane Watson,RR,57.38,21,27.98,34.18,1/31,1.65,23.21,15,1,31
+47,3rd match (N),Delhi,19-April-2008,19-April-2008,Gautam Gambhir,DC,51.03,58,61.46,51.03,-,-,0,46,-,
+48,3rd match (N),Delhi,19-April-2008,19-April-2008,Rajat Bhatia,DC,45.9,0,-,0,2/17,2.03,45.9,0,2,17
+49,3rd match (N),Delhi,19-April-2008,19-April-2008,Ravindra Jadeja,RR,42.3,29,36.65,42.3,-,-,0,23,-,
+50,3rd match (N),Delhi,19-April-2008,19-April-2008,Shikhar Dhawan,DC,38.6,52,51.63,38.6,-,-,0,41,-,
+51,3rd match (N),Delhi,19-April-2008,19-April-2008,Glenn McGrath,DC,36.88,0,-,0,1/21,1.24,36.88,0,1,21
+52,3rd match (N),Delhi,19-April-2008,19-April-2008,Dinesh Salunkhe,RR,30.11,26,29.94,32.82,0/11,-,- 2.71,20,0,11
+53,3rd match (N),Delhi,19-April-2008,19-April-2008,Virender Sehwag,DC,20.1,12,15.47,20.1,-,-,0,4,-,
+54,3rd match (N),Delhi,19-April-2008,19-April-2008,Yusuf Pathan,RR,19.34,10,15.3,20.66,0/17,-,- 1.32,5,0,17
+55,3rd match (N),Delhi,19-April-2008,19-April-2008,Shane Warne,RR,12.52,14,14.48,13.88,0/16,-,- 1.36,13,0,16
+56,3rd match (N),Delhi,19-April-2008,19-April-2008,Daniel Vettori,DC,6.71,0,-,0,1/35,0.84,6.71,0,1,35
+57,3rd match (N),Delhi,19-April-2008,19-April-2008,Manoj Tiwary,DC,0,0,-,0,-,-,0,0,-,
+58,3rd match (N),Delhi,19-April-2008,19-April-2008,Dinesh Karthik,DC,0,0,-,0,-,-,0,0,-,
+59,3rd match (N),Delhi,19-April-2008,19-April-2008,Mithun Manhas,DC,0,0,-,0,-,-,0,0,-,
+60,3rd match (N),Delhi,19-April-2008,19-April-2008,Munaf Patel,RR,- 0.87,0,-,0,0/25,-,- 0.87,0,0,25
+61,3rd match (N),Delhi,19-April-2008,19-April-2008,Darren Lehmann,RR,- 1.15,1,0.26,- 1.15,-,-,0,2,-,
+62,3rd match (N),Delhi,19-April-2008,19-April-2008,Taruwar Kohli,RR,- 2.44,7,2.57,- 2.44,-,-,0,12,-,
+63,3rd match (N),Delhi,19-April-2008,19-April-2008,Mahesh Rawat,RR,- 2.63,2,0.27,- 2.63,-,-,0,4,-,
+64,3rd match (N),Delhi,19-April-2008,19-April-2008,Siddharth Trivedi,RR,- 9.39,3,- 1.93,- 2.12,0/32,-,- 7.27,7,0,32
+65,3rd match (N),Delhi,19-April-2008,19-April-2008,Mohammad Kaif,RR,- 12.88,9,0.5,- 12.88,-,-,0,19,-,
+66,3rd match (N),Delhi,19-April-2008,19-April-2008,Brett Geeves,DC,- 15.22,0,-,0,0/41,-,- 15.22,0,0,41
+67,56th match (N),Wankhede,25-May-2014,25-May-2014,Corey Anderson,MI,154.55,95,121.79,137.98,0/14,-,16.57,44,0,14
+68,56th match (N),Wankhede,25-May-2014,25-May-2014,Kevon Cooper,RR,73.08,0,-,0,2/38,3.53,73.08,0,2,38
+69,56th match (N),Wankhede,25-May-2014,25-May-2014,Jasprit Bumrah,MI,59.91,0,-,0,1/30,1.45,59.91,0,1,30
+70,56th match (N),Wankhede,25-May-2014,25-May-2014,Karun Nair,RR,54.16,50,52.68,54.16,-,-,0,27,-,
+71,56th match (N),Wankhede,25-May-2014,25-May-2014,Sanju Samson,RR,53.8,74,67.57,53.8,-,-,0,47,-,
+72,56th match (N),Wankhede,25-May-2014,25-May-2014,Dhawal Kulkarni,RR,53.22,0,-,0,2/42,3.51,53.22,0,2,42
+73,56th match (N),Wankhede,25-May-2014,25-May-2014,Ambati Rayudu,MI,43.49,30,37.66,43.49,-,-,0,10,-,
+74,56th match (N),Wankhede,25-May-2014,25-May-2014,Pragyan Ojha,MI,33.7,0,-,0,0/31,-,33.7,0,0,31
+75,56th match (N),Wankhede,25-May-2014,25-May-2014,Michael Hussey,MI,32.26,22,27.32,32.26,-,-,0,11,-,
+76,56th match (N),Wankhede,25-May-2014,25-May-2014,Harbhajan Singh,MI,30.93,0,-,0,1/43,1.12,30.93,0,1,43
+77,56th match (N),Wankhede,25-May-2014,25-May-2014,Kieron Pollard,MI,28.26,7,9.92,12.71,1/33,0.51,15.55,3,1,33
+78,56th match (N),Wankhede,25-May-2014,25-May-2014,Shreyas Gopal,MI,17.03,0,-,0,1/36,0.91,17.03,0,1,36
+79,56th match (N),Wankhede,25-May-2014,25-May-2014,Brad Hodge,RR,16.47,29,22.64,16.47,-,-,0,16,-,
+80,56th match (N),Wankhede,25-May-2014,25-May-2014,Rohit Sharma,MI,15.02,16,17.39,15.02,-,-,0,11,-,
+81,56th match (N),Wankhede,25-May-2014,25-May-2014,Lendl Simmons,MI,10.5,12,11.41,10.5,-,-,0,8,-,
+82,56th match (N),Wankhede,25-May-2014,25-May-2014,James Faulkner,RR,7.59,23,19.81,19.7,0/54,-,- 12.1,12,0,54
+83,56th match (N),Wankhede,25-May-2014,25-May-2014,Aditya Tare,MI,6.81,6,6,6.81,-,-,0,1,-,
+84,56th match (N),Wankhede,25-May-2014,25-May-2014,Ankit Sharma,RR,0,0,-,0,-,-,0,0,-,
+85,56th match (N),Wankhede,25-May-2014,25-May-2014,Ajinkya Rahane,RR,0,0,-,0,-,-,0,0,-,
+86,56th match (N),Wankhede,25-May-2014,25-May-2014,Abhishek Nayar,RR,0,0,-,0,-,-,0,0,-,
+87,56th match (N),Wankhede,25-May-2014,25-May-2014,Pravin Tambe,RR,- 3.47,0,-,0,0/25,-,- 3.47,0,0,25
+88,56th match (N),Wankhede,25-May-2014,25-May-2014,Shane Watson,RR,- 49.77,8,- 12.57,- 36.63,0/33,-,- 13.14,18,0,33
+89,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Umesh Yadav,KKR,92.51,0,-,0,3/13,4.23,92.51,0,3,13
+90,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Axar Patel,PBKS,76.08,2,1.91,0.96,2/11,2.45,75.12,2,2,11
+91,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Piyush Chawla,KKR,62.96,17,22.22,28.66,1/23,1.57,34.3,9,1,23
+92,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Robin Uthappa,KKR,62.69,42,53.12,62.69,-,-,0,30,-,
+93,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Morne Morkel,KKR,62.31,0,-,0,2/23,2.78,62.31,0,2,23
+94,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Mitchell Johnson,PBKS,59.65,10,10.4,6.25,2/31,2.87,53.4,11,2,31
+95,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Karanveer Singh,PBKS,41.57,1,1,0.65,3/40,3.2,40.92,1,3,40
+96,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Manan Vohra,PBKS,39.83,26,32.65,39.83,-,-,0,19,-,
+97,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Wriddhiman Saha,PBKS,38.31,35,37.62,38.31,-,-,0,31,-,
+98,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Suryakumar Yadav,KKR,27.71,20,22.2,27.71,-,-,0,14,-,
+99,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Ryan ten Doeschate,KKR,27.21,17,21,27.21,-,-,0,10,-,
+100,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,George Bailey,PBKS,22.43,26,25.76,22.43,-,-,0,17,-,
+101,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Yusuf Pathan,KKR,18.64,20,18.64,18.64,-,-,0,18,-,
+102,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Manish Pandey,KKR,18.51,21,21.01,18.51,-,-,0,20,-,
+103,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Shakib Al Hasan,KKR,5.88,18,17.35,15.03,1/43,0.47,- 9.16,16,1,43
+104,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Parvinder Awana,PBKS,2.61,0,-,0,0/33,-,2.61,0,0,33
+105,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Sunil Narine,KKR,1.13,0,-,0,0/30,-,1.13,0,0,30
+106,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Virender Sehwag,PBKS,- 0.62,2,0.82,- 0.62,-,-,0,3,-,
+107,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Glenn Maxwell,PBKS,- 1.85,6,2.37,- 1.85,-,-,0,9,-,
+108,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Gautam Gambhir,KKR,- 4.05,1,- 1.25,- 4.05,-,-,0,3,-,
+109,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,David Miller,PBKS,- 5.25,8,2.74,- 5.25,-,-,0,12,-,
+110,Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,Rishi Dhawan,PBKS,- 7.73,14,13.37,6.69,0/44,-,- 14.42,15,0,44
+111,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Harbhajan Singh,MI,96.32,7,10.69,15.25,2/27,3.42,81.07,2,2,27
+112,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Lendl Simmons,MI,75.91,67,72.1,75.91,-,-,0,44,-,
+113,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Ravindra Jadeja,CSK,54.47,0,-,0,2/31,2.4,54.47,0,2,31
+114,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Faf du Plessis,CSK,52.36,35,44.26,52.36,-,-,0,20,-,
+115,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Suresh Raina,CSK,51.87,54,58.37,55.74,0/13,-,- 3.87,33,0,13
+116,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Ravichandran Ashwin,CSK,46.89,0,-,0,1/26,1.39,46.89,0,1,26
+117,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Ashish Nehra,CSK,44.24,0,-,0,2/34,2.01,44.24,0,2,34
+118,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Mohit Sharma,CSK,40.11,0,-,0,3/42,2.66,40.11,0,3,42
+119,Eliminator (N),Brabourne,28-May-2014,28-May-2014,David Hussey,CSK,35.13,40,40.05,35.13,-,-,0,29,-,
+120,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Pragyan Ojha,MI,29.22,1,0.39,0.17,1/34,1.76,29.04,1,1,34
+121,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Michael Hussey,MI,26.45,39,34.86,26.45,-,-,0,33,-,
+122,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Corey Anderson,MI,24.78,20,25.65,32.34,0/35,-,- 7.55,10,0,35
+123,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Dwayne Smith,CSK,17.41,24,22.15,17.41,-,-,0,20,-,
+124,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Praveen Kumar,MI,16.89,1,- 1.25,- 1.52,0/27,-,18.41,2,0,27
+125,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Kieron Pollard,MI,13.91,14,13.7,14.78,0/10,-,- 0.86,8,0,10
+126,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Brendon McCullum,CSK,13.33,14,13.33,13.33,-,-,0,11,-,
+127,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Ishwar Pandey,CSK,9.01,0,-,0,0/25,-,9.01,0,0,25
+128,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Rohit Sharma,MI,8.15,20,13.98,8.15,-,-,0,16,-,
+129,Eliminator (N),Brabourne,28-May-2014,28-May-2014,MS Dhoni,CSK,0,0,-,0,-,-,0,0,-,
+130,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Aditya Tare,MI,- 3.28,0,- 1.73,- 3.28,-,-,0,1,-,
+131,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Ambati Rayudu,MI,- 4.57,2,- 1.25,- 4.57,-,-,0,3,-,
+132,Eliminator (N),Brabourne,28-May-2014,28-May-2014,Jasprit Bumrah,MI,- 6.81,0,-,0,0/40,-,- 6.81,0,0,40
+133,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Suresh Raina,CSK,197.89,87,139.38,197.89,-,-,0.0,25,-,
+134,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Virender Sehwag,PBKS,176.48,122,148.44,176.48,-,-,0.0,58,-,
+135,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Ravichandran Ashwin,CSK,44.86,10,9.18,2.56,1/44,1.96,42.3,11,1,44
+136,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,David Miller,PBKS,41.61,38,39.74,41.61,-,-,0.0,19,-,
+137,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Ishwar Pandey,CSK,34.08,0,-,0,1/35,0.91,34.08,0,1,35
+138,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Ashish Nehra,CSK,31.71,0,-,0,2/51,2.19,31.71,0,2,51
+139,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Glenn Maxwell,PBKS,27.67,13,15.84,19.08,0/4,-,8.6,6,0,4
+140,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Sandeep Sharma,PBKS,26.88,0,-,0,1/32,1.69,26.88,0,1,32
+141,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Parvinder Awana,PBKS,25.38,0,-,0,2/59,2.72,25.38,0,2,59
+142,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,MS Dhoni,CSK,23.57,42,41.22,23.57,-,-,0.0,31,-,
+143,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Axar Patel,PBKS,23.18,0,-,0,1/23,0.34,23.18,0,1,23
+144,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Mitchell Johnson,PBKS,22.06,1,- 0.15,- 1.3,1/44,1.79,23.36,1,1,44
+145,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Ravindra Jadeja,CSK,16.75,27,23.89,15.55,0/48,-,1.2,21,0,48
+146,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Karanveer Singh,PBKS,11.34,0,-,0,0/32,-,11.34,0,0,32
+147,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Mohit Sharma,CSK,5.7,1,1,0.01,1/46,0.25,5.69,3,1,46
+148,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Manan Vohra,PBKS,4.79,34,21.69,4.79,-,-,0.0,31,-,
+149,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Wriddhiman Saha,PBKS,2.74,6,3.47,2.74,-,-,0.0,4,-,
+150,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Faf du Plessis,CSK,- 2.82,0,- 1.29,- 2.82,-,-,0.0,1,-,
+151,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,George Bailey,PBKS,- 5.07,1,- 2.15,- 5.07,-,-,0.0,2,-,
+152,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,David Hussey,CSK,- 5.91,1,- 1.95,- 5.91,-,-,0.0,3,-,
+153,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Dwayne Smith,CSK,- 13.03,7,- 1.32,- 13.03,-,-,0.0,11,-,
+154,Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,Brendon McCullum,CSK,- 18.39,11,- 0.87,- 18.39,-,-,0.0,16,-,
