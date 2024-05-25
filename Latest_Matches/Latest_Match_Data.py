@@ -79,8 +79,6 @@ def latest_match_data():
             print(f"\nStart Date: {start_date_str}")
             print(f"End Date: {end_date_str}")
 
-
-
         if len(teams_results_text) >= 4:
             team1, team1_result, team2, team2_result = teams_results_text
         else:
@@ -124,7 +122,7 @@ def latest_match_data():
 
         # Return the data as a dictionary
         return {
-            'Match_ID': None,  # Placeholder for primary key
+            #'Match_ID': None,  # Placeholder for primary key
             'Innings': innings,
             'Venue': venue,
             'Start_Date': start_date_str,
@@ -150,9 +148,6 @@ def latest_match_data():
     # Initialize an empty list to store the data for all matches
     all_matches_data = []
 
-    # Define a counter for match ID
-    match_id_counter = 1
-
     # Initialize a set to keep track of unique matches based on the specified columns
     unique_matches = set()
 
@@ -170,9 +165,6 @@ def latest_match_data():
             # Check if the match is unique based on 'Innings', 'Venue', 'Date', 'Team1', and 'Team2'
             match_key = (match_data['Innings'], match_data['Venue'], match_data['Start_Date'], match_data['End_Date'], match_data['Team1'], match_data['Team2'])
             if match_key not in unique_matches:
-                # Assign the primary key Match_ID
-                match_data['Match_ID'] = match_id_counter
-                match_id_counter += 1
                 # Append the match data to the list of all matches data
                 all_matches_data.append(match_data)
                 # Add the match key to the set of unique matches

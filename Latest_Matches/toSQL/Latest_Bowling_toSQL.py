@@ -1,108 +1,105 @@
-def latest_bowling_sql():
-    import sqlite3
-    from Latest_Matches.Latest_Bowling import latest_bowling
+import os
+import sqlite3
+from Latest_Matches.Latest_Bowling import latest_bowling
 
-    # Specify the absolute path to the database file
-    db_file = "../../database/IPL_Prediction_Analysis.db"
 
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_file)
+class LatestBowlingSQLProcessor:
+    def __init__(self):
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.relative_db_path = os.path.normpath(
+            os.path.join(self.script_dir, "../../database/IPL_Prediction_Analysis.db"))
 
-    # Create a cursor
-    cursor = conn.cursor()
+        self.conn = None
+        self.cursor = None
 
-    # Define the table name
-    table_name = 'Bowling'
+    def connect(self):
+        self.conn = sqlite3.connect(self.relative_db_path)
+        self.conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+        self.cursor = self.conn.cursor()
 
-    # Check if the table already exists and create it if not
-    cursor.execute(f'''
-        SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'
-    ''')
-    existing_table = cursor.fetchone()
+    def insert_or_update_data(self, table_name, data):
+        combine_table = data
 
-    if not existing_table:
-        cursor.execute('''
-            CREATE TABLE Bowling (
-        Bowling_ID INTEGER PRIMARY KEY,
-        Innings TEXT,
-        Venue TEXT,
-        Team TEXT,
-        Date TEXT,
-        Player_name TEXT,
-        Overs TEXT,
-        Maidens TEXT,
-        Runs TEXT,
-        Wickets TEXT,
-        Economy_rate TEXT,
-        Dot_ball TEXT,
-        Fours TEXT,
-        Sixes TEXT,
-        Wides TEXT,
-        No_balls TEXT
-    )
+        # Get the current maximum value of the Bowling_ID column
+        self.cursor.execute('''
+            SELECT MAX(Bowling_ID) FROM Bowling
         ''')
-        print(f"Table '{table_name}' created successfully.")
+        max_id = self.cursor.fetchone()[0]
+        if max_id is None:
+            max_id = 0
 
-    # Commit the transaction
-    conn.commit()
+        # Loop through combine_table and insert/update records
+        for player_data in combine_table.itertuples():
+            try:
+                innings = player_data[1]
+                venue = player_data[2]
+                team = player_data[3]
+                start_date = player_data[4]
+                end_date = player_data[5]
+                player_name = player_data[6]
+                overs = player_data[7]
+                maidens = player_data[8]
+                runs = player_data[9]
+                wickets = player_data[10]
+                economy_rate = player_data[11]
+                dot_ball = player_data[12]
+                fours = player_data[13]
+                sixes = player_data[14]
+                wides = player_data[15]
+                no_balls = player_data[16]
 
-    combine_table = latest_bowling()
-    for player_data in combine_table.itertuples():
-        try:
-            innings = player_data[1]  # Accessing the first column
-            venue = player_data[2]  # Accessing the second column
-            team = player_data[3]  # Accessing the third column
-            date = player_data[4]  # Accessing the fourth column
-            player_name = player_data[5]  # Accessing the fifth column
-            overs = player_data[6]  # Accessing the sixth column
-            maidens = player_data[7]  # Accessing the seventh column
-            runs = player_data[8]  # Accessing the eighth column
-            wickets = player_data[9]  # Accessing the ninth column
-            economy_rate = player_data[10]  # Accessing the tenth column
-            dot_ball = player_data[11]  # Accessing the eleventh column
-            fours = player_data[12]  # Accessing the twelfth column
-            sixes = player_data[13]  # Accessing the thirteenth column
-            wides = player_data[14]  # Accessing the fourteenth column
-            no_balls = player_data[15]  # Accessing the fifteenth column
 
-            # Check if the player data already exists in the database
-            cursor.execute('''
-                SELECT Bowling_ID FROM Bowling 
-                WHERE Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-            ''', (innings, venue, team, date, player_name))
+                # Check if the player data already exists in the database
+                self.cursor.execute('''
+                    SELECT * FROM Bowling
+                    WHERE Innings = ? AND Venue = ? AND Team = ? AND Start_Date = ? AND End_Date = ? AND Bowling_Player = ?
+                ''', (innings, venue, team, start_date, end_date, player_name))
 
-            existing_player = cursor.fetchone()
+                existing_player = self.cursor.fetchone()
 
-            # If the player data exists, update it in the database
-            if existing_player:
-                cursor.execute('''
-                    UPDATE Bowling 
-                    SET Overs = ?, Maidens = ?, Runs = ?, Wickets = ?, Economy_rate = ?, Dot_ball = ?, Fours = ?, Sixes = ?, Wides = ?, No_balls = ?
-                    WHERE Bowling_ID = ? AND Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-                ''', (overs, maidens, runs, wickets, economy_rate, dot_ball, fours, sixes, wides, no_balls,
-                      existing_player[0], innings, venue, team, date, player_name))
+                # If the player data exists, update it in the database
+                if existing_player:
+                    self.cursor.execute('''
+                        UPDATE Bowling
+                        SET Overs = ?, Maidens = ?, Runs = ?, Wickets = ?, Economy_rate = ?, Dot_ball = ?, Fours = ?, Sixes = ?, Wides = ?, No_balls = ?
+                        WHERE Bowling_ID = ?
+                    ''', (overs, maidens, runs, wickets, economy_rate, dot_ball, fours, sixes, wides, no_balls,
+                          existing_player[0]))
 
-                # Commit the transaction
-                conn.commit()
+                    # Commit the transaction
+                    self.conn.commit()
 
-                # Print a success message
-                print(f"Values updated for player {player_name}.")
-            else:
-                # If the player data does not exist, insert it into the database
-                cursor.execute('''
-                    INSERT INTO Bowling (Innings, Venue, Team, Date, Player_name, Overs, Maidens, Runs, Wickets, Economy_rate, Dot_ball, Fours, Sixes, Wides, No_balls)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', (innings, venue, team, date, player_name, overs, maidens, runs, wickets,
-                      economy_rate, dot_ball, fours, sixes, wides, no_balls))
+                    # Print a success message
+                    print(f"Values updated for player {player_name}.")
+                else:
+                    # If the player data does not exist, insert it into the database
+                    # Increment the Bowling_ID value
+                    new_id = max_id + 1
 
-                # Commit the transaction
-                conn.commit()
+                    self.cursor.execute('''
+                        INSERT INTO Bowling (Bowling_ID, Innings, Venue, Team, Start_Date, End_Date, Bowling_Player, Overs, Maidens, Runs, Wickets, Economy_rate, Dot_ball, Fours, Sixes, Wides, No_balls)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ''', (new_id, innings, venue, team, start_date, end_date, player_name, overs, maidens, runs, wickets,
+                          economy_rate, dot_ball, fours, sixes, wides, no_balls))
 
-                # Print a success message
-                print(f"Values inserted for player {player_name}.")
+                    # Commit the transaction
+                    self.conn.commit()
 
-        except Exception as e:
-            print(f"Error inserting/updating data for player: {e}")
+                    # Update the maximum value of the Bowling_ID column
+                    max_id = new_id
 
-    # Close the connection
-    conn.close()
+                    # Print a success message
+                    print(f"Values inserted for player {player_name}.")
+
+            except Exception as e:
+                print(f"Error inserting/updating data for player: {e}")
+
+    def run(self):
+        self.connect()
+        combine_table = latest_bowling()
+        self.insert_or_update_data('Bowling', combine_table)
+        self.close()
+
+    def close(self):
+        if self.conn:
+            self.conn.close()

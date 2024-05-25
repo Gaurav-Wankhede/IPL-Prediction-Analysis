@@ -104,7 +104,6 @@ def latest_bowling():
         print(f"Team 1: {team1}, Team 2: {team2}")
         print(f"Bowling Match info list: {match_info_list[-2]} \t {match_info_list[-1]}")
 
-
     combine_table = pd.DataFrame()
     for i, table in enumerate(bowling_tables):
         table = bowling_tables[i]
@@ -143,12 +142,7 @@ def latest_bowling():
 
             # Reorder the columns
             table = table[['Inning', 'Venue', 'Team', 'Start Date', 'End Date'] + [col for col in table.columns if
-                                                                 col not in ['Inning', 'Venue', 'Team', 'Start Date', 'End Date']]]
-
-            # Add primary key column based on uniqueness of 'Inning', 'Venue', 'Team', and 'Date' columns
-            unique_key = ['Inning', 'Venue', 'Team', 'Start Date', 'End Date']
-            table_grouped = table.groupby(unique_key)
-            table['Bowling_ID'] = table_grouped.ngroup() + 1
+                                                                  col not in ['Inning', 'Venue', 'Team', 'Start Date', 'End Date']]]
 
             combine_table = pd.concat([combine_table, table], ignore_index=True)
             print(f"\nBowling Table:\n", table)

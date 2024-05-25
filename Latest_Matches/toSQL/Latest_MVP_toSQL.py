@@ -1,88 +1,92 @@
-def latest_mvp_sql():
-    import sqlite3
-    from Latest_Matches.Latest_MVP_Data import latest_mvp_data  # Import the DataFrame
+import os
+import sqlite3
+from Latest_Matches.Latest_MVP_Data import latest_mvp_data
 
-    # Specify the absolute path to the database file
-    db_file = "../../database/IPL_Prediction_Analysis.db"
+class LatestMVPDataSQLProcessor:
+    def __init__(self):
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.relative_db_path = os.path.normpath(
+            os.path.join(self.script_dir, "../../database/IPL_Prediction_Analysis.db"))
 
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_file)
+        self.conn = None
+        self.cursor = None
 
-    # Create a cursor
-    cursor = conn.cursor()
+    def connect(self):
+        self.conn = sqlite3.connect(self.relative_db_path)
+        self.conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+        self.cursor = self.conn.cursor()
 
-    # Define the table name
-    table_name = 'MVP_Data'
+    def insert_or_update_data(self, data):
+        final_data = data
 
-    # Check if the table already exists and create it if not
-    cursor.execute(f'''
-        SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'
-    ''')
-    existing_table = cursor.fetchone()
-
-    if not existing_table:
-        cursor.execute('''
-            CREATE TABLE MVP_Data (
-                MVP_ID INTEGER PRIMARY KEY,
+        # Define MVP_ID column as INTEGER PRIMARY KEY AUTOINCREMENT
+        self.cursor.execute('''
+            CREATE TABLE IF NOT EXISTS MVP_Data (
+                MVP_ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 Innings TEXT,
                 Venue TEXT,
-                Date TEXT,
+                Start_Date TEXT,
+                End_Date TEXT,
                 Player_Name TEXT,
                 Team TEXT,
-                Total_Impact INTEGER,
+                Total_Impact REAL,
                 Runs INTEGER,
                 Balls_Faced INTEGER,
-                Impact_Runs INTEGER,
-                Batting_Impact INTEGER,
+                Impact_Runs REAL,
+                Batting_Impact REAL,
                 Wickets INTEGER,
                 Runs_Conceded INTEGER,
-                Impact_Wickets INTEGER,
-                Bowling_Impact INTEGER
+                Impact_Wickets REAL,
+                Bowling_Impact REAL
             )
         ''')
-        print("Table 'MVP_Data' created successfully.")
-        conn.commit()
 
-    final_data = latest_mvp_data()
+        # Iterate through the rows of the final_data DataFrame and insert or update records in the database
+        for index, row in final_data.iterrows():
+            try:
+                # Insert the record into the database
+                self.cursor.execute('''
+                    INSERT INTO MVP_Data (Innings, Venue, Start_Date, End_Date, Player_Name, Team, Total_Impact, Runs, Balls_Faced, Impact_Runs, Batting_Impact, Wickets, Runs_Conceded, Impact_Wickets, Bowling_Impact)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ''', (row["Innings"], row["Venue"], row["Start_Date"], row["End_Date"], row["Player_Name"], row["Team"],
+                      row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"], row["Batting_Impact"],
+                      row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"]))
 
-    # Iterate through the rows of the final_data DataFrame and insert or update records in the database
-    for index, row in final_data.iterrows():
-        # Check if the row already exists in the database
-        cursor.execute('''
-            SELECT * FROM MVP_Data 
-            WHERE MVP_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Player_Name = ? AND Team = ?
-        ''', (row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"]))
-        existing_row = cursor.fetchone()
+                print(f"Values inserted for MVP: {row['Player_Name']}")
 
-        # If the row exists, update it
-        if existing_row:
-            cursor.execute('''
-                UPDATE MVP_Data 
-                SET Total_Impact = ?,
-                    Runs = ?,
-                    Balls_Faced = ?,
-                    Impact_Runs = ?,
-                    Batting_Impact = ?,
-                    Wickets = ?,
-                    Runs_Conceded = ?,
-                    Impact_Wickets = ?,
-                    Bowling_Impact = ?
-                WHERE MVP_ID = ? AND Innings = ? AND Venue = ? AND Date = ? AND Player_Name = ? AND Team = ?
-            ''', (row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"], row["Batting_Impact"],
-                  row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"],
-                  row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"]))
-        else:
-            # If the row does not exist, insert it
-            cursor.execute('''
-                INSERT INTO MVP_Data (MVP_ID, Innings, Venue, Date, Player_Name, Team, Total_Impact, Runs, Balls_Faced, Impact_Runs, Batting_Impact, Wickets, Runs_Conceded, Impact_Wickets, Bowling_Impact)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (row["MVP_ID"], row["Innings"], row["Venue"], row["Date"], row["Player_Name"], row["Team"],
-                  row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"], row["Batting_Impact"],
-                  row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"]))
+            except sqlite3.IntegrityError as e:
+                # If the record already exists, update it
+                if "UNIQUE constraint failed" in str(e):
+                    self.cursor.execute('''
+                        UPDATE MVP_Data
+                        SET Total_Impact = ?,
+                            Runs = ?,
+                            Balls_Faced = ?,
+                            Impact_Runs = ?,
+                            Batting_Impact = ?,
+                            Wickets = ?,
+                            Runs_Conceded = ?,
+                            Impact_Wickets = ?,
+                            Bowling_Impact = ?
+                        WHERE MVP_ID = ?
+                    ''', (
+                    row["Total_Impact"], row["Runs"], row["Balls_Faced"], row["Impact_Runs"], row["Batting_Impact"],
+                    row["Wickets"], row["Runs_Conceded"], row["Impact_Wickets"], row["Bowling_Impact"], row["MVP_ID"]))
 
-    # Commit the changes to the database
-    conn.commit()
+                    print(f"Values updated for MVP: {row['Player_Name']}")
 
-    # Close the cursor and connection
-    cursor.close()
-    conn.close()
+                else:
+                    print(f"Error inserting/updating data for MVP: {e}")
+
+        # Commit the changes to the database
+        self.conn.commit()
+
+    def run(self):
+        self.connect()
+        final_data = latest_mvp_data()
+        self.insert_or_update_data(final_data)
+        self.close()
+
+    def close(self):
+        if self.conn:
+            self.conn.close()

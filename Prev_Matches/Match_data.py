@@ -140,7 +140,7 @@ def match_data():
             'Match_Result': match_result
         }
 
-    # Initialize the Chrome driver
+    # Initialize Selenium WebDriver
     driver = webdriver.Chrome()
 
     # Initialize an empty list to store the data for all matches
@@ -163,9 +163,12 @@ def match_data():
 
     # Print the cleaned DataFrame
     print(df)
+    # Ensure the directory exists
+    if not os.path.exists('./csv'):
+        os.makedirs('./csv')
 
     # Save DataFrame to CSV file
-    df.to_csv('../Matches_data.csv', index=False, encoding='utf-8')
+    df.to_csv('./csv/Matches_data.csv', index=False, encoding='utf-8')
 
     # Return the DataFrame
     return df

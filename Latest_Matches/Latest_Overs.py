@@ -132,7 +132,6 @@ def latest_overs():
 
             # Create DataFrames for each team for this particular link
             team1_df = pd.DataFrame({
-                "Over_ID": range(over_id_counter, over_id_counter + len(team1_overs)),
                 "Innings": [innings] * len(team1_overs),
                 "Venue": [venue] * len(team1_overs),
                 "Start_Date": [start_date_str] * len(team1_overs),
@@ -146,7 +145,6 @@ def latest_overs():
             })
 
             team2_df = pd.DataFrame({
-                "Over_ID": range(over_id_counter + len(team1_overs), over_id_counter + len(team1_overs) + len(team2_overs)),
                 "Innings": [innings] * len(team2_overs),
                 "Venue": [venue] * len(team2_overs),
                 "Start_Date": [start_date_str] * len(team2_overs),

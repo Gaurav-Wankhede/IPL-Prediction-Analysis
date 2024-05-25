@@ -6,6 +6,7 @@ def latest_mvp_data():
     from selenium.webdriver.common.by import By
     from io import StringIO
     from dateutil.parser import parse
+    import numpy as np
 
     # Function to fetch table data from a URL using XPath
     def fetch_table_data(driver, url, xpath):
@@ -38,9 +39,6 @@ def latest_mvp_data():
     # XPath for the div element
     XPATH_DIV_ELEMENT1 = "//div[@class='ds-text-tight-m ds-font-regular ds-text-typo-mid3']"
 
-    # Initialize a counter for MVP_ID
-    mvp_id_counter = 1
-
     def extract_date_parts(date_str):
         # Split the date string by spaces, hyphens, or commas
         parts = [part for part in re.split(r'\s+|-|,', date_str) if part]
@@ -63,7 +61,7 @@ def latest_mvp_data():
             header = table_data.iloc[0]
             table_data = table_data[0:]
 
-            # Find the specific div element using the provided XPath expression
+            # Find the specific div element using the provided XPATH expression
             match_info = driver.find_element(By.XPATH, XPATH_DIV_ELEMENT1).text.split(", ")
 
             # Extracting individual components
@@ -91,55 +89,58 @@ def latest_mvp_data():
                 print(f"End Date: {end_date_str}")
 
             # Rename columns to match the required column names
-            table_data.columns = ["Player_Name", "Team", "Total_Impact", "Runs", "Impact_Runs", "Batting_Impact", "Bowl",
+            table_data.columns = ["Player_Name", "Team", "Total_Impact", "Runs", "Impact_Runs", "Batting_Impact",
+                                  "Bowl",
                                   "Impact_Wickets", "Bowling_Impact"]
 
             # Add new columns for the match info
-            table_data['Innings'], table_data['Venue'], table_data['Start_Date'], table_data['End_Date'] = innings, venue, start_date_str, end_date_str
-
-            # Add 'MVP_ID' column with unique ID for each row
-            table_data['MVP_ID'] = range(mvp_id_counter, mvp_id_counter + len(table_data))
-
-            # Update the counter
-            mvp_id_counter += len(table_data)
+            table_data['Innings'], table_data['Venue'], table_data['Start_Date'], table_data[
+                'End_Date'] = innings, venue, start_date_str, end_date_str
 
             # Reorder the columns
-            cols = ['MVP_ID', 'Innings', 'Venue', 'Start_Date', 'End_Date', 'Player_Name', 'Team'] + [col for col in table_data.columns if
-                                                                                    col not in ['MVP_ID', 'Innings',
-                                                                                                'Venue', 'Start_Date',
-                                                                                                'End_Date',
-                                                                                                'Player_Name', 'Team']]
+            cols = ['Innings', 'Venue', 'Start_Date', 'End_Date', 'Player_Name', 'Team'] + [col for col in
+                                                                                            table_data.columns if
+                                                                                            col not in ['Innings',
+                                                                                                        'Venue',
+                                                                                                        'Start_Date',
+                                                                                                        'End_Date',
+                                                                                                        'Player_Name',
+                                                                                                        'Team']]
             table_data = table_data[cols]
 
             print(table_data)
             # Append table data to the list
             data_list.append(table_data)
-    # Concatenate all tables in the list to form the final DataFrame
+
     final_data = pd.concat(data_list, ignore_index=True)
 
     # Split 'Runs' into 'Runs' and 'Balls_Faced'
     final_data[['Runs', 'Balls_Faced']] = final_data['Runs'].str.split('(', expand=True)
 
+
     # Remove the closing parenthesis from 'Balls_Faced'
     final_data['Balls_Faced'] = final_data['Balls_Faced'].str.replace(')', '')
-    # Convert 'Runs' and 'Balls_Faced' to integers
+
+    final_data['Runs'] = final_data['Runs'].replace('-', np.nan).fillna(0)
+    final_data['Balls_Faced'] = final_data['Balls_Faced'].replace('-', np.nan).fillna(0)
     final_data['Runs'] = final_data['Runs'].astype(int)
     final_data['Balls_Faced'] = final_data['Balls_Faced'].astype(int)
 
     # Split 'Bowl' into 'Wickets' and 'Runs_Conceded'
     final_data[['Wickets', 'Runs_Conceded']] = final_data['Bowl'].str.split('/', expand=True)
+
     # Remove any extra characters if present
     final_data['Wickets'] = final_data['Wickets'].str.replace('[^0-9]', '')
     final_data['Runs_Conceded'] = final_data['Runs_Conceded'].str.replace('[^0-9]', '')
 
     # Convert 'Wickets' and 'Runs_Conceded' to integers
+    final_data['Wickets'] = final_data['Wickets'].replace('-', np.nan).fillna(0)
     final_data['Wickets'] = final_data['Wickets'].astype(int)
+
+    final_data['Runs_Conceded'] = final_data['Runs_Conceded'].replace('-', np.nan).fillna(0)
     final_data['Runs_Conceded'] = final_data['Runs_Conceded'].astype(int)
-    print(final_data)
+
     # Save the final DataFrame to a CSV file
     final_data.to_csv("MVP_Data.csv", index=False)
-
-    # Quit the WebDriver after processing all links
-    driver.quit()
 
     return final_data

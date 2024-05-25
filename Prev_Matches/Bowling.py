@@ -20,6 +20,8 @@ def extract_date_parts(date_str):
 
 
 def bowling():
+    # Initialize Selenium WebDriver
+
     driver = webdriver.Chrome()
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -130,7 +132,11 @@ def bowling():
 
     print("\nCombine Table:\n", combine_table)
 
-    combine_table.to_csv('../Bowling_Combine_table.csv', index=False, encoding='utf-8-sig')
+    # Ensure the directory exists
+    if not os.path.exists('./csv'):
+        os.makedirs('./csv')
+
+    combine_table.to_csv('./csv/Bowling_Combine_table.csv', index=False, encoding='utf-8-sig')
 
     driver.quit()
 

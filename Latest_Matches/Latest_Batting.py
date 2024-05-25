@@ -135,21 +135,19 @@ def latest_batting():
             table = table[['Innings', 'Venue', 'Team', 'Start Date', 'End Date'] + [col for col in table.columns if
                                                                   col not in ['Innings', 'Venue', 'Team', ' Start Date', 'End Date']]]
 
+            # Rename the 'BATTING' column to 'Player_name'
+            table.rename(columns={'BATTING': 'Player_name'}, inplace=True)
+
             # Replace full team names with abbreviations
             table['Team'] = table['Team'].map(team_abbreviations).fillna(table['Team'])
 
-            combine_table = pd.concat([combine_table, table], ignore_index=True)
-
-            # Create a new column 'Batting_ID' with a range from 1 to the length of the DataFrame plus 1
-            combine_table['Batting_ID'] = range(1, len(combine_table) + 1)
-
-            # Move the 'Batting_ID' column to the first position
+            # Define cols as a list of the current column labels in combine_table
             cols = combine_table.columns.tolist()
-            cols.insert(0, cols.pop(cols.index('Batting_ID')))
-            combine_table = combine_table.reindex(columns=cols)
 
-            print(f"Combined Table:")
-            print(combine_table)
+            # Remove duplicates from cols
+            cols = list(set(cols))
+
+            combine_table = pd.concat([combine_table, table], ignore_index=True)
 
         else:
             print("Column 'BATTING' not found in the DataFrame.")

@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from Prev_Matches.Match_Link import match_link
 from Latest_Matches.Latest_Match_Link import latest_match_link
 
-st.set_page_config(page_title="ESPNcricinfo Link Scraper", page_icon=":bar_chart:", layout='wide')
+st.set_page_config(page_title="Link Scraper", page_icon="./images/link.png", layout='wide')
 with open("styles/style.css", "r") as f:
     css_content = f.read()
 
@@ -51,11 +51,11 @@ def main():
             st.write("Latest Match CSV data processing complete.")
 
     st.markdown("""
-    <footer class="footer">
-        <hr>
-        &#169; All rights reserved by Gaurav Wankhede.
-    </footer>
-    """, unsafe_allow_html=True)
+        <footer class="footer">
+            <hr>
+            Copyright &#169; 2024 All rights reserved by Gaurav Wankhede.
+        </footer>
+        """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()

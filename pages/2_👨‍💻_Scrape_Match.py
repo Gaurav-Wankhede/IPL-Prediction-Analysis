@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-from Prev_Matches.Batting import batting  # Assuming batting can be run in a single call
+from Prev_Matches.Batting import batting
 from Prev_Matches.toSQL.Batting_toSQL import BattingSQLProcessor
 from Prev_Matches.Bowling import bowling
 from Prev_Matches.toSQL.Bowling_toSQL import BowlingSQLProcessor
@@ -15,21 +15,23 @@ from Prev_Matches.Stats import stats
 from Prev_Matches.toSQL.Stats_toSQL import StatsSQLProcessor
 
 from Latest_Matches.Latest_Batting import latest_batting
-from Latest_Matches.toSQL.Latest_Batting_toSQL import latest_batting_sql
+from Latest_Matches.toSQL.Latest_Batting_toSQL import LatestBattingSQLProcessor
 from Latest_Matches.Latest_Bowling import latest_bowling
-from Latest_Matches.toSQL.Latest_Bowling_toSQL import latest_bowling_sql
+from Latest_Matches.toSQL.Latest_Bowling_toSQL import LatestBowlingSQLProcessor
 from Latest_Matches.Latest_Match_Data import latest_match_data
-from Latest_Matches.toSQL.Latest_Match_Data_toSQL import latest_match_data_sql
+from Latest_Matches.toSQL.Latest_Match_Data_toSQL import LatestMatchDataSQLProcessor
 from Latest_Matches.Latest_MVP_Data import latest_mvp_data
-from Latest_Matches.toSQL.Latest_MVP_toSQL import latest_mvp_sql
+from Latest_Matches.toSQL.Latest_MVP_toSQL import LatestMVPDataSQLProcessor
 from Latest_Matches.Latest_Overs import latest_overs
-from Latest_Matches.toSQL.Latest_Overs_toSQL import latest_overs_sql
+from Latest_Matches.toSQL.Latest_Overs_toSQL import LatestOversDataSQLProcessor
 from Latest_Matches.Latest_Stats import latest_stats
-from Latest_Matches.toSQL.Latest_Stats_toSQL import latest_stats_sql
+from Latest_Matches.toSQL.Latest_Stats_toSQL import LatestStatsDataSQLProcessor
 
-
-
-st.set_page_config(page_title="Cricket Match WebScrapping", page_icon=":cricket:",layout='wide')
+st.set_page_config(
+    page_title="Cricket Match WebScrapping",
+    page_icon="./images/web.png",
+    layout='wide'
+)
 
 with open("styles/style.css", "r") as f:
     css_content = f.read()
@@ -37,9 +39,140 @@ with open("styles/style.css", "r") as f:
 # Display the CSS content in Streamlit
 st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 
+
+@st.cache_data
+def process_batting():
+    batting()
+
+
+@st.cache_resource
+def process_batting_sql():
+    processor = BattingSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_bowling():
+    bowling()
+
+
+@st.cache_resource
+def process_bowling_sql():
+    processor = BowlingSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_match_data():
+    match_data()
+
+
+@st.cache_resource
+def process_match_data_sql():
+    processor = MatchDataSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_mvp_data():
+    mvp_data()
+
+
+@st.cache_resource
+def process_mvp_data_sql():
+    processor = MVPDataSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_overs():
+    overs()
+
+
+@st.cache_resource
+def process_overs_sql():
+    processor = OversSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_stats():
+    stats()
+
+
+@st.cache_resource
+def process_stats_sql():
+    processor = StatsSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_batting():
+    latest_batting()
+
+
+@st.cache_resource
+def process_latest_batting_sql():
+    processor = LatestBattingSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_bowling():
+    latest_bowling()
+
+
+@st.cache_resource
+def process_latest_bowling_sql():
+    processor = LatestBowlingSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_match_data():
+    latest_match_data()
+
+
+@st.cache_resource
+def process_latest_match_data_sql():
+    processor = LatestMatchDataSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_mvp_data():
+    latest_mvp_data()
+
+
+@st.cache_resource
+def process_latest_mvp_sql():
+    processor = LatestMVPDataSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_overs():
+    latest_overs()
+
+
+@st.cache_resource
+def process_latest_overs_sql():
+    processor = LatestOversDataSQLProcessor()
+    processor.run()
+
+
+@st.cache_data
+def process_latest_stats():
+    latest_stats()
+
+
+@st.cache_resource
+def process_latest_stats_sql():
+    processor = LatestStatsDataSQLProcessor()
+    processor.run()
+
+
 def main():
-
-
     st.title("Cricket Match WebScrapping")
     st.header("Welcome to the WebScrapping App!")
     st.write("This app provides a scrapping tool for cricket matches.")
@@ -215,7 +348,7 @@ def main():
         st.write("#### Transfer Latest SQL Batting")
         if st.button("Latest SQL"):
             st.write("Transferring Batting data to SQL...")
-            latest_batting_sql()
+            process_latest_batting_sql()
             st.write("Batting data transfer to SQL complete.")
 
     elif latest == "Bowling":
@@ -228,7 +361,7 @@ def main():
         st.write("#### Transfer Latest SQL Bowling")
         if st.button("Latest SQL"):
             st.write("Transferring Bowling data to SQL...")
-            latest_bowling_sql()
+            process_latest_bowling_sql()
             st.write("Bowling data transfer to SQL complete.")
 
     elif latest == "Match":
@@ -241,7 +374,7 @@ def main():
         st.write("#### Transfer Latest SQL Match")
         if st.button("Latest SQL"):
             st.write("Transferring Match data to SQL...")
-            latest_match_data_sql()
+            process_latest_match_data_sql()
             st.write("Match data transfer to SQL complete.")
 
     elif latest == "MVP":
@@ -254,7 +387,7 @@ def main():
         st.write("#### Transfer Latest SQL MVP")
         if st.button("Latest SQL"):
             st.write("Transferring MVP data to SQL...")
-            latest_mvp_sql()
+            process_latest_mvp_sql()
             st.write("MVP data transfer to SQL complete.")
 
     elif latest == "Overs":
@@ -267,7 +400,7 @@ def main():
         st.write("#### Transfer Latest SQL Overs")
         if st.button("Latest SQL"):
             st.write("Transferring Overs data to SQL...")
-            latest_overs_sql()
+            process_latest_overs_sql()
             st.write("Overs data transfer to SQL complete.")
 
     elif latest == "Stats":
@@ -280,15 +413,16 @@ def main():
         st.write("#### Transfer Latest SQL Stats")
         if st.button("Latest SQL"):
             st.write("Transferring Stats data to SQL...")
-            latest_stats_sql()
+            process_latest_stats_sql()
             st.write("Stats data transfer to SQL complete.")
 
     st.markdown("""
-    <footer class="footer">
-        <hr>
-        &#169; All rights reserved by Gaurav Wankhede.
-    </footer>
-    """, unsafe_allow_html=True)
+        <footer class="footer">
+            <hr>
+            Copyright &#169; 2024 All rights reserved by Gaurav Wankhede.
+        </footer>
+        """, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()

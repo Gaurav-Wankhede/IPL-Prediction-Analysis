@@ -3,6 +3,8 @@ def overs():
     import pandas as pd
     from dateutil.parser import parse
     from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
@@ -17,8 +19,24 @@ def overs():
     with open(file_path, "r") as file:
         links = file.readlines()
 
-    # Initialize the WebDriver
-    driver = webdriver.Chrome()
+    # Initialize Selenium WebDriver with headless option
+
+    def setup_driver():
+        chrome_options = Options()
+        # Disable pop-ups
+        chrome_options.add_argument("--disable-popup-blocking")
+        # Disable notifications
+        chrome_options.add_argument("--disable-notifications")
+        # Disable infobars
+        chrome_options.add_argument("disable-infobars")
+        # Enable ad blocking via command line flags (not as effective as an extension)
+        chrome_options.add_argument("--disable-ads")
+
+        driver = webdriver.Chrome(options=chrome_options)
+
+        return driver
+
+    driver = setup_driver()
 
     # Initialize lists to store data
     all_data = []
@@ -181,7 +199,10 @@ def overs():
 
     print(df)
 
-    # Export DataFrame to CSV
-    df.to_csv("../Overs.csv", index=False)
+    # Ensure the directory exists
+    if not os.path.exists('./csv'):
+        os.makedirs('./csv')
 
+    # Export DataFrame to CSV
+    df.to_csv("./csv/Overs.csv", index=False)
     return df

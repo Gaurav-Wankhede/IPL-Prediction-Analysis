@@ -1,32 +1,33 @@
-def latest_stats_sql():
-    import sqlite3
-    from Latest_Matches.Latest_Stats import latest_stats
+import os
+import sqlite3
+from Latest_Matches.Latest_Stats import latest_stats
 
-    # Specify the absolute path to the SQLite database file
-    db_file = "../../database/IPL_Prediction_Analysis.db"
 
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_file)
+class LatestStatsDataSQLProcessor:
+    def __init__(self):
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.relative_db_path = os.path.normpath(
+            os.path.join(self.script_dir, "../../database/IPL_Prediction_Analysis.db"))
 
-    # Create a cursor
-    cursor = conn.cursor()
+        self.conn = None
+        self.cursor = None
 
-    # Define the table name
-    table_name = 'Stats_Data'
+    def connect(self):
+        self.conn = sqlite3.connect(self.relative_db_path)
+        self.conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+        self.cursor = self.conn.cursor()
 
-    # Check if the table already exists and create it if not
-    cursor.execute(f'''
-        SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'
-    ''')
-    existing_table = cursor.fetchone()
+    def insert_or_update_data(self, data):
+        df = data
 
-    if not existing_table:
-        cursor.execute('''
-            CREATE TABLE Stats_Data (
-                Stats_ID INTEGER PRIMARY KEY,
+        # Define Stats_ID column as INTEGER PRIMARY KEY AUTOINCREMENT
+        self.cursor.execute('''
+            CREATE TABLE IF NOT EXISTS Stats_Data (
+                Stats_ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 Innings TEXT,
                 Venue TEXT,
-                Date TEXT,
+                Start_Date TEXT,
+                End_Date TEXT,
                 Team TEXT,
                 Player1 TEXT,
                 Player2 TEXT,
@@ -39,34 +40,81 @@ def latest_stats_sql():
             )
         ''')
 
-    df = latest_stats()
+        # Iterate through the rows of the DataFrame and insert or update records in the database
+        for index, row in df.iterrows():
+            try:
+                # Check if the record with the given Stats_ID already exists
+                self.cursor.execute('''
+                    SELECT * FROM Stats_Data WHERE
+                        Innings = ? AND
+                        Venue = ? AND
+                        Start_Date = ? AND
+                        End_Date = ? AND
+                        Team = ? AND
+                        Player1 = ? AND
+                        Player2 = ? AND
+                        Player1_Runs = ? AND
+                        Player1_Balls = ? AND
+                        Partnership_Runs = ? AND
+                        Partnership_Balls = ? AND
+                        Player2_Runs = ? AND
+                        Player2_Balls = ?
+                ''', (
+                    row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team'],
+                    row['Player1'], row['Player2'], row['Player1_Runs'], row['Player1_Balls'],
+                    row['Partnership_Runs'], row['Partnership_Balls'], row['Player2_Runs'], row['Player2_Balls']
+                ))
 
-    # Iterate through the rows of the DataFrame and insert or update records in the database
-    for index, row in df.iterrows():
-        # Check if the row already exists in the database
-        cursor.execute('''
-            SELECT * FROM Stats_Data WHERE Stats_ID = ?
-        ''', row['Stats_ID'])
+                result = self.cursor.fetchone()
 
-        existing_row = cursor.fetchone()
+                if result is not None:
+                    # Update the existing record
+                    self.cursor.execute('''
+                        UPDATE Stats_Data
+                        SET
+                            Innings = ?,
+                            Venue = ?,
+                            Start_Date = ?,
+                            End_Date = ?,
+                            Team = ?,
+                            Player1 = ?,
+                            Player2 = ?,
+                            Player1_Runs = ?,
+                            Player1_Balls = ?,
+                            Partnership_Runs = ?,
+                            Partnership_Balls = ?,
+                            Player2_Runs = ?,
+                            Player2_Balls = ?
+                        WHERE
+                            Stats_ID = ?
+                    ''', (row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team'], row['Player1'],
+                          row['Player2'], row['Player1_Runs'], row['Player1_Balls'], row['Partnership_Runs'],
+                          row['Partnership_Balls'], row['Player2_Runs'], row['Player2_Balls']))
 
-        # If the row exists, update it
-        if existing_row:
-            cursor.execute('''
-                UPDATE Stats_Data
-                SET Innings = ?, Venue = ?, Date = ?, Team = ?, Player1 = ?, Player2 = ?, Player1_Runs = ?, Player1_Balls = ?, Partnership_Runs = ?, Partnership_Balls = ?, Player2_Runs = ?, Player2_Balls = ?
-                WHERE Stats_ID = ?
-            ''', (row['Innings'], row['Venue'], row['Date'], row['Team'], row['Player1'], row['Player2'], row['Player1_Runs'], row['Player1_Balls'], row['Partnership_Runs'], row['Partnership_Balls'], row['Player2_Runs'], row['Player2_Balls'], row['Stats_ID']))
-        else:
-            # If the row does not exist, insert it
-            cursor.execute('''
-                INSERT INTO Stats_Data (Stats_ID, Innings, Venue, Date, Team, Player1, Player2, Player1_Runs, Player1_Balls, Partnership_Runs, Partnership_Balls, Player2_Runs, Player2_Balls)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (row['Stats_ID'], row['Innings'], row['Venue'], row['Date'], row['Team'], row['Player1'], row['Player2'], row['Player1_Runs'], row['Player1_Balls'], row['Partnership_Runs'], row['Partnership_Balls'], row['Player2_Runs'], row['Player2_Balls']))
+                else:
+                    # Insert a new record with the next available Stats_ID
+                    self.cursor.execute('''
+                        INSERT INTO Stats_Data
+                            (Innings, Venue, Start_Date, End_Date, Team, Player1, Player2, Player1_Runs, Player1_Balls, Partnership_Runs, Partnership_Balls, Player2_Runs, Player2_Balls)
+                        VALUES
+                            (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ''', (row['Innings'], row['Venue'], row['Start_Date'], row['End_Date'], row['Team'],
+                          row['Player1'],
+                          row['Player2'], row['Player1_Runs'], row['Player1_Balls'], row['Partnership_Runs'],
+                          row['Partnership_Balls'], row['Player2_Runs'], row['Player2_Balls']))
 
-    # Commit the changes to the database
-    conn.commit()
+            except Exception as e:
+                print(f"Error inserting/updating data for stats: {e}")
 
-    # Close the cursor and connection
-    cursor.close()
-    conn.close()
+        # Commit the transaction
+        self.conn.commit()
+
+    def run(self):
+        self.connect()
+        df = latest_stats()
+        self.insert_or_update_data(df)
+        self.close()
+
+    def close(self):
+        if self.conn:
+            self.conn.close()

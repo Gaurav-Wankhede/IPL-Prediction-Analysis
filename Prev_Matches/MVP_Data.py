@@ -21,7 +21,8 @@ def mvp_data():
             print("Error:", e)
             return None
 
-    # Configure Selenium WebDriver
+    # Initialize Selenium WebDriver with headless option
+
     driver = webdriver.Chrome()
 
     # Construct the absolute path to the file
@@ -140,8 +141,12 @@ def mvp_data():
     final_data['Wickets'] = final_data['Wickets'].str.replace('[^0-9]', '')
     final_data['Runs_Conceded'] = final_data['Runs_Conceded'].str.replace('[^0-9]', '')
 
+    # Ensure the directory exists
+    if not os.path.exists('./csv'):
+        os.makedirs('./csv')
+
     # Save the final DataFrame to a CSV file
-    final_data.to_csv("MVP_Data.csv", index=False)
+    final_data.to_csv("./csv/MVP_Data.csv", index=False)
 
     # Quit the WebDriver after processing all links
     driver.quit()

@@ -1,0 +1,897 @@
+Innings,Venue,Start_Date,End_Date,Team,Player1,Player2,Player1_Runs,Player1_Balls,Partnership_Runs,Partnership_Balls,Player2_Runs,Player2_Balls
+1st Match (N),Chennai,22-March-2024,22-March-2024,Stats,R Ravindra,RD Gaikwad,22,9,38,24,15,15
+1st Match (N),Chennai,22-March-2024,22-March-2024,Stats,AM Rahane,R Ravindra,17,12,33,18,15,6
+1st Match (N),Chennai,22-March-2024,22-March-2024,Stats,AM Rahane,DJ Mitchell,10,7,28,20,17,13
+1st Match (N),Chennai,22-March-2024,22-March-2024,Stats,DJ Mitchell,S Dube,5,5,11,13,6,8
+1st Match (N),Chennai,22-March-2024,22-March-2024,Stats,RA Jadeja,S Dube,25,17,66,37,28,20
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,DA Warner,MR Marsh,11,8,39,20,20,12
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,DA Warner,SD Hope,18,13,35,28,17,15
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,SD Hope,RR Pant,16,10,20,16,4,6
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,RK Bhui,RR Pant,3,5,17,12,14,7
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,T Stubbs,RK Bhui,0,2,0,4,0,2
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,AR Patel,T Stubbs,12,8,17,14,5,6
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,AR Patel,Sumit Kumar,9,5,10,9,1,4
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,Sumit Kumar,Abishek Porel,1,5,9,8,6,3
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,Kuldeep Yadav,Abishek Porel,1,2,27,9,26,7
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,S Dhawan,JM Bairstow,22,16,34,19,9,3
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,JM Bairstow,Prabhsimran Singh,0,0,8,4,8,4
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,SM Curran,Prabhsimran Singh,22,20,42,33,18,13
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,SM Curran,JM Sharma,7,4,16,13,9,9
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,LS Livingstone,SM Curran,32,19,67,42,34,23
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,Shashank Singh,LS Livingstone,0,1,0,1,0,0
+2nd Match (D/N),Mullanpur,23-March-2024,23-March-2024,Stats,LS Livingstone,Harpreet Brar,6,2,10,4,2,2
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,SP Narine,PD Salt,2,4,23,12,19,8
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,PD Salt,VR Iyer,2,4,9,9,7,5
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,SS Iyer,PD Salt,0,2,0,2,0,0
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,N Rana,PD Salt,9,11,19,22,9,11
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,PD Salt,Ramandeep Singh,18,12,54,29,35,17
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,PD Salt,RK Singh,6,5,14,10,8,5
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,AD Russell,RK Singh,62,23,81,33,15,10
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,AD Russell,MA Starc,2,2,8,5,6,3
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,MA Agarwal,Abhishek Sharma,32,21,60,33,23,12
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,RA Tripathi,Abhishek Sharma,2,4,11,11,9,7
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,RA Tripathi,AK Markram,17,13,36,26,18,13
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,H Klaasen,RA Tripathi,3,4,4,7,1,3
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,H Klaasen,Abdul Samad,19,13,34,24,15,11
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,H Klaasen,Shahbaz Ahmed,41,11,58,16,16,5
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,H Klaasen,M Jansen,0,1,1,2,1,1
+3rd Match (N),Eden Gardens,23-March-2024,23-March-2024,Stats,PJ Cummins,M Jansen,0,1,0,1,0,0
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,JC Buttler,YBK Jaiswal,11,9,13,12,1,3
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,SV Samson,YBK Jaiswal,13,9,36,18,23,9
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,SV Samson,R Parag,46,30,93,59,43,29
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,SV Samson,SO Hetmyer,3,3,8,10,5,7
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,SV Samson,DC Jurel,20,10,43,22,20,12
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,Q de Kock,KL Rahul,4,5,4,5,0,0
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,KL Rahul,D Padikkal,2,6,6,9,0,3
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,KL Rahul,A Badoni,0,0,1,5,1,5
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,KL Rahul,DJ Hooda,18,13,49,26,26,13
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,KL Rahul,N Pooran,38,25,85,52,46,27
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,MP Stoinis,N Pooran,3,4,9,8,6,4
+4th Match (D/N),Jaipur,24-March-2024,24-March-2024,Stats,KH Pandya,N Pooran,3,5,19,15,12,10
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,WP Saha,Shubman Gill,19,15,31,24,11,9
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,Shubman Gill,B Sai Sudharsan,20,13,33,22,7,9
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,Azmatullah Omarzai,B Sai Sudharsan,17,11,40,26,22,15
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,DA Miller,B Sai Sudharsan,12,11,29,25,16,14
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,V Shankar,B Sai Sudharsan,1,1,1,2,0,1
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,R Tewatia,V Shankar,22,15,27,17,2,2
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,V Shankar,Rashid Khan,3,2,7,5,4,3
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,RG Sharma,Ishan Kishan,0,0,0,4,0,4
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,RG Sharma,Naman Dhir,8,4,30,14,20,10
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,RG Sharma,D Brevis,35,25,77,55,42,30
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,D Brevis,NT Tilak Varma,4,8,22,22,18,14
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,TH David,NT Tilak Varma,11,10,13,13,1,3
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,HH Pandya,NT Tilak Varma,0,0,6,2,6,2
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,G Coetzee,HH Pandya,1,3,2,4,1,1
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,HH Pandya,SZ Mulani,10,3,10,3,0,0
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,PP Chawla,SZ Mulani,0,1,0,1,0,0
+5th Match (N),Ahmedabad,24-March-2024,24-March-2024,Stats,JJ Bumrah,SZ Mulani,1,1,2,2,1,1
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,S Dhawan,JM Bairstow,8,9,17,15,8,6
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,S Dhawan,Prabhsimran Singh,29,21,55,38,25,17
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,S Dhawan,LS Livingstone,8,6,26,19,17,13
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,S Dhawan,SM Curran,0,1,0,1,0,0
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,SM Curran,JM Sharma,23,17,52,34,26,17
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,Shashank Singh,JM Sharma,3,2,4,5,1,3
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,Shashank Singh,Harpreet Brar,18,6,22,8,2,2
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,F du Plessis,V Kohli,3,7,26,16,21,9
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,V Kohli,C Green,12,7,17,12,3,5
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,V Kohli,RM Patidar,17,17,43,35,18,18
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,V Kohli,GJ Maxwell,13,5,17,10,3,5
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,V Kohli,Anuj Rawat,14,11,27,23,11,12
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,KD Karthik,Anuj Rawat,0,0,0,2,0,2
+6th Match (N),Bengaluru,25-March-2024,25-March-2024,Stats,KD Karthik,MK Lomror,28,10,48,18,17,8
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,R Ravindra,RD Gaikwad,46,20,62,32,13,12
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,AM Rahane,RD Gaikwad,12,12,42,29,29,17
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,S Dube,RD Gaikwad,17,7,23,14,4,7
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,DJ Mitchell,S Dube,23,19,57,35,34,16
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,DJ Mitchell,Sameer Rizvi,1,1,15,7,14,6
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,RA Jadeja,DJ Mitchell,7,3,7,3,0,0
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,WP Saha,Shubman Gill,19,12,28,17,8,5
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,WP Saha,B Sai Sudharsan,2,5,6,10,3,5
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,V Shankar,B Sai Sudharsan,12,12,21,18,9,6
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,DA Miller,B Sai Sudharsan,21,16,41,26,16,10
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,Azmatullah Omarzai,B Sai Sudharsan,7,8,18,18,9,10
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,R Tewatia,Azmatullah Omarzai,0,1,4,3,4,2
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,R Tewatia,Rashid Khan,1,4,3,6,1,2
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,UT Yadav,R Tewatia,2,6,8,12,5,6
+7th Match (N),Chennai,26-March-2024,26-March-2024,Stats,UT Yadav,SH Johnson,8,5,14,10,5,5
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,MA Agarwal,TM Head,11,13,45,25,32,12
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,TM Head,Abhishek Sharma,30,12,68,23,32,11
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,AK Markram,Abhishek Sharma,17,7,48,19,31,12
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,H Klaasen,AK Markram,80,34,116,55,25,21
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,RG Sharma,Ishan Kishan,18,7,56,20,34,13
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,RG Sharma,Naman Dhir,8,5,10,7,2,2
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,NT Tilak Varma,Naman Dhir,52,25,84,37,28,12
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,HH Pandya,NT Tilak Varma,19,13,32,22,12,9
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,HH Pandya,TH David,5,7,42,23,35,16
+8th Match (N),Hyderabad,27-March-2024,27-March-2024,Stats,R Shepherd,TH David,15,6,22,12,7,6
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,JC Buttler,YBK Jaiswal,4,4,9,11,5,7
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,JC Buttler,SV Samson,5,7,21,21,15,14
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,JC Buttler,R Parag,2,5,6,12,3,7
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,R Ashwin,R Parag,29,19,54,37,22,18
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,R Parag,DC Jurel,32,11,52,23,20,12
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,SO Hetmyer,R Parag,14,7,43,16,27,9
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,DA Warner,MR Marsh,7,8,30,20,23,12
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,DA Warner,RK Bhui,0,0,0,2,0,2
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,DA Warner,RR Pant,42,26,67,46,24,20
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,T Stubbs,RR Pant,3,5,8,11,4,6
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,T Stubbs,Abishek Porel,7,4,17,14,9,10
+9th Match (N),Jaipur,28-March-2024,28-March-2024,Stats,AR Patel,T Stubbs,15,13,51,27,34,14
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,F du Plessis,V Kohli,8,6,17,12,8,6
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,V Kohli,C Green,32,21,65,42,33,21
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,V Kohli,GJ Maxwell,13,12,42,31,28,19
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,V Kohli,RM Patidar,15,10,20,14,3,4
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,V Kohli,Anuj Rawat,4,3,7,6,3,3
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,KD Karthik,V Kohli,20,8,31,15,11,7
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,SP Narine,PD Salt,47,22,86,39,29,17
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,PD Salt,VR Iyer,1,3,6,8,5,5
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,SS Iyer,VR Iyer,26,19,75,44,45,25
+10th Match (N),Bengaluru,29-March-2024,29-March-2024,Stats,SS Iyer,RK Singh,13,5,19,10,5,5
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,Q de Kock,KL Rahul,19,14,35,23,15,9
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,Q de Kock,D Padikkal,1,2,10,8,9,6
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,MP Stoinis,Q de Kock,19,12,33,21,14,9
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,Q de Kock,N Pooran,20,13,47,27,25,14
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,N Pooran,A Badoni,17,7,21,12,4,5
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,KH Pandya,A Badoni,35,16,43,21,4,5
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,KH Pandya,Ravi Bishnoi,0,0,0,1,0,1
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,KH Pandya,Mohsin Khan,6,4,8,5,2,1
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,KH Pandya,Naveen-ul-Haq,2,2,2,2,0,0
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,S Dhawan,JM Bairstow,60,41,102,70,42,29
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,S Dhawan,Prabhsimran Singh,7,4,26,11,19,7
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,S Dhawan,JM Sharma,3,4,11,13,6,9
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,S Dhawan,LS Livingstone,0,1,2,4,2,3
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,LS Livingstone,SM Curran,0,0,0,1,0,1
+11th Match (N),Lucknow,30-March-2024,30-March-2024,Stats,Shashank Singh,LS Livingstone,9,7,37,21,26,14
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,MA Agarwal,TM Head,16,17,34,26,16,9
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,TM Head,Abhishek Sharma,3,5,24,14,20,9
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,AK Markram,Abhishek Sharma,7,9,16,20,9,11
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,H Klaasen,AK Markram,24,13,34,22,10,9
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,AK Markram,Shahbaz Ahmed,0,1,6,6,6,5
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,Shahbaz Ahmed,Abdul Samad,16,15,45,28,28,13
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,Washington Sundar,Abdul Samad,0,1,0,1,0,0
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,PJ Cummins,Abdul Samad,2,2,3,3,1,1
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,WP Saha,Shubman Gill,25,13,36,25,11,12
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,Shubman Gill,B Sai Sudharsan,25,16,38,30,13,14
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,DA Miller,B Sai Sudharsan,28,20,64,42,32,22
+12th Match (D/N),Ahmedabad,31-March-2024,31-March-2024,Stats,DA Miller,V Shankar,16,7,30,18,14,11
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,DA Warner,PP Shaw,52,35,93,58,35,23
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,RR Pant,PP Shaw,2,3,10,7,8,4
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,MR Marsh,RR Pant,18,12,31,24,12,12
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,T Stubbs,RR Pant,0,2,0,2,0,0
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,AR Patel,RR Pant,5,6,44,23,37,17
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,AR Patel,Abishek Porel,2,2,13,8,9,6
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,R Ravindra,RD Gaikwad,1,4,3,6,1,2
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,AM Rahane,R Ravindra,1,3,4,11,1,8
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,AM Rahane,DJ Mitchell,32,19,68,45,34,26
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,AM Rahane,S Dube,12,8,27,19,13,11
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,S Dube,Sameer Rizvi,0,0,0,1,0,1
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,RA Jadeja,S Dube,11,10,18,16,5,6
+13th Match (N),Visakhapatnam,31-March-2024,31-March-2024,Stats,MS Dhoni,RA Jadeja,37,16,51,23,10,7
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,RG Sharma,Ishan Kishan,0,1,1,5,1,4
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,Ishan Kishan,Naman Dhir,0,0,0,1,0,1
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,Ishan Kishan,D Brevis,11,7,13,8,0,1
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,Ishan Kishan,NT Tilak Varma,4,3,6,7,2,4
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,HH Pandya,NT Tilak Varma,34,21,56,36,22,15
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,PP Chawla,NT Tilak Varma,3,6,7,10,3,4
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,TH David,NT Tilak Varma,6,7,12,13,5,6
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,G Coetzee,TH David,4,9,16,19,10,10
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,JJ Bumrah,TH David,2,5,3,12,1,7
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,JJ Bumrah,A Madhwal,6,4,11,9,4,5
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,JC Buttler,YBK Jaiswal,0,0,10,6,10,6
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,JC Buttler,SV Samson,11,10,32,20,12,10
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,JC Buttler,R Parag,2,6,6,13,3,7
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,R Ashwin,R Parag,16,16,40,35,21,19
+14th Match (N),Wankhede,01-April-2024,01-April-2024,Stats,R Parag,SB Dubey,30,13,39,19,8,6
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,Q de Kock,KL Rahul,32,19,53,33,20,14
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,Q de Kock,D Padikkal,11,9,20,20,6,11
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,MP Stoinis,Q de Kock,24,15,56,30,27,15
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,Q de Kock,N Pooran,11,13,14,17,3,4
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,N Pooran,A Badoni,5,5,5,8,0,3
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,KH Pandya,N Pooran,0,0,33,12,32,12
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,F du Plessis,V Kohli,18,10,40,26,22,16
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,F du Plessis,RM Patidar,1,3,2,5,1,2
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,GJ Maxwell,RM Patidar,0,2,1,3,1,1
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,RM Patidar,C Green,5,3,15,12,9,9
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,RM Patidar,Anuj Rawat,19,10,36,31,11,21
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,RM Patidar,MK Lomror,3,5,9,9,5,4
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,KD Karthik,MK Lomror,4,8,33,15,27,7
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,MK Lomror,MJ Dagar,1,1,1,2,0,1
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,RJW Topley,MK Lomror,1,3,1,4,0,1
+15th Match (N),Bengaluru,02-April-2024,02-April-2024,Stats,RJW Topley,Mohammed Siraj,2,3,15,11,12,8
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,SP Narine,PD Salt,34,15,60,27,18,12
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,SP Narine,A Raghuvanshi,51,24,104,48,49,24
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,AD Russell,A Raghuvanshi,5,2,12,5,5,3
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,AD Russell,SS Iyer,33,13,56,24,18,11
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,AD Russell,RK Singh,3,3,32,11,26,8
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,AD Russell,VR Iyer,0,1,0,1,0,0
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,VR Iyer,Ramandeep Singh,0,0,2,2,2,2
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,MA Starc,VR Iyer,1,1,6,3,5,2
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,DA Warner,PP Shaw,10,4,21,11,10,7
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,DA Warner,MR Marsh,1,4,5,6,0,2
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,DA Warner,Abishek Porel,1,2,1,7,0,5
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,DA Warner,RR Pant,6,3,6,3,0,0
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,T Stubbs,RR Pant,35,22,93,47,55,25
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,AR Patel,T Stubbs,0,1,0,1,0,0
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,T Stubbs,Sumit Kumar,19,10,33,15,7,5
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,Sumit Kumar,Rasikh Salam,0,1,0,2,0,1
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,A Nortje,Rasikh Salam,1,2,2,6,1,4
+16th Match (N),Visakhapatnam,03-April-2024,03-April-2024,Stats,I Sharma,A Nortje,1,3,5,7,3,4
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,WP Saha,Shubman Gill,11,13,29,18,13,5
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,KS Williamson,Shubman Gill,26,22,40,33,13,11
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Shubman Gill,B Sai Sudharsan,20,13,53,32,33,19
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,V Shankar,Shubman Gill,8,10,42,23,34,13
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,R Tewatia,Shubman Gill,23,8,35,14,9,6
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,S Dhawan,JM Bairstow,1,2,13,7,12,5
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,JM Bairstow,Prabhsimran Singh,10,8,35,24,24,16
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,SM Curran,Prabhsimran Singh,3,5,16,13,11,8
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Sikandar Raza,SM Curran,3,5,6,8,2,3
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Sikandar Raza,Shashank Singh,12,11,41,22,26,11
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Shashank Singh,JM Sharma,22,11,39,19,16,8
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Shashank Singh,AR Sharma,9,5,43,22,31,17
+17th Match (N),Ahmedabad,04-April-2024,04-April-2024,Stats,Shashank Singh,Harpreet Brar,4,2,7,4,1,2
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,R Ravindra,RD Gaikwad,12,9,25,19,13,10
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,AM Rahane,RD Gaikwad,16,13,29,24,13,11
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,AM Rahane,S Dube,18,15,65,39,45,24
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,RA Jadeja,AM Rahane,7,6,8,8,1,2
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,RA Jadeja,DJ Mitchell,20,16,33,27,13,11
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,MS Dhoni,RA Jadeja,1,2,5,3,4,1
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,TM Head,Abhishek Sharma,8,5,46,17,37,12
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,TM Head,AK Markram,23,19,60,42,36,23
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,AK Markram,Shahbaz Ahmed,14,13,26,26,10,13
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,H Klaasen,Shahbaz Ahmed,1,4,9,10,8,6
+18th Match (N),Hyderabad,05-April-2024,05-April-2024,Stats,H Klaasen,K Nitish Kumar Reddy,9,7,25,15,14,8
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,F du Plessis,V Kohli,44,33,125,84,72,51
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,V Kohli,GJ Maxwell,1,2,3,5,1,3
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,V Kohli,SD Chauhan,18,9,27,15,9,6
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,V Kohli,C Green,22,10,28,16,5,6
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,JC Buttler,YBK Jaiswal,0,0,0,2,0,2
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,JC Buttler,SV Samson,77,44,148,86,69,42
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,JC Buttler,R Parag,3,2,7,6,4,4
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,JC Buttler,DC Jurel,7,2,9,5,2,3
+19th Match (N),Jaipur,06-April-2024,06-April-2024,Stats,JC Buttler,SO Hetmyer,13,10,25,16,11,6
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,RG Sharma,Ishan Kishan,49,27,80,42,25,15
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,SA Yadav,Ishan Kishan,0,2,1,3,1,1
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,HH Pandya,Ishan Kishan,14,10,30,17,16,7
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,HH Pandya,NT Tilak Varma,4,9,10,14,6,5
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,HH Pandya,TH David,21,14,60,32,34,18
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,R Shepherd,TH David,39,10,53,13,11,3
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,DA Warner,PP Shaw,10,8,22,22,12,14
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,PP Shaw,Abishek Porel,54,26,88,49,33,23
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,T Stubbs,Abishek Porel,26,11,34,19,8,8
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,T Stubbs,RR Pant,7,3,9,6,1,3
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,AR Patel,T Stubbs,8,7,41,17,32,10
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,T Stubbs,Lalit Yadav,6,1,9,5,3,4
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,T Stubbs,K Kushagra,0,0,0,1,0,1
+20th Match (D/N),Wankhede,07-April-2024,07-April-2024,Stats,T Stubbs,JA Richardson,0,0,2,2,2,2
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,Q de Kock,KL Rahul,6,4,6,4,0,0
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,KL Rahul,D Padikkal,1,3,12,10,7,7
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,MP Stoinis,KL Rahul,41,34,73,62,32,28
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,MP Stoinis,N Pooran,17,9,21,13,4,4
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,N Pooran,A Badoni,10,9,31,20,20,11
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,KH Pandya,N Pooran,2,2,20,11,18,9
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,Shubman Gill,B Sai Sudharsan,19,21,54,39,29,18
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,KS Williamson,B Sai Sudharsan,1,5,2,8,1,3
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,BR Sharath,B Sai Sudharsan,1,3,2,5,1,2
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,V Shankar,BR Sharath,2,2,3,4,1,2
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,V Shankar,DG Nalkande,6,9,19,20,12,11
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,R Tewatia,V Shankar,3,7,13,13,9,6
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,R Tewatia,Rashid Khan,0,0,0,3,0,3
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,UT Yadav,R Tewatia,2,4,9,8,5,4
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,R Tewatia,SH Johnson,22,14,24,15,0,1
+21st Match (N),Lucknow,07-April-2024,07-April-2024,Stats,SH Johnson,Noor Ahmad,0,0,4,2,4,2
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SP Narine,PD Salt,0,0,0,1,0,1
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SP Narine,A Raghuvanshi,26,18,56,36,24,18
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SP Narine,SS Iyer,1,2,4,4,2,2
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SS Iyer,VR Iyer,1,1,4,9,3,8
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SS Iyer,Ramandeep Singh,8,9,21,21,13,12
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SS Iyer,RK Singh,16,16,27,30,9,14
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,AD Russell,SS Iyer,10,10,15,11,2,1
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,SS Iyer,AS Roy,5,3,8,5,3,2
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,MA Starc,AS Roy,0,3,0,3,0,0
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,AS Roy,VG Arora,0,1,2,2,1,1
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,R Ravindra,RD Gaikwad,15,8,27,20,10,12
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,DJ Mitchell,RD Gaikwad,25,19,70,55,42,36
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,S Dube,RD Gaikwad,28,18,38,26,10,8
+22nd Match (N),Chennai,08-April-2024,08-April-2024,Stats,MS Dhoni,RD Gaikwad,1,3,6,5,5,2
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,TM Head,Abhishek Sharma,21,15,27,20,6,5
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,AK Markram,Abhishek Sharma,0,2,0,2,0,0
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Abhishek Sharma,K Nitish Kumar Reddy,10,6,12,8,0,2
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,RA Tripathi,K Nitish Kumar Reddy,11,14,25,28,13,14
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,H Klaasen,K Nitish Kumar Reddy,9,9,36,21,27,12
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Abdul Samad,K Nitish Kumar Reddy,25,12,50,20,24,8
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Shahbaz Ahmed,K Nitish Kumar Reddy,1,1,1,2,0,1
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,PJ Cummins,Shahbaz Ahmed,3,4,4,4,0,0
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,B Kumar,Shahbaz Ahmed,6,8,21,14,13,6
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,JD Unadkat,Shahbaz Ahmed,6,1,6,1,0,0
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,S Dhawan,JM Bairstow,1,7,2,10,0,3
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,S Dhawan,Prabhsimran Singh,5,2,9,8,4,6
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,S Dhawan,SM Curran,8,7,9,10,1,3
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Sikandar Raza,SM Curran,10,8,38,27,28,19
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Sikandar Raza,Shashank Singh,18,14,33,24,15,10
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Shashank Singh,JM Sharma,3,3,23,14,19,11
+23rd Match (N),Mullanpur,09-April-2024,09-April-2024,Stats,Shashank Singh,AR Sharma,28,12,66,27,33,15
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,JC Buttler,YBK Jaiswal,8,7,32,26,24,19
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,JC Buttler,SV Samson,0,3,10,8,10,5
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,SV Samson,R Parag,49,30,130,78,76,48
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,SV Samson,SO Hetmyer,9,3,24,8,13,5
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,Shubman Gill,B Sai Sudharsan,28,21,64,50,35,29
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,MS Wade,Shubman Gill,4,6,13,11,8,5
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,A Manohar,Shubman Gill,1,2,2,3,1,1
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,V Shankar,Shubman Gill,16,10,32,20,15,10
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,R Tewatia,Shubman Gill,1,1,22,8,20,7
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,R Tewatia,M Shahrukh Khan,9,5,24,13,14,8
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,R Tewatia,Rashid Khan,12,5,38,15,20,10
+24th Match (N),Jaipur,10-April-2024,10-April-2024,Stats,Rashid Khan,Noor Ahmad,4,1,4,1,0,0
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,F du Plessis,V Kohli,11,6,14,15,3,9
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,F du Plessis,WG Jacks,1,1,9,7,8,6
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,F du Plessis,RM Patidar,29,21,82,47,50,26
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,F du Plessis,GJ Maxwell,1,1,3,5,0,4
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,KD Karthik,F du Plessis,23,15,45,26,19,11
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,KD Karthik,MK Lomror,0,0,0,1,0,1
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,KD Karthik,SD Chauhan,7,2,17,10,9,8
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,KD Karthik,V Vyshak,0,0,0,1,0,1
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,KD Karthik,Akash Deep,23,6,26,8,2,2
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,RG Sharma,Ishan Kishan,29,19,101,53,69,34
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,RG Sharma,SA Yadav,9,5,38,15,29,10
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,SA Yadav,HH Pandya,23,9,37,13,14,4
+25th Match (N),Wankhede,11-April-2024,11-April-2024,Stats,HH Pandya,NT Tilak Varma,7,2,23,12,16,10
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,Q de Kock,KL Rahul,19,13,28,17,9,4
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,KL Rahul,D Padikkal,7,3,13,9,3,6
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,MP Stoinis,KL Rahul,8,10,25,19,16,9
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,KL Rahul,N Pooran,0,0,0,1,0,1
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,KL Rahul,DJ Hooda,7,6,11,11,4,5
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,DJ Hooda,A Badoni,6,8,12,14,5,6
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,KH Pandya,A Badoni,3,4,5,7,2,3
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,A Badoni,Arshad Khan,48,26,73,42,20,16
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,DA Warner,PP Shaw,8,9,24,21,16,12
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,PP Shaw,J Fraser-McGurk,16,10,39,21,17,11
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,RR Pant,J Fraser-McGurk,37,22,77,46,38,24
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,T Stubbs,RR Pant,2,3,6,5,4,2
+26th Match (N),Lucknow,12-April-2024,12-April-2024,Stats,SD Hope,T Stubbs,11,10,24,16,13,6
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,JM Bairstow,A Taide,9,10,27,22,15,12
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,JM Bairstow,Prabhsimran Singh,3,3,14,17,10,14
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,JM Bairstow,SM Curran,3,6,6,9,3,3
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,SM Curran,JM Sharma,3,7,5,9,2,2
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,Shashank Singh,JM Sharma,9,9,18,16,8,7
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,LS Livingstone,JM Sharma,14,9,33,24,19,15
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,LS Livingstone,AR Sharma,7,5,19,11,9,6
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,AR Sharma,Harpreet Brar,22,10,25,13,3,3
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,TK Kotian,YBK Jaiswal,24,31,56,50,29,19
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,SV Samson,YBK Jaiswal,16,11,26,20,10,9
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,SV Samson,R Parag,2,3,7,10,5,7
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,R Parag,DC Jurel,18,11,24,20,6,9
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,SO Hetmyer,DC Jurel,2,2,2,4,0,2
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,SO Hetmyer,R Powell,10,2,21,7,11,5
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,KA Maharaj,SO Hetmyer,1,2,2,3,1,1
+27th Match (N),Mullanpur,13-April-2024,13-April-2024,Stats,TA Boult,SO Hetmyer,0,0,14,5,14,5
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,Q de Kock,KL Rahul,10,8,19,12,7,4
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,KL Rahul,DJ Hooda,11,7,20,17,8,10
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,KL Rahul,A Badoni,21,16,39,34,18,18
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,MP Stoinis,A Badoni,10,5,17,8,7,3
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,N Pooran,A Badoni,10,12,16,18,4,6
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,KH Pandya,N Pooran,7,7,44,27,35,20
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,KH Pandya,Arshad Khan,0,1,6,5,5,4
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,SP Narine,PD Salt,6,6,22,11,6,5
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,PD Salt,A Raghuvanshi,13,4,20,10,7,6
+28th Match (D/N),Eden Gardens,14-April-2024,14-April-2024,Stats,SS Iyer,PD Salt,38,38,120,76,70,38
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,AM Rahane,R Ravindra,5,8,8,10,2,2
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,R Ravindra,RD Gaikwad,19,14,52,37,32,23
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,S Dube,RD Gaikwad,50,28,90,45,37,17
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,DJ Mitchell,S Dube,17,14,36,24,16,10
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,MS Dhoni,S Dube,20,4,20,4,0,0
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,Ishan Kishan,47,28,70,43,23,15
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,SA Yadav,0,0,0,2,0,2
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,NT Tilak Varma,29,18,60,38,31,20
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,HH Pandya,2,4,4,10,2,6
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,TH David,0,1,14,6,13,5
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,RG Sharma,R Shepherd,8,4,9,6,1,2
+29th Match (N),Wankhede,14-April-2024,14-April-2024,Stats,Mohammad Nabi,RG Sharma,4,7,29,15,19,8
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,TM Head,Abhishek Sharma,71,27,108,49,34,22
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,H Klaasen,TM Head,21,12,57,26,31,14
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,H Klaasen,AK Markram,46,19,66,27,16,8
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,AK Markram,Abdul Samad,16,9,56,19,37,10
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,F du Plessis,V Kohli,38,18,80,38,42,20
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,F du Plessis,WG Jacks,13,6,20,10,7,4
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,F du Plessis,RM Patidar,1,1,11,6,9,5
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,F du Plessis,SD Chauhan,10,3,10,3,0,0
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,KD Karthik,SD Chauhan,1,2,1,3,0,1
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,KD Karthik,MK Lomror,34,14,59,25,19,11
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,KD Karthik,Anuj Rawat,48,19,63,28,8,9
+30th Match (N),Bengaluru,15-April-2024,15-April-2024,Stats,V Vyshak,Anuj Rawat,1,2,18,7,17,5
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,SP Narine,PD Salt,7,8,21,21,10,13
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,SP Narine,A Raghuvanshi,49,25,85,43,30,18
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,SP Narine,SS Iyer,15,7,27,14,11,7
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,SP Narine,AD Russell,29,9,51,19,13,10
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,SP Narine,RK Singh,9,7,11,8,1,1
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,RK Singh,VR Iyer,12,5,20,11,8,6
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,RK Singh,Ramandeep Singh,7,3,8,4,1,1
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,YBK Jaiswal,2,2,22,11,19,9
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,SV Samson,11,7,25,15,12,8
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,R Parag,11,8,50,22,34,14
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,DC Jurel,1,1,3,5,2,4
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,R Ashwin,JC Buttler,8,11,21,21,12,10
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,SO Hetmyer,0,0,0,1,0,1
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,R Powell,30,14,57,27,26,13
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,TA Boult,JC Buttler,0,1,8,4,7,3
+31st Match (N),Eden Gardens,16-April-2024,16-April-2024,Stats,JC Buttler,Avesh Khan,33,15,38,15,0,0
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,WP Saha,Shubman Gill,1,5,11,11,8,6
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,WP Saha,B Sai Sudharsan,1,5,17,13,12,8
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,DA Miller,B Sai Sudharsan,0,1,0,2,0,1
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,DA Miller,A Manohar,2,5,2,5,0,0
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,R Tewatia,A Manohar,7,8,17,22,8,14
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,R Tewatia,M Shahrukh Khan,0,0,1,1,0,1
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,R Tewatia,Rashid Khan,3,7,18,16,15,9
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,MM Sharma,Rashid Khan,2,14,12,22,7,8
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,Rashid Khan,Noor Ahmad,9,7,10,13,1,6
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,SH Johnson,Noor Ahmad,1,1,1,2,0,1
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,PP Shaw,J Fraser-McGurk,1,2,25,12,20,10
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,PP Shaw,Abishek Porel,6,4,6,4,0,0
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,SD Hope,Abishek Porel,18,7,34,14,15,7
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,SD Hope,RR Pant,1,3,2,4,1,1
+32nd Match (N),Ahmedabad,17-April-2024,17-April-2024,Stats,RR Pant,Sumit Kumar,15,10,25,19,9,9
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,RG Sharma,Ishan Kishan,10,5,18,13,8,8
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,RG Sharma,SA Yadav,26,20,81,57,54,37
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,SA Yadav,NT Tilak Varma,24,16,49,28,23,12
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,HH Pandya,NT Tilak Varma,10,6,19,10,9,4
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,TH David,NT Tilak Varma,14,7,23,8,1,1
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,R Shepherd,NT Tilak Varma,1,2,2,3,1,1
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,Mohammad Nabi,NT Tilak Varma,0,1,0,1,0,0
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,SM Curran,Prabhsimran Singh,4,2,10,3,0,1
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,RR Rossouw,SM Curran,1,3,3,7,2,4
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,LS Livingstone,SM Curran,1,1,1,2,0,1
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,Harpreet Singh,LS Livingstone,0,0,0,1,0,1
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,Harpreet Singh,Shashank Singh,13,15,35,28,20,13
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,Shashank Singh,JM Sharma,16,6,28,15,9,9
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,Shashank Singh,AR Sharma,5,6,34,17,29,11
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,AR Sharma,Harpreet Brar,32,17,57,32,17,15
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,HV Patel,Harpreet Brar,1,4,6,9,4,5
+33rd Match (N),Mullanpur,18-April-2024,18-April-2024,Stats,HV Patel,K Rabada,0,0,9,3,8,3
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,AM Rahane,R Ravindra,4,6,4,7,0,1
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,AM Rahane,RD Gaikwad,12,6,29,19,17,13
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,RA Jadeja,AM Rahane,15,11,35,23,20,12
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,RA Jadeja,S Dube,15,10,19,18,3,8
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,RA Jadeja,Sameer Rizvi,2,2,3,7,1,5
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,MM Ali,RA Jadeja,30,20,51,33,21,13
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,MS Dhoni,RA Jadeja,28,9,35,13,4,4
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,Q de Kock,KL Rahul,54,43,134,90,73,47
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,KL Rahul,N Pooran,9,6,27,13,17,7
+34th Match (N),Lucknow,19-April-2024,19-April-2024,Stats,MP Stoinis,N Pooran,8,7,19,12,6,5
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,TM Head,Abhishek Sharma,84,26,131,38,46,12
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,TM Head,AK Markram,1,1,2,4,1,3
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,H Klaasen,TM Head,15,7,21,12,4,5
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,H Klaasen,K Nitish Kumar Reddy,0,1,0,1,0,0
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Shahbaz Ahmed,K Nitish Kumar Reddy,29,20,67,47,37,27
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Shahbaz Ahmed,Abdul Samad,15,5,29,13,13,8
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,PJ Cummins,Shahbaz Ahmed,1,1,6,3,5,2
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Washington Sundar,Shahbaz Ahmed,0,0,10,2,10,2
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,DA Warner,PP Shaw,0,0,16,5,16,5
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,DA Warner,J Fraser-McGurk,1,3,9,7,5,4
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,J Fraser-McGurk,Abishek Porel,60,14,84,30,22,16
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,T Stubbs,Abishek Porel,5,4,26,10,20,6
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,T Stubbs,RR Pant,5,7,19,22,14,15
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Lalit Yadav,RR Pant,7,8,12,16,5,8
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,AR Patel,RR Pant,6,8,33,19,25,11
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,A Nortje,RR Pant,0,2,0,2,0,0
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Kuldeep Yadav,RR Pant,0,1,0,1,0,0
+35th Match (N),Delhi,20-April-2024,20-April-2024,Stats,Mukesh Kumar,RR Pant,0,2,0,3,0,1
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,SP Narine,PD Salt,5,12,56,26,48,14
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,SP Narine,A Raghuvanshi,5,3,10,6,3,3
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,VR Iyer,A Raghuvanshi,9,3,9,4,0,1
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,SS Iyer,VR Iyer,15,9,22,14,7,5
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,SS Iyer,RK Singh,14,13,40,29,24,16
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,AD Russell,SS Iyer,11,13,42,27,21,14
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,AD Russell,Ramandeep Singh,16,7,43,16,24,9
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,F du Plessis,V Kohli,7,6,27,13,18,7
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,F du Plessis,WG Jacks,0,1,8,6,8,5
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,RM Patidar,WG Jacks,52,21,102,48,47,27
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,RM Patidar,C Green,0,2,1,3,0,1
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,C Green,SS Prabhudessai,6,3,13,5,6,2
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,MK Lomror,SS Prabhudessai,4,3,4,3,0,0
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,KD Karthik,SS Prabhudessai,13,10,32,26,18,16
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,KD Karthik,KV Sharma,12,8,15,10,2,2
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,KV Sharma,Mohammed Siraj,18,5,18,5,0,0
+36th Match (D/N),Eden Gardens,21-April-2024,21-April-2024,Stats,LH Ferguson,Mohammed Siraj,1,1,1,1,0,0
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,SM Curran,Prabhsimran Singh,15,13,52,34,35,21
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,RR Rossouw,SM Curran,9,7,11,9,2,2
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,SM Curran,JM Sharma,3,4,4,5,1,1
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,LS Livingstone,JM Sharma,6,9,11,15,5,6
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Shashank Singh,JM Sharma,1,3,8,8,7,5
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Shashank Singh,AR Sharma,3,5,6,13,3,8
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Harpreet Singh,Shashank Singh,3,5,7,9,4,4
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Harpreet Singh,Harpreet Brar,9,10,40,22,29,12
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Harpreet Singh,HV Patel,1,1,1,2,0,1
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Harpreet Singh,K Rabada,1,3,2,4,1,1
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,WP Saha,Shubman Gill,13,11,25,22,12,11
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Shubman Gill,B Sai Sudharsan,23,18,41,35,16,17
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,DA Miller,B Sai Sudharsan,4,6,11,14,6,8
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,Azmatullah Omarzai,B Sai Sudharsan,11,8,20,17,9,9
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,R Tewatia,Azmatullah Omarzai,4,2,6,4,2,2
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,R Tewatia,M Shahrukh Khan,27,13,35,17,8,4
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,R Tewatia,Rashid Khan,1,2,4,5,3,3
+37th Match (N),Mullanpur,21-April-2024,21-April-2024,Stats,R Tewatia,R Sai Kishore,4,1,4,1,0,0
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,RG Sharma,Ishan Kishan,6,5,6,5,0,0
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,SA Yadav,Ishan Kishan,0,1,0,4,0,3
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,SA Yadav,NT Tilak Varma,10,7,14,10,3,3
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,Mohammad Nabi,NT Tilak Varma,23,17,32,26,6,9
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,N Wadhera,NT Tilak Varma,49,24,99,52,47,28
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,HH Pandya,NT Tilak Varma,10,10,19,13,8,3
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,TH David,NT Tilak Varma,3,3,6,5,1,2
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,G Coetzee,TH David,0,1,0,1,0,0
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,PP Chawla,TH David,1,1,1,3,0,2
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,PP Chawla,JJ Bumrah,0,0,2,1,2,1
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,JC Buttler,YBK Jaiswal,35,25,74,48,37,23
+38th Match (N),Jaipur,22-April-2024,22-April-2024,Stats,SV Samson,YBK Jaiswal,38,28,109,65,67,37
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,AM Rahane,RD Gaikwad,1,3,4,6,3,3
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,DJ Mitchell,RD Gaikwad,11,10,45,26,34,16
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,RA Jadeja,RD Gaikwad,16,19,52,39,34,20
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,S Dube,RD Gaikwad,66,27,104,47,36,20
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,MS Dhoni,RD Gaikwad,4,1,5,2,1,1
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,Q de Kock,KL Rahul,0,3,0,3,0,0
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,MP Stoinis,KL Rahul,16,11,33,25,16,14
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,MP Stoinis,D Padikkal,38,20,55,39,13,19
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,MP Stoinis,N Pooran,34,19,70,34,34,15
+39th Match (N),Chennai,23-April-2024,23-April-2024,Stats,MP Stoinis,DJ Hooda,36,13,55,19,17,6
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,PP Shaw,J Fraser-McGurk,11,6,35,20,23,14
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,AR Patel,PP Shaw,1,2,1,3,0,1
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,AR Patel,SD Hope,3,5,8,11,5,6
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,AR Patel,RR Pant,62,36,113,68,48,32
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,T Stubbs,RR Pant,26,7,67,18,40,11
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,WP Saha,Shubman Gill,6,4,13,9,6,5
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,WP Saha,B Sai Sudharsan,33,21,82,49,48,28
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,Azmatullah Omarzai,B Sai Sudharsan,1,2,3,3,2,1
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,DA Miller,B Sai Sudharsan,8,5,23,15,15,10
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,DA Miller,M Shahrukh Khan,10,4,18,9,8,5
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,DA Miller,R Tewatia,9,6,13,11,4,5
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,DA Miller,Rashid Khan,28,8,29,9,1,1
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,Rashid Khan,R Sai Kishore,6,4,25,10,13,6
+40th Match (N),Delhi,24-April-2024,24-April-2024,Stats,MM Sharma,Rashid Khan,0,0,14,6,14,6
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,F du Plessis,V Kohli,25,12,48,23,23,11
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,V Kohli,WG Jacks,11,10,17,19,6,9
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,V Kohli,RM Patidar,14,14,65,34,50,20
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,V Kohli,C Green,3,8,10,13,5,5
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,MK Lomror,C Green,7,4,21,10,13,6
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,KD Karthik,C Green,11,6,32,14,18,8
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,Swapnil Singh,C Green,12,6,13,7,1,1
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,TM Head,Abhishek Sharma,1,3,3,6,2,3
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,AK Markram,Abhishek Sharma,3,6,34,16,29,10
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,AK Markram,K Nitish Kumar Reddy,4,2,4,4,0,2
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,H Klaasen,K Nitish Kumar Reddy,7,3,15,5,7,2
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,Shahbaz Ahmed,K Nitish Kumar Reddy,6,5,13,14,6,9
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,Shahbaz Ahmed,Abdul Samad,6,5,16,11,10,6
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,PJ Cummins,Shahbaz Ahmed,31,15,39,24,7,9
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,B Kumar,Shahbaz Ahmed,13,13,17,16,3,3
+41st Match (N),Hyderabad,25-April-2024,25-April-2024,Stats,JD Unadkat,Shahbaz Ahmed,8,10,30,25,18,15
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,SP Narine,PD Salt,71,32,138,63,60,31
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,PD Salt,VR Iyer,15,6,25,13,9,7
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,AD Russell,VR Iyer,24,12,40,18,13,6
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,SS Iyer,VR Iyer,28,10,43,18,15,8
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,RK Singh,VR Iyer,5,4,7,5,2,1
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,VR Iyer,Ramandeep Singh,0,1,8,4,6,3
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,JM Bairstow,Prabhsimran Singh,36,16,93,36,54,20
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,JM Bairstow,RR Rossouw,57,23,85,39,26,16
+42nd Match (N),Eden Gardens,26-April-2024,26-April-2024,Stats,JM Bairstow,Shashank Singh,15,9,84,37,68,28
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,J Fraser-McGurk,Abishek Porel,84,27,114,46,27,19
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,SD Hope,Abishek Porel,4,5,13,13,9,8
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,SD Hope,RR Pant,37,12,53,24,16,12
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,T Stubbs,RR Pant,39,20,55,27,13,7
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,AR Patel,T Stubbs,11,6,22,11,9,5
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,RG Sharma,Ishan Kishan,8,8,35,20,19,12
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,SA Yadav,Ishan Kishan,8,4,10,6,1,2
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,SA Yadav,NT Tilak Varma,18,9,20,11,2,2
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,HH Pandya,NT Tilak Varma,46,24,71,39,22,15
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,N Wadhera,NT Tilak Varma,4,2,4,2,0,0
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,TH David,NT Tilak Varma,37,17,70,29,29,12
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,Mohammad Nabi,NT Tilak Varma,7,4,13,5,6,1
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,PP Chawla,NT Tilak Varma,6,2,11,4,4,2
+43rd Match (D/N),Delhi,27-April-2024,27-April-2024,Stats,PP Chawla,L Wood,4,2,13,5,9,3
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,Q de Kock,KL Rahul,8,3,8,3,0,0
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,MP Stoinis,KL Rahul,0,4,3,9,3,5
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,KL Rahul,DJ Hooda,57,31,115,62,50,31
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,KL Rahul,N Pooran,11,7,24,18,11,11
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,KL Rahul,A Badoni,5,5,23,13,12,8
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,KH Pandya,A Badoni,15,11,23,16,6,5
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,JC Buttler,YBK Jaiswal,34,18,60,35,24,17
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,SV Samson,YBK Jaiswal,0,1,0,2,0,1
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,SV Samson,R Parag,4,4,18,15,14,11
+44th Match (N),Lucknow,27-April-2024,27-April-2024,Stats,SV Samson,DC Jurel,67,28,121,62,52,34
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,WP Saha,Shubman Gill,5,4,6,6,1,2
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,Shubman Gill,B Sai Sudharsan,15,17,39,34,19,17
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,M Shahrukh Khan,B Sai Sudharsan,58,30,86,45,26,15
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,DA Miller,B Sai Sudharsan,26,19,69,36,39,17
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,F du Plessis,V Kohli,24,12,40,23,10,11
+45th Match (D/N),Ahmedabad,28-April-2024,28-April-2024,Stats,V Kohli,WG Jacks,60,33,166,74,100,41
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,AM Rahane,RD Gaikwad,9,12,19,17,8,5
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,DJ Mitchell,RD Gaikwad,52,32,107,64,53,32
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,S Dube,RD Gaikwad,32,18,74,35,37,17
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,MS Dhoni,S Dube,5,2,12,4,7,2
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,TM Head,Abhishek Sharma,13,7,21,11,8,4
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,Anmolpreet Singh,Abhishek Sharma,0,1,0,1,0,0
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,AK Markram,Abhishek Sharma,12,6,19,11,7,5
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,AK Markram,K Nitish Kumar Reddy,16,16,32,31,15,15
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,H Klaasen,AK Markram,7,8,13,12,4,4
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,H Klaasen,Abdul Samad,13,13,32,30,19,17
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,Shahbaz Ahmed,Abdul Samad,2,2,2,3,0,1
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,PJ Cummins,Shahbaz Ahmed,5,7,5,7,0,0
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,B Kumar,Shahbaz Ahmed,3,2,8,5,5,3
+46th Match (N),Chennai,28-April-2024,28-April-2024,Stats,B Kumar,JD Unadkat,1,1,2,3,1,2
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,PP Shaw,J Fraser-McGurk,13,7,17,10,1,3
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,J Fraser-McGurk,Abishek Porel,11,4,13,8,1,4
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,SD Hope,Abishek Porel,6,3,7,4,1,1
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,RR Pant,Abishek Porel,14,9,31,19,16,10
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,AR Patel,RR Pant,12,10,25,21,13,11
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,AR Patel,T Stubbs,2,5,6,12,4,7
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,AR Patel,K Kushagra,1,6,2,8,1,2
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,Kuldeep Yadav,K Kushagra,10,5,10,6,0,1
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,Kuldeep Yadav,Rasikh Salam,14,13,29,23,8,10
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,LB Williams,Kuldeep Yadav,1,2,13,10,11,8
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,SP Narine,PD Salt,15,10,79,38,60,28
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,PD Salt,RK Singh,8,5,17,12,9,7
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,SS Iyer,RK Singh,2,3,4,7,2,4
+47th Match (N),Eden Gardens,29-April-2024,29-April-2024,Stats,SS Iyer,VR Iyer,31,20,57,43,26,23
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,RG Sharma,Ishan Kishan,4,5,7,9,2,4
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,SA Yadav,Ishan Kishan,10,6,11,7,1,1
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,Ishan Kishan,NT Tilak Varma,2,4,9,15,7,11
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,HH Pandya,Ishan Kishan,0,1,0,1,0,0
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,Ishan Kishan,N Wadhera,27,27,53,53,21,26
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,TH David,N Wadhera,6,5,32,20,25,15
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,Mohammad Nabi,TH David,1,2,11,6,10,4
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,G Coetzee,TH David,1,2,21,11,19,9
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,KL Rahul,AA Kulkarni,1,3,1,4,0,1
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,MP Stoinis,KL Rahul,29,21,58,40,27,19
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,MP Stoinis,DJ Hooda,20,17,40,35,18,18
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,MP Stoinis,N Pooran,13,7,16,10,3,3
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,AJ Turner,N Pooran,5,9,8,14,1,5
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,N Pooran,A Badoni,0,0,10,6,6,6
+48th Match (N),Lucknow,30-April-2024,30-April-2024,Stats,KH Pandya,N Pooran,1,1,12,7,10,6
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,AM Rahane,RD Gaikwad,29,24,64,50,30,26
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,S Dube,RD Gaikwad,0,1,1,1,0,0
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,RA Jadeja,RD Gaikwad,2,4,5,8,3,4
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,RD Gaikwad,Sameer Rizvi,11,11,37,34,21,23
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,MM Ali,RD Gaikwad,15,8,38,15,18,7
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,MS Dhoni,MM Ali,2,4,2,5,0,1
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,MS Dhoni,DJ Mitchell,12,7,15,8,1,1
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,JM Bairstow,Prabhsimran Singh,6,9,19,19,13,10
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,JM Bairstow,RR Rossouw,40,21,64,37,23,16
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,RR Rossouw,Shashank Singh,20,7,30,16,9,9
+49th Match (N),Chennai,01-May-2024,01-May-2024,Stats,Shashank Singh,SM Curran,16,17,50,37,26,20
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,TM Head,Abhishek Sharma,13,15,25,25,12,10
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,TM Head,Anmolpreet Singh,4,1,10,6,5,5
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,TM Head,K Nitish Kumar Reddy,41,28,96,57,49,29
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,H Klaasen,K Nitish Kumar Reddy,42,19,70,32,27,13
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,JC Buttler,YBK Jaiswal,0,1,1,2,1,1
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,SV Samson,YBK Jaiswal,0,3,0,3,0,0
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,R Parag,YBK Jaiswal,60,39,134,78,66,39
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,SO Hetmyer,R Parag,6,4,24,14,17,10
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,SO Hetmyer,R Powell,7,5,22,11,11,6
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,R Powell,DC Jurel,0,0,1,3,1,3
+50th Match (N),Hyderabad,02-May-2024,02-May-2024,Stats,R Ashwin,R Powell,2,2,18,11,16,9
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SP Narine,PD Salt,0,1,7,4,5,3
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SP Narine,A Raghuvanshi,1,4,15,10,13,6
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SP Narine,SS Iyer,0,0,6,4,6,4
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SP Narine,VR Iyer,7,3,15,8,8,5
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,RK Singh,VR Iyer,9,8,14,11,5,3
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,MK Pandey,VR Iyer,42,31,83,62,38,31
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,AD Russell,VR Iyer,7,2,13,4,6,2
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,VR Iyer,Ramandeep Singh,0,0,2,4,2,4
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,MA Starc,VR Iyer,0,2,0,2,0,0
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,VR Iyer,VG Arora,13,11,14,11,0,0
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,RG Sharma,Ishan Kishan,2,3,16,10,13,7
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,RG Sharma,Naman Dhir,8,4,22,15,11,11
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,RG Sharma,SA Yadav,1,5,8,10,7,5
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SA Yadav,NT Tilak Varma,11,11,15,17,4,6
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SA Yadav,N Wadhera,2,2,9,13,6,11
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SA Yadav,HH Pandya,0,0,1,3,1,3
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,SA Yadav,TH David,36,17,49,26,10,9
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,G Coetzee,TH David,8,6,24,17,14,11
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,PP Chawla,G Coetzee,0,1,0,1,0,0
+51st Match (N),Wankhede,03-May-2024,03-May-2024,Stats,G Coetzee,JJ Bumrah,0,1,1,2,1,1
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,WP Saha,Shubman Gill,1,7,1,9,0,2
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,Shubman Gill,B Sai Sudharsan,2,5,9,14,5,9
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,M Shahrukh Khan,B Sai Sudharsan,8,5,9,10,1,5
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,DA Miller,M Shahrukh Khan,30,20,61,37,27,17
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,R Tewatia,M Shahrukh Khan,5,4,7,6,2,2
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,R Tewatia,Rashid Khan,26,15,44,29,18,14
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,R Tewatia,V Shankar,4,2,5,3,1,1
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Shankar,MJ Suthar,9,5,11,7,1,2
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Shankar,MM Sharma,0,0,0,1,0,1
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Shankar,Noor Ahmad,0,1,0,1,0,0
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,F du Plessis,V Kohli,64,23,92,35,28,12
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Kohli,WG Jacks,6,3,7,6,1,3
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Kohli,RM Patidar,1,1,4,4,2,3
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Kohli,GJ Maxwell,0,0,4,3,4,3
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,V Kohli,C Green,3,9,4,11,1,2
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,KD Karthik,V Kohli,2,3,6,5,4,2
+52nd Match (N),Bengaluru,04-May-2024,04-May-2024,Stats,KD Karthik,Swapnil Singh,19,9,35,18,15,9
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,AM Rahane,RD Gaikwad,9,7,12,11,2,4
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,DJ Mitchell,RD Gaikwad,27,15,57,32,30,17
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,DJ Mitchell,S Dube,0,0,0,1,0,1
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,MM Ali,DJ Mitchell,3,5,6,9,3,4
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,MM Ali,RA Jadeja,14,15,26,23,11,8
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RA Jadeja,MJ Santner,10,9,21,20,11,11
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RA Jadeja,SN Thakur,10,5,28,16,17,11
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,MS Dhoni,RA Jadeja,0,1,0,1,0,0
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RA Jadeja,TU Deshpande,12,4,14,5,0,1
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RJ Gleeson,TU Deshpande,2,2,3,2,0,0
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,JM Bairstow,Prabhsimran Singh,7,6,9,9,1,3
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RR Rossouw,Prabhsimran Singh,0,3,0,3,0,0
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,Shashank Singh,Prabhsimran Singh,27,20,53,36,25,16
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,SM Curran,Prabhsimran Singh,2,2,6,6,4,4
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,SM Curran,JM Sharma,1,3,1,4,0,1
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,SM Curran,AR Sharma,4,6,8,15,3,9
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,AR Sharma,Harpreet Brar,0,1,1,2,1,1
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,HV Patel,Harpreet Brar,12,13,12,13,0,0
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,RD Chahar,Harpreet Brar,16,10,27,17,11,7
+53rd Match (D/N),Dharamsala,05-May-2024,05-May-2024,Stats,K Rabada,Harpreet Brar,11,10,22,15,5,5
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,SP Narine,PD Salt,28,12,61,26,32,14
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,SP Narine,A Raghuvanshi,53,27,79,46,25,19
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,AD Russell,A Raghuvanshi,12,8,27,14,7,6
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,RK Singh,A Raghuvanshi,4,4,4,5,0,1
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,SS Iyer,RK Singh,15,10,29,17,12,7
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,SS Iyer,Ramandeep Singh,8,5,24,9,15,4
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,VR Iyer,Ramandeep Singh,1,1,11,3,10,2
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,KL Rahul,AA Kulkarni,11,5,20,12,9,7
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,MP Stoinis,KL Rahul,33,17,50,33,14,16
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,MP Stoinis,DJ Hooda,2,2,7,5,5,3
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,MP Stoinis,N Pooran,1,2,8,5,7,3
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,N Pooran,A Badoni,3,5,16,13,12,8
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,AJ Turner,A Badoni,2,3,8,7,3,4
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,KH Pandya,AJ Turner,2,3,16,9,14,6
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,KH Pandya,Yudhvir Singh,3,3,4,4,1,1
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,Ravi Bishnoi,Yudhvir Singh,2,2,8,8,6,6
+54th Match (N),Lucknow,05-May-2024,05-May-2024,Stats,Naveen-ul-Haq,Ravi Bishnoi,0,0,0,1,0,1
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,TM Head,Abhishek Sharma,38,21,56,37,11,16
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,MA Agarwal,TM Head,5,6,12,11,7,5
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,TM Head,K Nitish Kumar Reddy,3,4,22,17,19,13
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,H Klaasen,K Nitish Kumar Reddy,1,2,2,4,1,2
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,H Klaasen,M Jansen,1,2,4,6,3,4
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,M Jansen,Shahbaz Ahmed,13,6,24,18,10,12
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,M Jansen,Abdul Samad,1,2,4,4,2,2
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,PJ Cummins,Abdul Samad,9,5,12,7,1,2
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,PJ Cummins,Sanvir Singh,26,12,37,19,8,7
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,RG Sharma,Ishan Kishan,4,3,26,10,9,7
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,RG Sharma,Naman Dhir,0,2,5,10,0,8
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,SA Yadav,Naman Dhir,0,4,0,5,0,1
+55th Match (N),Wankhede,06-May-2024,06-May-2024,Stats,SA Yadav,NT Tilak Varma,102,47,143,79,37,32
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,J Fraser-McGurk,Abishek Porel,50,20,60,26,10,6
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,SD Hope,Abishek Porel,1,1,8,5,7,4
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,AR Patel,Abishek Porel,15,10,42,25,26,15
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,RR Pant,Abishek Porel,12,9,34,20,22,11
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,T Stubbs,RR Pant,3,3,6,7,3,4
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,Gulbadin Naib,T Stubbs,19,15,45,29,26,14
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,T Stubbs,Rasikh Salam,12,3,20,5,8,2
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,Kuldeep Yadav,Rasikh Salam,5,2,6,3,1,1
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,JC Buttler,YBK Jaiswal,0,0,4,2,4,2
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,JC Buttler,SV Samson,19,17,63,33,41,16
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,SV Samson,R Parag,8,9,36,31,27,22
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,SV Samson,SB Dubey,37,21,59,29,15,8
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,R Powell,SB Dubey,4,2,18,6,10,4
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,D Ferreira,R Powell,1,3,1,3,0,0
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,R Ashwin,R Powell,2,3,4,5,2,2
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,TA Boult,R Powell,2,2,9,8,7,6
+56th Match (N),Delhi,07-May-2024,07-May-2024,Stats,TA Boult,Avesh Khan,0,1,7,4,7,3
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,Q de Kock,KL Rahul,2,5,13,13,11,8
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,MP Stoinis,KL Rahul,3,5,8,13,4,8
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,KL Rahul,KH Pandya,14,17,36,34,22,17
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,KH Pandya,N Pooran,2,4,9,8,7,4
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,N Pooran,A Badoni,41,22,99,52,55,30
+57th Match (N),Hyderabad,08-May-2024,08-May-2024,Stats,TM Head,Abhishek Sharma,89,30,167,58,75,28
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,F du Plessis,V Kohli,9,7,19,14,10,7
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,V Kohli,WG Jacks,12,7,24,14,12,7
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,V Kohli,RM Patidar,20,9,76,32,55,23
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,V Kohli,C Green,50,24,92,46,37,22
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,KD Karthik,C Green,18,7,27,10,8,3
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,MK Lomror,C Green,0,2,2,3,1,1
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,Swapnil Singh,C Green,1,1,1,2,0,1
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,JM Bairstow,Prabhsimran Singh,0,0,6,4,6,4
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,JM Bairstow,RR Rossouw,27,16,65,31,37,15
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,RR Rossouw,Shashank Singh,24,12,36,19,12,7
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,Shashank Singh,JM Sharma,13,7,18,11,5,4
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,Shashank Singh,LS Livingstone,1,1,1,3,0,2
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,Shashank Singh,SM Curran,11,4,25,14,13,10
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,SM Curran,AR Sharma,3,3,13,8,8,5
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,HV Patel,SM Curran,0,0,6,3,6,3
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,HV Patel,RD Chahar,0,1,4,4,4,3
+58th Match (N),Dharamsala,09-May-2024,09-May-2024,Stats,RD Chahar,Arshdeep Singh,1,2,7,5,4,3
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,Shubman Gill,B Sai Sudharsan,103,53,210,104,103,51
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,DA Miller,Shubman Gill,2,2,3,4,1,2
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,DA Miller,M Shahrukh Khan,14,9,18,12,2,3
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,AM Rahane,R Ravindra,1,4,2,6,1,2
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,AM Rahane,RD Gaikwad,0,1,0,1,0,0
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,DJ Mitchell,RD Gaikwad,8,7,8,10,0,3
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,MM Ali,DJ Mitchell,49,30,109,57,55,27
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,MM Ali,S Dube,7,6,16,12,8,6
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,RA Jadeja,S Dube,16,7,30,14,13,7
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,MS Dhoni,RA Jadeja,2,2,4,5,2,3
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,MS Dhoni,MJ Santner,0,0,0,2,0,2
+59th Match (N),Ahmedabad,10-May-2024,10-May-2024,Stats,MS Dhoni,SN Thakur,24,9,27,13,3,4
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,SP Narine,PD Salt,0,0,6,5,6,5
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,SP Narine,VR Iyer,0,1,4,2,4,1
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,SS Iyer,VR Iyer,7,10,30,18,21,8
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,N Rana,VR Iyer,18,12,37,24,17,12
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,AD Russell,N Rana,23,12,39,23,15,11
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,AD Russell,RK Singh,1,2,9,6,8,4
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,RK Singh,Ramandeep Singh,12,8,23,14,10,6
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,MA Starc,Ramandeep Singh,2,2,9,4,7,2
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,RG Sharma,Ishan Kishan,18,20,65,42,40,22
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,RG Sharma,SA Yadav,1,4,2,6,1,2
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,SA Yadav,NT Tilak Varma,10,12,20,18,9,6
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,HH Pandya,NT Tilak Varma,2,4,4,5,1,1
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,TH David,NT Tilak Varma,0,3,1,3,0,0
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,N Wadhera,NT Tilak Varma,3,3,25,11,21,8
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,NT Tilak Varma,Naman Dhir,1,1,19,7,17,6
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,NT Tilak Varma,A Kamboj,0,1,1,2,1,1
+60th Match (N),Eden Gardens,11-May-2024,11-May-2024,Stats,PP Chawla,A Kamboj,1,2,2,3,1,1
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,JC Buttler,YBK Jaiswal,18,17,43,38,24,21
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,JC Buttler,SV Samson,3,8,6,11,2,3
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,SV Samson,R Parag,13,16,42,37,28,21
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,R Parag,DC Jurel,10,11,40,29,28,18
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,R Parag,SB Dubey,0,0,0,1,0,1
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,R Ashwin,R Parag,1,1,10,4,9,3
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,R Ravindra,RD Gaikwad,27,18,32,22,3,4
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,DJ Mitchell,RD Gaikwad,22,13,35,25,12,12
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,MM Ali,RD Gaikwad,10,13,19,24,8,11
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,S Dube,RD Gaikwad,18,11,21,13,2,2
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,RA Jadeja,RD Gaikwad,5,6,14,11,8,5
+61st Match (D/N),Chennai,12-May-2024,12-May-2024,Stats,RD Gaikwad,Sameer Rizvi,9,7,24,15,15,8
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,F du Plessis,V Kohli,6,7,23,14,16,7
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,V Kohli,WG Jacks,11,6,13,8,1,2
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,RM Patidar,WG Jacks,52,32,88,53,33,21
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,WG Jacks,C Green,7,6,13,13,6,7
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,MK Lomror,C Green,13,8,37,18,21,10
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,KD Karthik,C Green,0,2,0,2,0,0
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,Swapnil Singh,C Green,0,1,2,3,1,2
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,KV Sharma,C Green,6,4,9,8,2,4
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,Mohammed Siraj,C Green,0,0,2,1,2,1
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,DA Warner,J Fraser-McGurk,1,2,8,4,7,2
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,J Fraser-McGurk,Abishek Porel,14,6,16,9,2,3
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,SD Hope,J Fraser-McGurk,0,1,0,1,0,0
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,SD Hope,K Kushagra,4,4,6,7,2,3
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,AR Patel,SD Hope,29,18,56,36,25,18
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,AR Patel,T Stubbs,1,5,4,9,3,4
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,AR Patel,Rasikh Salam,27,12,37,24,10,12
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,AR Patel,Kuldeep Yadav,0,4,1,4,0,0
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,Kuldeep Yadav,Mukesh Kumar,3,5,7,12,3,7
+62nd Match (N),Bengaluru,12-May-2024,12-May-2024,Stats,I Sharma,Kuldeep Yadav,0,4,5,9,3,5
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,J Fraser-McGurk,Abishek Porel,0,2,2,2,0,0
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,SD Hope,Abishek Porel,38,27,92,49,50,22
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,RR Pant,Abishek Porel,8,5,17,16,8,11
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,T Stubbs,RR Pant,21,13,47,31,25,18
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,AR Patel,T Stubbs,14,10,50,22,36,12
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,Q de Kock,KL Rahul,2,2,7,5,5,3
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,MP Stoinis,Q de Kock,5,6,17,12,10,6
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,MP Stoinis,DJ Hooda,0,1,0,2,0,1
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,DJ Hooda,N Pooran,0,1,20,6,20,5
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,N Pooran,A Badoni,21,11,27,20,6,9
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,KH Pandya,N Pooran,9,11,30,22,20,11
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,KH Pandya,Arshad Khan,9,7,33,21,23,14
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,Yudhvir Singh,Arshad Khan,14,7,33,14,17,7
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,Ravi Bishnoi,Arshad Khan,2,2,16,9,14,7
+64th Match (N),Delhi,14-May-2024,14-May-2024,Stats,Naveen-ul-Haq,Arshad Khan,2,4,6,9,4,5
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,T Kohler-Cadmore,YBK Jaiswal,0,0,4,4,4,4
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,SV Samson,T Kohler-Cadmore,18,15,36,36,18,21
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,T Kohler-Cadmore,R Parag,0,2,2,4,2,2
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,R Ashwin,R Parag,28,19,50,34,20,15
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,R Parag,DC Jurel,5,2,5,3,0,1
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,R Powell,R Parag,4,5,5,6,1,1
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,D Ferreira,R Parag,7,8,23,18,16,10
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,TA Boult,R Parag,9,7,13,11,4,4
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,TA Boult,Avesh Khan,3,2,6,4,3,2
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,JM Bairstow,Prabhsimran Singh,0,0,6,4,6,4
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,JM Bairstow,RR Rossouw,8,10,30,23,22,13
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,JM Bairstow,Shashank Singh,0,0,0,2,0,2
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,JM Bairstow,SM Curran,6,12,12,19,6,7
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,SM Curran,JM Sharma,40,26,63,46,22,20
+65th Match (N),Guwahati,15-May-2024,15-May-2024,Stats,SM Curran,AR Sharma,17,8,34,19,17,11
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KL Rahul,D Padikkal,1,2,1,3,0,1
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,MP Stoinis,KL Rahul,28,22,48,33,17,11
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KL Rahul,DJ Hooda,9,12,20,21,11,9
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KL Rahul,N Pooran,28,15,109,44,75,29
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KL Rahul,Arshad Khan,0,0,0,1,0,1
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KL Rahul,A Badoni,0,1,0,1,0,0
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,KH Pandya,A Badoni,12,7,36,17,22,10
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,RG Sharma,D Brevis,61,32,88,52,23,20
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,RG Sharma,SA Yadav,1,1,1,4,0,3
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,RG Sharma,Ishan Kishan,6,5,8,9,2,4
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,HH Pandya,Ishan Kishan,16,13,19,16,3,3
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,Ishan Kishan,N Wadhera,2,2,4,5,1,3
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,Ishan Kishan,Naman Dhir,7,6,68,32,56,26
+67th Match (N),Wankhede,17-May-2024,17-May-2024,Stats,R Shepherd,Naman Dhir,1,1,8,3,6,2

@@ -37,9 +37,9 @@ class BattingSQLProcessor:
                         Runs TEXT,
                         Balls TEXT,
                         Dot_Balls TEXT,
-                        Strike_Rate TEXT,
                         Fours TEXT,
-                        Sixes TEXT
+                        Sixes TEXT,
+                        Strike_Rate TEXT
                     )
                 ''')
                 print("Batting table created successfully.")
@@ -66,7 +66,7 @@ class BattingSQLProcessor:
                     if not existing_row:
                         # Row does not exist, insert new data
                         conn.execute('''
-                            INSERT INTO Batting (Innings, Venue, Team, Start_Date, End_Date, Player_name, Dismissal_type, Runs, Balls, Dot_Balls, Strike_Rate, Fours, Sixes)
+                            INSERT INTO Batting (Innings, Venue, Team, Start_Date, End_Date, Player_name, Dismissal_type, Runs, Balls, Dot_Balls, Fours, Sixes, Strike_Rate)
                             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                         ''', row[1:])  # Omitting the first element (Batting_ID) from the tuple
 
@@ -85,3 +85,4 @@ class BattingSQLProcessor:
         finally:
             if conn:
                 conn.close()
+

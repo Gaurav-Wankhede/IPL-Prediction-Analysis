@@ -1,102 +1,101 @@
-def latest_batting_sql():
-    import sqlite3
-    from Latest_Matches.Latest_Batting import latest_batting # Import Batting.py and get access to combine_table
+import os
+import sqlite3
+from Latest_Matches.Latest_Batting import latest_batting
 
-    # Specify the absolute path to the database file
-    db_file = "../../database/IPL_Prediction_Analysis.db"
 
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_file)
+class LatestBattingSQLProcessor:
+    def __init__(self):
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.relative_db_path = os.path.normpath(
+            os.path.join(self.script_dir, "../../database/IPL_Prediction_Analysis.db"))
+        self.conn = None
+        self.cursor = None
 
-    # Create a cursor
-    cursor = conn.cursor()
+    def connect(self):
+        self.conn = sqlite3.connect(self.relative_db_path)
+        self.conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+        self.cursor = self.conn.cursor()
 
-    # Define the table name
-    table_name = 'Batting'  # Change table name to 'Batting'
-
-    # Check if the table already exists and create it if not
-    cursor.execute(f'''
-        SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'
-    ''')
-    existing_table = cursor.fetchone()
-
-    if not existing_table:
-        cursor.execute('''
-            CREATE TABLE Batting (
-                Batting_ID INTEGER PRIMARY KEY,
-                Innings TEXT,
-                Venue TEXT,
-                Team TEXT,
-                Date TEXT,
-                Player_name TEXT,
-                Dismissal_type TEXT,
-                Runs TEXT,
-                Balls TEXT,
-                Dot_Balls TEXT,
-                Strike_Rate TEXT,
-                Fours TEXT,
-                Sixes TEXT
-            )
+    def get_max_id(self):
+        self.cursor.execute('''
+            SELECT MAX(Batting_ID) FROM Batting
         ''')
-        print(f"Table '{table_name}' created successfully.")
+        max_id = self.cursor.fetchone()[0]
+        if max_id is None:
+            max_id = 0
+        return max_id
 
-    # Commit the transaction
-    conn.commit()
+    def insert_or_update_data(self, table_name, data):
+        # Get the current maximum value of the Batting_ID column
+        max_id = self.get_max_id()
 
-    combine_table = latest_batting()
+        # Loop through combine_table and insert/update records
+        global player_name
+        for player_data in data.itertuples(index=False):
+            try:
+                innings = player_data[0]
+                venue = player_data[1]
+                team = player_data[2]
+                start_date = player_data[3]
+                end_date = player_data[4]
+                player_name = player_data[5]
+                dismissal_type = player_data[6]
+                r = player_data[7]
+                b = player_data[8]
+                m = player_data[9]
+                fours= player_data[10]
+                sixes = player_data[11]
+                sr = player_data[12]
 
-    # Loop through combine_table and insert/update records
-    for player_data in combine_table.itertuples():
-        try:
-            innings = player_data[1]  # Accessing the first column
-            venue = player_data[2]  # Accessing the second column
-            team = player_data[3]  # Accessing the third column
-            date = player_data[4]  # Accessing the fourth column
-            player_name = player_data[5]  # Accessing the fifth column
-            dismissal_type = player_data[6]  # Accessing the sixth column
-            r = player_data[7]  # Accessing the seventh column
-            b = player_data[8]  # Accessing the eighth column
-            m = player_data[9] if player_data[9] else "0"  # Accessing the ninth column, handle empty string case
-            sr = player_data[10]  # Accessing the tenth column
-            fours = player_data[11]  # Accessing the eleventh column
-            sixes = player_data[12]  # Accessing the twelfth column
 
-            # Check if the player data already exists in the database
-            cursor.execute('''
-                SELECT * FROM Batting 
-                WHERE Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-            ''', (innings, venue, team, date, player_name))
+                # Check if the player data already exists in the database
+                self.cursor.execute('''SELECT Batting_ID FROM Batting WHERE Innings = ? AND Venue = ? AND Team = ? AND Start_date = ? AND End_date = ? AND Player_name = ?''',
+                                    (innings, venue, team, start_date, end_date, player_name))
 
-            existing_player = cursor.fetchone()
 
-            # If the player data already exists, update it
-            if existing_player:
-                cursor.execute('''
-                    UPDATE Batting
-                    SET Dismissal_type = ?, Runs = ?, Balls = ?, Dot_Balls = ?, Strike_Rate = ?, Fours = ?, Sixes = ?
-                    WHERE Batting_ID = ? AND Innings = ? AND Venue = ? AND Team = ? AND Date = ? AND Player_name = ?
-                ''', (dismissal_type, r, b, m, sr, fours, sixes, existing_player[0], innings, venue, team, date, player_name))
+                existing_player = self.cursor.fetchone()
 
-                # Commit the transaction
-                conn.commit()
+                # If the player data already exists, update it
+                if existing_player:
+                    self.cursor.execute(f'''
+                        UPDATE {table_name}
+                        SET Dismissal_type = ?, Runs = ?, Balls = ?, Dot_Balls = ?, Fours = ?, Sixes = ?, Strike_Rate = ?
+                        WHERE Batting_ID = ?
+                    ''', (dismissal_type, r, b, m, fours, sixes, sr, existing_player[0]))
 
-                # Print a success message
-                print(f"Values updated for player {player_name}.")
-            else:
-                # If the player data does not exist, insert it into the database
-                cursor.execute('''
-                    INSERT INTO Batting (Innings, Venue, Team, Date, Player_name, Dismissal_type, Runs, Balls, Dot_Balls, Strike_Rate, Fours, Sixes)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', (innings, venue, team, date, player_name, dismissal_type, r, b, m, sr, fours, sixes))
+                    # Commit the transaction
+                    self.conn.commit()
 
-                # Commit the transaction
-                conn.commit()
+                    # Print a success message
+                    print(f"Values updated for player {player_name}.")
+                else:
+                    # If the player data does not exist, insert it into the database
+                    # Increment the Batting_ID value
+                    new_id = max_id + 1
 
-                # Print a success message
-                print(f"Values inserted for player {player_name}.")
+                    self.cursor.execute(f'''
+                        INSERT INTO {table_name} (Batting_ID, Innings, Venue, Team, Start_date, End_date, Player_name, Dismissal_type, Runs, Balls, Dot_Balls, Fours, Sixes, Strike_Rate)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ''', (new_id, innings, venue, team, start_date, end_date, player_name, dismissal_type, r, b, m, fours, sixes, sr))
 
-        except Exception as e:
-            print(f"Error inserting data for player: {e}")
+                    # Commit the transaction
+                    self.conn.commit()
 
-    # Close the connection
-    conn.close()
+                    # Update the maximum value of the Batting_ID column
+                    max_id = new_id
+
+                    # Print a success message
+                    print(f"Values inserted for player {player_name} with ID {new_id}.")
+
+            except Exception as e:
+                print(f"Error inserting data for player {player_name}: {e}")
+
+    def run(self):
+        self.connect()
+        combine_table = latest_batting()
+        self.insert_or_update_data('Batting', combine_table)
+        self.close()
+
+    def close(self):
+        if self.conn:
+            self.conn.close()

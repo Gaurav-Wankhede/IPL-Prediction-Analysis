@@ -1,0 +1,1022 @@
+Innings,Venue,Start_Date,End_Date,Team1,Team2,Team1_runs,Team1_wickets,Team2_runs,Team2_wickets,Target,Team1_played_Overs,Team2_played_Overs,Team1_Max_Overs,Team2_Max_Overs,Match_Result
+1st match (N),Bengaluru,18-April-2008,18-April-2008,KKR,RCB,222,3,82,10,223,20,15.1,20,20,KKR won by 140 runs
+2nd match (D/N),Mohali,19-April-2008,19-April-2008,CSK,KXIP,240,5,207,4,241,20,20,20,20,CSK won by 33 runs
+3rd match (N),Delhi,19-April-2008,19-April-2008,RR,DC,129,8,132,1,130,20,15.1,20,20,Daredevils won by 9 wickets (with 29 balls remaining)
+4th match (D/N),Eden Gardens,20-April-2008,20-April-2008,DCH,KKR,110,10,112,5,111,18.4,19,20,20,KKR won by 5 wickets (with 6 balls remaining)
+5th match (N),Wankhede,20-April-2008,20-April-2008,MI,RCB,165,6,166,5,166,20,19.4,20,20,RCB won by 5 wickets (with 2 balls remaining)
+6th match (N),Jaipur,21-April-2008,21-April-2008,KXIP,RR,166,8,168,4,167,20,18.1,20,20,RR won by 6 wickets (with 11 balls remaining)
+7th match (N),Hyderabad,22-April-2008,22-April-2008,DCH,DC,142,8,143,1,143,20,13,20,20,Daredevils won by 9 wickets (with 42 balls remaining)
+8th match (N),Chennai,23-April-2008,23-April-2008,CSK,MI,208,5,202,7,209,20,20,20,20,CSK won by 6 runs
+9th match (N),Hyderabad,24-April-2008,24-April-2008,DCH,RR,214,5,217,7,215,20,19.5,20,20,RR won by 3 wickets (with 1 ball remaining)
+10th match (N),Mohali,25-April-2008,25-April-2008,KXIP,MI,182,10,116,9,183,20,20,20,20,Kings XI won by 66 runs
+11th match (D/N),Chennai,26-April-2008,26-April-2008,KKR,CSK,147,9,152,1,148,20,17,20,20,CSK won by 9 wickets (with 18 balls remaining)
+12th match (N),Bengaluru,26-April-2008,26-April-2008,RCB,RR,135,8,138,3,136,20,17.1,20,20,RR won by 7 wickets (with 17 balls remaining)
+13th match (D/N),Mohali,27-April-2008,27-April-2008,DC,KXIP,158,8,162,6,159,20,19.3,20,20,Kings XI won by 4 wickets (with 3 balls remaining)
+14th match (N),DY Patil,27-April-2008,27-April-2008,MI,DCH,154,7,155,0,155,20,12,20,20,Chargers won by 10 wickets (with 48 balls remaining)
+15th match (N),Bengaluru,28-April-2008,28-April-2008,CSK,RCB,178,5,165,10,179,20,19.4,20,20,CSK won by 13 runs
+16th match (N),Eden Gardens,29-April-2008,29-April-2008,KKR,MI,137,8,138,3,138,20,18.4,20,20,MI won by 7 wickets (with 8 balls remaining)
+17th match (N),Delhi,30-April-2008,30-April-2008,DC,RCB,191,5,181,5,192,20,20,20,20,Daredevils won by 10 runs
+18th match (D/N),Jaipur,01-May-2008,01-May-2008,RR,KKR,196,7,151,10,197,20,19.1,20,20,RR won by 45 runs
+19th match (N),Hyderabad,01-May-2008,01-May-2008,DCH,KXIP,164,8,167,3,165,20,18.5,20,20,Kings XI won by 7 wickets (with 7 balls remaining)
+20th match (N),Chennai,02-May-2008,02-May-2008,CSK,DC,169,6,172,2,170,20,19,20,20,Daredevils won by 8 wickets (with 6 balls remaining)
+21st match (D/N),Bengaluru,03-May-2008,03-May-2008,RCB,DCH,156,8,153,6,157,20,20,20,20,RCB won by 3 runs
+22nd match (N),Mohali,03-May-2008,03-May-2008,KXIP,KKR,178,6,169,6,179,20,20,20,20,Kings XI won by 9 runs
+23rd match (D/N),DY Patil,04-May-2008,04-May-2008,MI,DC,162,8,133,10,163,20,18.5,20,20,MI won by 29 runs
+24th match (N),Jaipur,04-May-2008,04-May-2008,CSK,RR,109,10,110,2,110,19,14.2,20,20,RR won by 8 wickets (with 34 balls remaining)
+25th match (N),Bengaluru,05-May-2008,05-May-2008,RCB,KXIP,126,10,127,4,127,19.2,18.2,20,20,Kings XI won by 6 wickets (with 10 balls remaining)
+26th match (N),Chennai,06-May-2008,06-May-2008,CSK,DCH,144,7,148,3,145,20,18,20,20,Chargers won by 7 wickets (with 12 balls remaining)
+27th match (N),DY Patil,07-May-2008,07-May-2008,RR,MI,103,10,104,3,104,16.2,15.1,20,20,MI won by 7 wickets (with 29 balls remaining)
+28th match (D/N),Delhi,08-May-2008,08-May-2008,DC,CSK,187,5,188,6,188,20,20,20,20,CSK won by 4 wickets (with 0 balls remaining)
+29th match (N),Eden Gardens,08-May-2008,08-May-2008,KKR,RCB,16,10,124,4,17,16,16,16,16,KKR won by 5 runs
+30th match (N),Jaipur,09-May-2008,09-May-2008,DCH,RR,140,8,141,2,141,20,16,20,20,RR won by 8 wickets (with 24 balls remaining)
+31st match (N),Chennai,10-May-2008,10-May-2008,CSK,KXIP,181,4,163,9,182,20,20,20,20,CSK won by 18 runs
+32nd match (D/N),Hyderabad,11-May-2008,11-May-2008,KKR,DCH,204,4,181,7,205,20,20,20,20,KKR won by 23 runs
+33rd match (N),Jaipur,11-May-2008,11-May-2008,DC,RR,156,7,159,7,157,20,19.1,20,20,RR won by 3 wickets (with 5 balls remaining)
+34th match (N),Mohali,12-May-2008,12-May-2008,RCB,KXIP,143,8,144,1,144,20,15.4,20,20,Kings XI won by 9 wickets (with 26 balls remaining)
+35th match (N),Eden Gardens,13-May-2008,13-May-2008,KKR,DC,133,6,110,10,134,20,17.5,20,20,KKR won by 23 runs
+36th match (N),Wankhede,14-May-2008,14-May-2008,CSK,MI,156,6,158,1,157,20,13.5,20,20,MI won by 9 wickets (with 37 balls remaining)
+37th match (N),Delhi,15-May-2008,15-May-2008,DC,DCH,194,4,182,9,195,20,20,20,20,Daredevils won by 12 runs
+38th match (N),Wankhede,16-May-2008,16-May-2008,KKR,MI,67,10,68,2,68,15.2,5.3,20,20,MI won by 8 wickets (with 87 balls remaining)
+39th match (D/N),Jaipur,17-May-2008,17-May-2008,RR,RCB,197,1,132,9,198,20,20,20,20,RR won by 65 runs
+40th match (N),Delhi,17-May-2008,17-May-2008,DC,KXIP,11,10,94,3,12,11,8,11,8,Kings XI won by 6 runs (D/L method)
+41st match (D/N),Eden Gardens,18-May-2008,18-May-2008,KKR,CSK,149,5,55,0,150,20,8,20,8,CSK won by 3 runs (D/L method)
+42nd match (N),Hyderabad,18-May-2008,18-May-2008,MI,DCH,178,7,153,7,179,20,20,20,20,MI won by 25 runs
+43rd match (N),Bengaluru,19-May-2008,19-May-2008,RCB,DC,154,7,158,5,155,20,18.2,20,20,Daredevils won by 5 wickets (with 10 balls remaining)
+44th match (N),Eden Gardens,20-May-2008,20-May-2008,KKR,RR,147,8,150,4,148,20,16.3,20,20,RR won by 6 wickets (with 21 balls remaining)
+45th match (D/N),Wankhede,21-May-2008,21-May-2008,KXIP,MI,189,4,188,10,190,20,20,20,20,Kings XI won by 1 run
+46th match (N),Chennai,21-May-2008,21-May-2008,RCB,CSK,126,8,112,8,127,20,20,20,20,RCB won by 14 runs
+48th match (N),Mohali,23-May-2008,23-May-2008,DCH,KXIP,175,4,178,4,176,20,19.3,20,20,Kings XI won by 6 wickets (with 3 balls remaining)
+49th match (D/N),Chennai,24-May-2008,24-May-2008,RR,CSK,211,5,201,7,212,20,20,20,20,RR won by 10 runs
+50th match (N),Delhi,24-May-2008,24-May-2008,MI,DC,176,8,179,5,177,20,19.5,20,20,Daredevils won by 5 wickets (with 1 ball remaining)
+51st match (D/N),Hyderabad,25-May-2008,25-May-2008,DCH,RCB,165,10,171,5,166,20,19,20,20,RCB won by 5 wickets (with 6 balls remaining)
+52nd match (N),Eden Gardens,25-May-2008,25-May-2008,KXIP,KKR,174,6,175,7,175,20,19.4,20,20,KKR won by 3 wickets (with 2 balls remaining)
+53rd match (N),Jaipur,26-May-2008,26-May-2008,MI,RR,145,7,146,5,146,20,20,20,20,RR won by 5 wickets (with 0 balls remaining)
+54th match (N),Hyderabad,27-May-2008,27-May-2008,DCH,CSK,147,8,148,3,148,20,19.2,20,20,CSK won by 7 wickets (with 4 balls remaining)
+55th match (D/N),Bengaluru,28-May-2008,28-May-2008,RCB,MI,18,10,126,1,19,18,16,18,18,MI won by 9 wickets (with 12 balls remaining)
+56th match (N),Mohali,28-May-2008,28-May-2008,KXIP,RR,221,3,180,7,222,20,20,20,20,Kings XI won by 41 runs
+1st Semi-Final (N),Wankhede,30-May-2008,30-May-2008,RR,DC,192,9,87,10,193,20,16.1,20,20,RR won by 105 runs
+2nd Semi-Final (N),Wankhede,31-May-2008,31-May-2008,KXIP,CSK,112,8,116,1,113,20,14.5,20,20,CSK won by 9 wickets (with 31 balls remaining)
+Final (N),DY Patil,01-June-2008,01-June-2008,CSK,RR,163,5,164,7,164,20,20,20,20,RR won by 3 wickets (with 0 balls remaining)
+1st match,Cape Town,18-April-2009,18-April-2009,MI,CSK,165,7,146,7,166,20,20,20,20,MI won by 19 runs
+2nd match (D/N),Cape Town,18-April-2009,18-April-2009,RCB,RR,133,8,58,10,134,20,15.1,20,20,RCB won by 75 runs
+3rd match,Cape Town,19-April-2009,19-April-2009,KXIP,DC,12,10,58,0,13,12,4.5,12,6,Daredevils won by 10 wickets (with 7 balls remaining) (D/L method)
+4th match (D/N),Cape Town,19-April-2009,19-April-2009,KKR,DCH,101,10,104,2,102,19.4,13.1,20,20,Chargers won by 8 wickets (with 41 balls remaining)
+5th match (D/N),Gqeberha,20-April-2009,20-April-2009,CSK,RCB,179,5,87,10,180,20,15.2,20,20,CSK won by 92 runs
+6th match,Durban,21-April-2009,21-April-2009,KXIP,KKR,158,6,79,1,159,20,9.2,20,2,KKR won by 11 runs (D/L method)
+8th match (D/N),Cape Town,22-April-2009,22-April-2009,DCH,RCB,184,6,160,8,185,20,20,20,20,Chargers won by 24 runs
+9th match,Durban,23-April-2009,23-April-2009,DC,CSK,189,5,180,9,190,20,20,20,20,Daredevils won by 9 runs
+10th match (D/N),Cape Town,23-April-2009,23-April-2009,RR,KKR,150,6,150,8,151,20,20,20,20,Match tied (RR won the one-over eliminator)
+11th match (D/N),Durban,24-April-2009,24-April-2009,RCB,KXIP,168,9,173,3,169,20,19,20,20,Kings XI won by 7 wickets (with 6 balls remaining)
+12th match,Durban,25-April-2009,25-April-2009,DCH,MI,168,9,156,7,169,20,20,20,20,Chargers won by 12 runs
+14th match,Gqeberha,26-April-2009,26-April-2009,RCB,DC,149,7,150,4,150,20,19.2,20,20,Daredevils won by 6 wickets (with 4 balls remaining)
+15th match (D/N),Cape Town,26-April-2009,26-April-2009,KXIP,RR,139,6,112,7,140,20,20,20,20,Kings XI won by 27 runs
+16th match,Durban,27-April-2009,27-April-2009,CSK,DCH,165,6,169,4,166,20,19.3,20,20,Chargers won by 6 wickets (with 3 balls remaining)
+17th match (D/N),Gqeberha,27-April-2009,27-April-2009,MI,KKR,187,6,95,10,188,20,15.2,20,20,MI won by 92 runs
+18th match (D/N),Centurion,28-April-2009,28-April-2009,DC,RR,143,7,147,5,144,20,18.3,20,20,RR won by 5 wickets (with 9 balls remaining)
+19th match,Durban,29-April-2009,29-April-2009,KKR,RCB,139,6,143,5,140,20,19.5,20,20,RCB won by 5 wickets (with 1 ball remaining)
+20th match (D/N),Durban,29-April-2009,29-April-2009,KXIP,MI,119,8,116,7,120,20,20,20,20,Kings XI won by 3 runs
+21st match,Centurion,30-April-2009,30-April-2009,DCH,DC,148,9,150,4,149,20,18.4,20,20,Daredevils won by 6 wickets (with 8 balls remaining)
+22nd match (D/N),Centurion,30-April-2009,30-April-2009,CSK,RR,164,5,126,10,165,20,19.3,20,20,CSK won by 38 runs
+23rd match,East London,01-May-2009,01-May-2009,MI,KKR,148,6,139,6,149,20,20,20,20,MI won by 9 runs
+24th match (D/N),Durban,01-May-2009,01-May-2009,RCB,KXIP,145,9,137,7,146,20,20,20,20,RCB won by 8 runs
+25th match,Gqeberha,02-May-2009,02-May-2009,DCH,RR,141,5,142,7,142,20,19.4,20,20,RR won by 3 wickets (with 2 balls remaining)
+26th match (D/N),Johannesburg,02-May-2009,02-May-2009,CSK,DC,163,10,145,8,164,20,20,20,20,CSK won by 18 runs
+27th match,Gqeberha,03-May-2009,03-May-2009,KKR,KXIP,153,3,154,4,154,20,20,20,20,Kings XI won by 6 wickets (with 0 balls remaining)
+28th match (D/N),Johannesburg,03-May-2009,03-May-2009,MI,RCB,149,4,150,1,150,20,18.1,20,20,RCB won by 9 wickets (with 11 balls remaining)
+29th match (D/N),East London,04-May-2009,04-May-2009,CSK,DCH,178,3,100,10,179,20,14.4,20,20,CSK won by 78 runs
+30th match,Durban,05-May-2009,05-May-2009,RR,KXIP,211,4,133,8,212,20,20,20,20,RR won by 78 runs
+31st match (D/N),Durban,05-May-2009,05-May-2009,KKR,DC,154,3,157,1,155,20,19,20,20,Daredevils won by 9 wickets (with 6 balls remaining)
+32nd match (D/N),Centurion,06-May-2009,06-May-2009,DCH,MI,145,6,126,8,146,20,20,20,20,Chargers won by 19 runs
+33rd match,Centurion,07-May-2009,07-May-2009,RCB,RR,105,10,107,3,106,20,15,20,20,RR won by 7 wickets (with 30 balls remaining)
+34th match (D/N),Centurion,07-May-2009,07-May-2009,CSK,KXIP,18,10,174,3,19,18,18,18,18,CSK won by 12 runs (D/L method)
+35th match (D/N),East London,08-May-2009,08-May-2009,MI,DC,116,10,118,3,117,20,18.5,20,20,Daredevils won by 7 wickets (with 7 balls remaining)
+36th match,Kimberley,09-May-2009,09-May-2009,DCH,KXIP,168,5,169,7,169,20,19.5,20,20,Kings XI won by 3 wickets (with 1 ball remaining)
+37th match (D/N),Kimberley,09-May-2009,09-May-2009,RR,CSK,140,7,141,3,141,20,18.2,20,20,CSK won by 7 wickets (with 10 balls remaining)
+38th match,Gqeberha,10-May-2009,10-May-2009,MI,RCB,157,2,141,7,158,20,20,20,20,MI won by 16 runs
+39th match (D/N),Johannesburg,10-May-2009,10-May-2009,KKR,DC,123,8,125,3,124,20,17.1,20,20,Daredevils won by 7 wickets (with 17 balls remaining)
+40th match (D/N),Kimberley,11-May-2009,11-May-2009,DCH,RR,166,7,113,10,167,20,19.3,20,20,Chargers won by 53 runs
+41st match,Centurion,12-May-2009,12-May-2009,KKR,RCB,173,4,176,4,174,20,19.2,20,20,RCB won by 6 wickets (with 4 balls remaining)
+42nd match (D/N),Centurion,12-May-2009,12-May-2009,KXIP,MI,119,9,122,2,120,20,16.2,20,20,MI won by 8 wickets (with 22 balls remaining)
+43rd match (D/N),Durban,13-May-2009,13-May-2009,DC,DCH,173,7,161,10,174,20,19.4,20,20,Daredevils won by 12 runs
+44th match,Durban,14-May-2009,14-May-2009,CSK,RCB,129,10,132,8,130,19.4,19.4,20,20,RCB won by 2 wickets (with 2 balls remaining)
+45th match (D/N),Durban,14-May-2009,14-May-2009,RR,MI,145,7,143,10,146,20,19.5,20,20,RR won by 2 runs
+46th match (D/N),Bloemfontein,15-May-2009,15-May-2009,DC,KXIP,120,9,123,4,121,20,19.1,20,20,Kings XI won by 6 wickets (with 5 balls remaining)
+47th match,Gqeberha,16-May-2009,16-May-2009,MI,CSK,147,5,151,3,148,20,19.1,20,20,CSK won by 7 wickets (with 5 balls remaining)
+48th match (D/N),Johannesburg,16-May-2009,16-May-2009,KKR,DCH,160,5,166,4,161,20,20,20,20,Chargers won by 6 wickets (with 0 balls remaining)
+49th match,Johannesburg,17-May-2009,17-May-2009,KXIP,DCH,134,7,133,8,135,20,20,20,20,Kings XI won by 1 run
+50th match (D/N),Bloemfontein,17-May-2009,17-May-2009,DC,RR,150,3,136,9,151,20,20,20,20,Daredevils won by 14 runs
+51st match (D/N),Centurion,18-May-2009,18-May-2009,CSK,KKR,188,3,189,3,189,20,20,20,20,KKR won by 7 wickets (with 0 balls remaining)
+52nd match (D/N),Johannesburg,19-May-2009,19-May-2009,DC,RCB,134,7,135,3,135,20,19,20,20,RCB won by 7 wickets (with 6 balls remaining)
+53rd match,Durban,20-May-2009,20-May-2009,RR,KKR,101,9,102,6,102,20,19.3,20,20,KKR won by 4 wickets (with 3 balls remaining)
+54th match (D/N),Durban,20-May-2009,20-May-2009,CSK,KXIP,116,9,92,8,117,20,20,20,20,CSK won by 24 runs
+55th match,Centurion,21-May-2009,21-May-2009,MI,DC,165,8,166,6,166,20,17.3,20,20,Daredevils won by 4 wickets (with 15 balls remaining)
+56th match (D/N),Centurion,21-May-2009,21-May-2009,RCB,DCH,170,4,158,6,171,20,20,20,20,RCB won by 12 runs
+1st Semi-Final (D/N),Centurion,22-May-2009,22-May-2009,DC,DCH,153,8,154,4,154,20,17.4,20,20,Chargers won by 6 wickets (with 14 balls remaining)
+2nd Semi-Final (D/N),Johannesburg,23-May-2009,23-May-2009,CSK,RCB,146,5,149,4,147,20,18.5,20,20,RCB won by 6 wickets (with 7 balls remaining)
+Final (D/N),Johannesburg,24-May-2009,24-May-2009,DCH,RCB,143,6,137,9,144,20,20,20,20,Chargers won by 6 runs
+1st match (N),DY Patil,12-March-2010,12-March-2010,KKR,DCH,161,4,150,7,162,20,20,20,20,KKR won by 11 runs
+2nd match (D/N),Brabourne,13-March-2010,13-March-2010,MI,RR,212,6,208,7,213,20,20,20,20,MI won by 4 runs
+3rd match (N),Mohali,13-March-2010,13-March-2010,KXIP,DC,142,9,146,5,143,20,19.5,20,20,Daredevils won by 5 wickets (with 1 ball remaining)
+4th match (D/N),Eden Gardens,14-March-2010,14-March-2010,RCB,KKR,135,7,136,3,136,20,19.2,20,20,KKR won by 7 wickets (with 4 balls remaining)
+5th match (N),Chennai,14-March-2010,14-March-2010,DCH,CSK,190,4,159,9,191,20,20,20,20,Chargers won by 31 runs
+6th match (N),Ahmedabad,15-March-2010,15-March-2010,RR,DC,141,6,142,4,142,20,17.1,20,20,Daredevils won by 6 wickets (with 17 balls remaining)
+7th match (D/N),Bengaluru,16-March-2010,16-March-2010,KXIP,RCB,203,3,204,2,204,20,18.5,20,20,RCB won by 8 wickets (with 7 balls remaining)
+8th match (N),Eden Gardens,16-March-2010,16-March-2010,CSK,KKR,164,3,109,10,165,20,19.2,20,20,CSK won by 55 runs
+9th match (N),Delhi,17-March-2010,17-March-2010,MI,DC,218,7,120,10,219,20,16.3,20,20,MI won by 98 runs
+10th match (N),Bengaluru,18-March-2010,18-March-2010,RR,RCB,92,10,93,0,93,19.5,10.4,20,20,RCB won by 10 wickets (with 56 balls remaining)
+11th match (D/N),Delhi,19-March-2010,19-March-2010,DC,CSK,185,6,190,5,186,20,19.1,20,20,CSK won by 5 wickets (with 5 balls remaining)
+12th match (N),Cuttack,19-March-2010,19-March-2010,DCH,KXIP,170,7,164,8,171,20,20,20,20,Chargers won by 6 runs
+13th match (D/N),Ahmedabad,20-March-2010,20-March-2010,RR,KKR,168,7,134,5,169,20,20,20,20,RR won by 34 runs
+14th match (N),Brabourne,20-March-2010,20-March-2010,MI,RCB,151,9,155,3,152,20,19.1,20,20,RCB won by 7 wickets (with 5 balls remaining)
+15th match (D/N),Cuttack,21-March-2010,21-March-2010,DCH,DC,171,6,161,9,172,20,20,20,20,Chargers won by 10 runs
+16th match (N),Chennai,21-March-2010,21-March-2010,KXIP,CSK,136,8,136,7,137,20,20,20,20,Match tied (Kings XI won the one-over eliminator)
+17th match (N),Brabourne,22-March-2010,22-March-2010,KKR,MI,155,3,156,3,156,20,18.3,20,20,MI won by 7 wickets (with 9 balls remaining)
+18th match (N),Bengaluru,23-March-2010,23-March-2010,RCB,CSK,171,5,135,7,172,20,20,20,20,RCB won by 36 runs
+19th match (N),Mohali,24-March-2010,24-March-2010,RR,KXIP,183,5,152,10,184,20,19.1,20,20,RR won by 31 runs
+20th match (D/N),Bengaluru,25-March-2010,25-March-2010,DC,RCB,183,4,166,9,184,20,20,20,20,Daredevils won by 17 runs
+21st match (N),Brabourne,25-March-2010,25-March-2010,CSK,MI,180,2,181,5,181,20,19,20,20,MI won by 5 wickets (with 6 balls remaining)
+22nd match (N),Ahmedabad,26-March-2010,26-March-2010,DCH,RR,148,9,151,2,149,20,15.4,20,20,RR won by 8 wickets (with 26 balls remaining)
+23rd match (N),Mohali,27-March-2010,27-March-2010,KKR,KXIP,183,5,144,6,184,20,20,20,20,KKR won by 39 runs
+24th match (D/N),Ahmedabad,28-March-2010,28-March-2010,RR,CSK,177,8,160,6,178,20,20,20,20,RR won by 17 runs
+25th match (N),DY Patil,28-March-2010,28-March-2010,MI,DCH,172,7,131,10,173,20,17.4,20,20,MI won by 41 runs
+26th match (N),Delhi,29-March-2010,29-March-2010,DC,KKR,177,4,137,9,178,20,20,20,20,Daredevils won by 40 runs
+27th match (N),Brabourne,30-March-2010,30-March-2010,KXIP,MI,163,10,164,6,164,20,19.3,20,20,MI won by 4 wickets (with 3 balls remaining)
+28th match (D/N),Chennai,31-March-2010,31-March-2010,RCB,CSK,161,4,162,5,162,20,19,20,20,CSK won by 5 wickets (with 6 balls remaining)
+29th match (N),Delhi,31-March-2010,31-March-2010,DC,RR,188,6,121,10,189,20,17.4,20,20,Daredevils won by 67 runs
+30th match (N),Eden Gardens,01-April-2010,01-April-2010,KKR,DCH,181,6,157,5,182,20,20,20,20,KKR won by 24 runs
+31st match (N),Mohali,02-April-2010,02-April-2010,KXIP,RCB,181,5,184,4,182,20,19.1,20,20,RCB won by 6 wickets (with 5 balls remaining)
+32nd match (D/N),Chennai,03-April-2010,03-April-2010,CSK,RR,246,5,223,5,247,20,20,20,20,CSK won by 23 runs
+33rd match (N),Brabourne,03-April-2010,03-April-2010,MI,DCH,178,5,115,10,179,20,18.2,20,20,MI won by 63 runs
+34th match (D/N),Eden Gardens,04-April-2010,04-April-2010,KKR,KXIP,200,3,204,2,201,20,18.2,20,20,Kings XI won by 8 wickets (with 10 balls remaining)
+35th match (N),Delhi,04-April-2010,04-April-2010,DC,RCB,184,5,147,9,185,20,20,20,20,Daredevils won by 37 runs
+36th match (N),Nagpur,05-April-2010,05-April-2010,RR,DCH,159,10,157,10,160,19.5,19.5,20,20,RR won by 2 runs
+37th match (N),Chennai,06-April-2010,06-April-2010,CSK,MI,165,4,141,9,166,20,20,20,20,CSK won by 24 runs
+38th match (D/N),Jaipur,07-April-2010,07-April-2010,KXIP,RR,153,6,157,1,154,20,15,20,20,RR won by 9 wickets (with 30 balls remaining)
+39th match (N),Eden Gardens,07-April-2010,07-April-2010,KKR,DC,181,3,167,8,182,20,20,20,20,KKR won by 14 runs
+40th match (N),Bengaluru,08-April-2010,08-April-2010,RCB,DCH,184,6,186,3,185,20,19.2,20,20,Chargers won by 7 wickets (with 4 balls remaining)
+41st match (N),Mohali,09-April-2010,09-April-2010,MI,KXIP,154,9,158,4,155,20,19.2,20,20,Kings XI won by 6 wickets (with 4 balls remaining)
+42nd match (D/N),Nagpur,10-April-2010,10-April-2010,CSK,DCH,138,8,139,4,139,20,19.1,20,20,Chargers won by 6 wickets (with 5 balls remaining)
+43rd match (N),Bengaluru,10-April-2010,10-April-2010,KKR,RCB,160,9,162,3,161,20,17.1,20,20,RCB won by 7 wickets (with 17 balls remaining)
+44th match (D/N),Delhi,11-April-2010,11-April-2010,DC,KXIP,111,10,112,3,112,19.4,18.4,20,20,Kings XI won by 7 wickets (with 8 balls remaining)
+45th match (N),Jaipur,11-April-2010,11-April-2010,MI,RR,174,5,137,8,175,20,20,20,20,MI won by 37 runs
+46th match (N),Nagpur,12-April-2010,12-April-2010,DCH,RCB,151,6,138,10,152,20,19.4,20,20,Chargers won by 13 runs
+47th match (D/N),Brabourne,13-April-2010,13-April-2010,MI,DC,183,4,144,7,184,20,20,20,20,MI won by 39 runs
+48th match (N),Chennai,13-April-2010,13-April-2010,KKR,CSK,139,8,143,1,140,20,13.3,20,20,CSK won by 9 wickets (with 39 balls remaining)
+49th match (N),Jaipur,14-April-2010,14-April-2010,RR,RCB,130,6,132,5,131,20,15.4,20,20,RCB won by 5 wickets (with 26 balls remaining)
+50th match (N),Chennai,15-April-2010,15-April-2010,CSK,DC,112,9,113,4,113,20,18.4,20,20,Daredevils won by 6 wickets (with 8 balls remaining)
+51st match (N),Dharamsala,16-April-2010,16-April-2010,KXIP,DCH,174,3,178,5,175,20,19.1,20,20,Chargers won by 5 wickets (with 5 balls remaining)
+52nd match (D/N),Bengaluru,17-April-2010,17-April-2010,MI,RCB,191,4,134,9,192,20,20,20,20,MI won by 57 runs
+53rd match (N),Eden Gardens,17-April-2010,17-April-2010,RR,KKR,132,9,133,2,133,20,16.1,20,20,KKR won by 8 wickets (with 23 balls remaining)
+54th match (D/N),Dharamsala,18-April-2010,18-April-2010,KXIP,CSK,192,3,195,4,193,20,19.4,20,20,CSK won by 6 wickets (with 2 balls remaining)
+55th match (N),Delhi,18-April-2010,18-April-2010,DCH,DC,145,7,134,7,146,20,20,20,20,Chargers won by 11 runs
+56th match (N),Eden Gardens,19-April-2010,19-April-2010,MI,KKR,133,8,135,1,134,20,17.3,20,20,KKR won by 9 wickets (with 15 balls remaining)
+1st Semi-Final (N),DY Patil,21-April-2010,21-April-2010,MI,RCB,184,5,149,9,185,20,20,20,20,MI won by 35 runs
+2nd Semi-Final (N),DY Patil,22-April-2010,22-April-2010,CSK,DCH,142,7,104,10,143,20,19.2,20,20,CSK won by 38 runs
+3rd Place Play-off (N),DY Patil,24-April-2010,24-April-2010,DCH,RCB,82,10,86,1,83,18.3,13.5,20,20,RCB won by 9 wickets (with 37 balls remaining)
+Final (N),DY Patil,25-April-2010,25-April-2010,CSK,MI,168,5,146,9,169,20,20,20,20,CSK won by 22 runs
+1st match (N),Chennai,08-April-2011,08-April-2011,CSK,KKR,153,4,151,7,154,20,20,20,20,CSK won by 2 runs
+2nd match (D/N),Hyderabad,09-April-2011,09-April-2011,DCH,RR,137,8,141,2,138,20,18.5,20,20,RR won by 8 wickets (with 7 balls remaining)
+3rd match (N),Kochi,09-April-2011,09-April-2011,Kochi,RCB,161,5,162,4,162,20,18.4,20,20,RCB won by 6 wickets (with 8 balls remaining)
+4th match (D/N),Delhi,10-April-2011,10-April-2011,DC,MI,95,10,99,2,96,17.4,16.5,20,20,MI won by 8 wickets (with 19 balls remaining)
+5th match (N),DY Patil,10-April-2011,10-April-2011,KXIP,PWI,112,8,113,3,113,20,13.1,20,20,Warriors won by 7 wickets (with 41 balls remaining)
+6th match (N),Eden Gardens,11-April-2011,11-April-2011,KKR,DCH,163,4,154,8,164,20,20,20,20,KKR won by 9 runs
+7th match (D/N),Jaipur,12-April-2011,12-April-2011,DC,RR,151,6,152,4,152,20,18.3,20,20,RR won by 6 wickets (with 9 balls remaining)
+8th match (N),Bengaluru,12-April-2011,12-April-2011,RCB,MI,140,4,143,1,141,20,18.3,20,20,MI won by 9 wickets (with 9 balls remaining)
+9th match (D/N),Mohali,13-April-2011,13-April-2011,CSK,KXIP,188,4,193,4,189,20,19.1,20,20,Kings XI won by 6 wickets (with 5 balls remaining)
+10th match (N),DY Patil,13-April-2011,13-April-2011,Kochi,PWI,148,8,151,6,149,20,18.5,20,20,Warriors won by 4 wickets (with 7 balls remaining)
+11th match (N),Hyderabad,14-April-2011,14-April-2011,DCH,RCB,175,5,142,9,176,20,20,20,20,Chargers won by 33 runs
+12th match (D/N),Jaipur,15-April-2011,15-April-2011,RR,KKR,159,4,160,1,160,20,18.3,20,20,KKR won by 9 wickets (with 9 balls remaining)
+13th match (N),Wankhede,15-April-2011,15-April-2011,MI,Kochi,182,2,184,2,183,20,19,20,20,Kochi won by 8 wickets (with 6 balls remaining)
+14th match (D/N),Chennai,16-April-2011,16-April-2011,CSK,RCB,183,5,162,7,184,20,20,20,20,CSK won by 21 runs
+15th match (N),Hyderabad,16-April-2011,16-April-2011,DCH,KXIP,165,8,166,2,166,20,17.4,20,20,Kings XI won by 8 wickets (with 14 balls remaining)
+16th match (D/N),DY Patil,17-April-2011,17-April-2011,PWI,DC,187,5,190,7,188,20,19.2,20,20,Daredevils won by 3 wickets (with 4 balls remaining)
+17th match (N),Eden Gardens,17-April-2011,17-April-2011,RR,KKR,81,10,85,2,82,15.2,13.5,20,20,KKR won by 8 wickets (with 37 balls remaining)
+18th match (N),Kochi,18-April-2011,18-April-2011,CSK,Kochi,17,10,135,3,18,17,15,17,17,Kochi won by 7 wickets (with 12 balls remaining) (D/L method)
+19th match (D/N),Delhi,19-April-2011,19-April-2011,DCH,DC,168,4,152,7,169,20,20,20,20,Chargers won by 16 runs
+21st match (D/N),Wankhede,20-April-2011,20-April-2011,PWI,MI,118,10,124,3,119,17.2,20,20,20,MI won by 7 wickets (with 0 balls remaining)
+22nd match (N),Eden Gardens,20-April-2011,20-April-2011,Kochi,KKR,132,7,126,9,133,20,20,20,20,Kochi won by 6 runs
+23rd match (N),Mohali,21-April-2011,21-April-2011,KXIP,RR,195,7,147,7,196,20,20,20,20,Kings XI won by 48 runs
+24th match (D/N),Eden Gardens,22-April-2011,22-April-2011,KKR,RCB,171,5,175,1,172,20,18.1,20,20,RCB won by 9 wickets (with 11 balls remaining)
+25th match (N),Wankhede,22-April-2011,22-April-2011,MI,CSK,164,4,156,9,165,20,20,20,20,MI won by 8 runs
+26th match (N),Delhi,23-April-2011,23-April-2011,DC,KXIP,231,4,202,6,232,20,20,20,20,Daredevils won by 29 runs
+27th match (D/N),Hyderabad,24-April-2011,24-April-2011,MI,DCH,172,4,135,8,173,20,20,20,20,MI won by 37 runs
+28th match (N),Jaipur,24-April-2011,24-April-2011,Kochi,RR,109,10,111,2,110,20,14.1,20,20,RR won by 8 wickets (with 35 balls remaining)
+29th match (N),Chennai,25-April-2011,25-April-2011,CSK,PWI,142,6,117,9,143,20,20,20,20,CSK won by 25 runs
+30th match (N),Delhi,26-April-2011,26-April-2011,DC,RCB,160,6,161,7,161,20,19.3,20,20,RCB won by 3 wickets (with 3 balls remaining)
+31st match (D/N),DY Patil,27-April-2011,27-April-2011,PWI,CSK,141,6,145,2,142,20,19.3,20,20,CSK won by 8 wickets (with 3 balls remaining)
+32nd match (N),Kochi,27-April-2011,27-April-2011,DCH,Kochi,129,7,74,10,130,20,16.3,20,20,Chargers won by 55 runs
+33rd match (N),Delhi,28-April-2011,28-April-2011,KKR,DC,148,7,131,9,149,20,20,20,20,KKR won by 17 runs
+34th match (D/N),Jaipur,29-April-2011,29-April-2011,MI,RR,94,8,95,3,95,20,18.1,20,20,RR won by 7 wickets (with 11 balls remaining)
+35th match (N),Bengaluru,29-April-2011,29-April-2011,RCB,PWI,181,5,155,5,182,20,20,20,20,RCB won by 26 runs
+36th match (D/N),Kochi,30-April-2011,30-April-2011,DC,Kochi,157,7,119,10,158,20,18.5,20,20,Daredevils won by 38 runs
+37th match (N),Eden Gardens,30-April-2011,30-April-2011,KXIP,KKR,119,6,120,2,120,20,17.2,20,20,KKR won by 8 wickets (with 16 balls remaining)
+38th match (D/N),Jaipur,01-May-2011,01-May-2011,PWI,RR,143,7,144,4,144,20,19.3,20,20,RR won by 6 wickets (with 3 balls remaining)
+39th match (N),Chennai,01-May-2011,01-May-2011,CSK,DCH,165,5,146,8,166,20,20,20,20,CSK won by 19 runs
+40th match (D/N),Wankhede,02-May-2011,02-May-2011,MI,KXIP,159,5,136,8,160,20,20,20,20,MI won by 23 runs
+41st match (N),Delhi,02-May-2011,02-May-2011,DC,Kochi,140,6,141,3,141,20,15,20,20,Kochi won by 7 wickets (with 30 balls remaining)
+42nd match (N),Hyderabad,03-May-2011,03-May-2011,KKR,DCH,169,4,149,6,170,20,20,20,20,KKR won by 20 runs
+43rd match (D/N),Chennai,04-May-2011,04-May-2011,RR,CSK,147,6,149,2,148,20,18.4,20,20,CSK won by 8 wickets (with 8 balls remaining)
+44th match (N),DY Patil,04-May-2011,04-May-2011,MI,PWI,160,7,139,7,161,20,20,20,20,MI won by 21 runs
+45th match (D/N),Kochi,05-May-2011,05-May-2011,Kochi,KKR,156,5,139,7,157,20,20,20,20,Kochi won by 17 runs
+46th match (N),Hyderabad,05-May-2011,05-May-2011,DCH,DC,175,5,179,6,176,20,19,20,20,Daredevils won by 4 wickets (with 6 balls remaining)
+47th match (N),Bengaluru,06-May-2011,06-May-2011,RCB,KXIP,205,6,120,9,206,20,20,20,20,RCB won by 85 runs
+48th match (D/N),Eden Gardens,07-May-2011,07-May-2011,CSK,KKR,114,4,61,2,115,20,10,20,10,KKR won by 10 runs (D/L method)
+49th match (N),Wankhede,07-May-2011,07-May-2011,MI,DC,178,4,146,10,179,20,19.5,20,20,MI won by 32 runs
+50th match (D/N),Bengaluru,08-May-2011,08-May-2011,Kochi,RCB,125,9,128,1,126,20,13.1,20,20,RCB won by 9 wickets (with 41 balls remaining)
+51st match (N),Mohali,08-May-2011,08-May-2011,KXIP,PWI,119,8,120,5,120,20,17.1,20,20,Warriors won by 5 wickets (with 17 balls remaining)
+52nd match (N),Jaipur,09-May-2011,09-May-2011,CSK,RR,196,3,133,10,197,20,19.3,20,20,CSK won by 63 runs
+53rd match (D/N),Hyderabad,10-May-2011,10-May-2011,DCH,PWI,136,8,137,4,137,20,18.2,20,20,Warriors won by 6 wickets (with 10 balls remaining)
+54th match (N),Mohali,10-May-2011,10-May-2011,KXIP,MI,163,8,87,10,164,20,12.5,20,20,Kings XI won by 76 runs
+55th match (N),Jaipur,11-May-2011,11-May-2011,RR,RCB,146,6,151,1,147,20,17,20,20,RCB won by 9 wickets (with 18 balls remaining)
+56th match (N),Chennai,12-May-2011,12-May-2011,CSK,DC,176,4,158,6,177,20,20,20,20,CSK won by 18 runs
+57th match (N),Indore,13-May-2011,13-May-2011,Kochi,KXIP,178,7,181,4,179,20,18.5,20,20,Kings XI won by 6 wickets (with 7 balls remaining)
+58th match (D/N),Bengaluru,14-May-2011,14-May-2011,KKR,RCB,13,10,105,6,14,13,12.3,13,13,RCB won by 4 wickets (with 3 balls remaining) (D/L method)
+59th match (N),Wankhede,14-May-2011,14-May-2011,DCH,MI,135,6,125,8,136,20,20,20,20,Chargers won by 10 runs
+60th match (D/N),Dharamsala,15-May-2011,15-May-2011,KXIP,DC,170,6,141,8,171,20,20,20,20,Kings XI won by 29 runs
+61st match (N),Indore,15-May-2011,15-May-2011,RR,Kochi,97,10,98,2,98,18.3,7.2,20,20,Kochi won by 8 wickets (with 76 balls remaining)
+62nd match (N),DY Patil,16-May-2011,16-May-2011,PWI,DCH,136,9,138,4,137,20,19.2,20,20,Chargers won by 6 wickets (with 4 balls remaining)
+63rd match (N),Dharamsala,17-May-2011,17-May-2011,KXIP,RCB,232,2,121,10,233,20,17,20,20,Kings XI won by 111 runs
+64th match (N),Chennai,18-May-2011,18-May-2011,CSK,Kochi,152,5,141,5,153,20,20,20,20,CSK won by 11 runs
+65th match (N),DY Patil,19-May-2011,19-May-2011,PWI,KKR,118,7,119,3,119,20,16.4,20,20,KKR won by 7 wickets (with 20 balls remaining)
+66th match (N),Wankhede,20-May-2011,20-May-2011,MI,RR,133,5,134,0,134,20,13.1,20,20,RR won by 10 wickets (with 41 balls remaining)
+67th match (D/N),Dharamsala,21-May-2011,21-May-2011,DCH,KXIP,198,2,116,10,199,20,19,20,20,Chargers won by 82 runs
+69th match (D/N),Bengaluru,22-May-2011,22-May-2011,CSK,RCB,128,8,129,2,129,20,18,20,20,RCB won by 8 wickets (with 12 balls remaining)
+70th match (N),Eden Gardens,22-May-2011,22-May-2011,KKR,MI,175,7,178,5,176,20,20,20,20,MI won by 5 wickets (with 0 balls remaining)
+1st Qualifying Final (N),Wankhede,24-May-2011,24-May-2011,RCB,CSK,175,4,177,4,176,20,19.4,20,20,CSK won by 6 wickets (with 2 balls remaining)
+Elimination Final (N),Wankhede,25-May-2011,25-May-2011,KKR,MI,147,7,148,6,148,20,19.2,20,20,MI won by 4 wickets (with 4 balls remaining)
+2nd Qualifying Final (N),Chennai,27-May-2011,27-May-2011,RCB,MI,185,4,142,8,186,20,20,20,20,RCB won by 43 runs
+Final (N),Chennai,28-May-2011,28-May-2011,CSK,RCB,205,5,147,8,206,20,20,20,20,CSK won by 58 runs
+1st match (N),Chennai,04-April-2012,04-April-2012,CSK,MI,112,10,115,2,113,19.5,16.5,20,20,MI won by 8 wickets (with 19 balls remaining)
+2nd match (N),Eden Gardens,05-April-2012,05-April-2012,KKR,DC,12,10,100,2,13,12,11.1,12,12,Daredevils won by 8 wickets (with 5 balls remaining)
+3rd match (D/N),Wankhede,06-April-2012,06-April-2012,PWI,MI,129,9,101,9,130,20,20,20,20,Warriors won by 28 runs
+4th match (N),Jaipur,06-April-2012,06-April-2012,RR,KXIP,191,4,160,9,192,20,20,20,20,RR won by 31 runs
+5th match (D/N),Bengaluru,07-April-2012,07-April-2012,RCB,DC,157,8,137,7,158,20,20,20,20,RCB won by 20 runs
+6th match (N),Visakhapatnam,07-April-2012,07-April-2012,CSK,DCH,193,6,119,10,194,20,17.1,20,20,CSK won by 74 runs
+7th match (D/N),Jaipur,08-April-2012,08-April-2012,RR,KKR,164,5,142,10,165,20,20,20,20,RR won by 22 runs
+8th match (N),Pune,08-April-2012,08-April-2012,PWI,KXIP,166,6,144,8,167,20,20,20,20,Warriors won by 22 runs
+9th match (N),Visakhapatnam,09-April-2012,09-April-2012,DCH,MI,138,9,142,5,139,20,20,20,20,MI won by 5 wickets (with 0 balls remaining)
+10th match (D/N),Bengaluru,10-April-2012,10-April-2012,KKR,RCB,165,8,123,9,166,20,20,20,20,KKR won by 42 runs
+11th match (N),Delhi,10-April-2012,10-April-2012,CSK,DC,110,8,111,2,111,20,13.2,20,20,Daredevils won by 8 wickets (with 40 balls remaining)
+12th match (N),Wankhede,11-April-2012,11-April-2012,MI,RR,197,6,170,10,198,20,19.4,20,20,MI won by 27 runs
+13th match (D/N),Chennai,12-April-2012,12-April-2012,RCB,CSK,205,8,208,5,206,20,20,20,20,CSK won by 5 wickets (with 0 balls remaining)
+14th match (N),Mohali,12-April-2012,12-April-2012,PWI,KXIP,115,10,116,3,116,19,17.4,20,20,Kings XI won by 7 wickets (with 14 balls remaining)
+15th match (N),Eden Gardens,13-April-2012,13-April-2012,RR,KKR,131,5,137,5,132,20,19.2,20,20,KKR won by 5 wickets (with 4 balls remaining)
+16th match (N),Pune,14-April-2012,14-April-2012,CSK,PWI,155,5,156,3,156,20,19.2,20,20,Warriors won by 7 wickets (with 4 balls remaining)
+17th match (D/N),Eden Gardens,15-April-2012,15-April-2012,KXIP,KKR,134,9,132,7,135,20,20,20,20,Kings XI won by 2 runs
+18th match (N),Bengaluru,15-April-2012,15-April-2012,RR,RCB,195,2,136,10,196,20,19.5,20,20,RR won by 59 runs
+19th match (N),Wankhede,16-April-2012,16-April-2012,MI,DC,92,10,93,3,93,19.2,14.5,20,20,Daredevils won by 7 wickets (with 31 balls remaining)
+20th match (D/N),Jaipur,17-April-2012,17-April-2012,DCH,RR,196,2,197,5,197,20,19.4,20,20,RR won by 5 wickets (with 2 balls remaining)
+21st match (N),Bengaluru,17-April-2012,17-April-2012,PWI,RCB,182,6,186,4,183,20,20,20,20,RCB won by 6 wickets (with 0 balls remaining)
+22nd match (N),Mohali,18-April-2012,18-April-2012,KXIP,KKR,124,7,127,2,125,20,16.3,20,20,KKR won by 8 wickets (with 21 balls remaining)
+23rd match (D/N),Delhi,19-April-2012,19-April-2012,DCH,DC,157,8,162,5,158,20,19.1,20,20,Daredevils won by 5 wickets (with 5 balls remaining)
+24th match (N),Chennai,19-April-2012,19-April-2012,CSK,PWI,164,5,151,7,165,20,20,20,20,CSK won by 13 runs
+25th match (N),Mohali,20-April-2012,20-April-2012,KXIP,RCB,163,6,166,5,164,20,19.3,20,20,RCB won by 5 wickets (with 3 balls remaining)
+26th match (D/N),Chennai,21-April-2012,21-April-2012,RR,CSK,146,4,147,3,147,20,20,20,20,CSK won by 7 wickets (with 0 balls remaining)
+27th match (N),Delhi,21-April-2012,21-April-2012,PWI,DC,192,3,172,7,193,20,20,20,20,Warriors won by 20 runs
+28th match (D/N),Wankhede,22-April-2012,22-April-2012,MI,KXIP,163,6,164,4,164,20,19.3,20,20,Kings XI won by 6 wickets (with 3 balls remaining)
+29th match (N),Cuttack,22-April-2012,22-April-2012,DCH,KKR,126,7,127,5,127,20,19,20,20,KKR won by 5 wickets (with 6 balls remaining)
+30th match (N),Jaipur,23-April-2012,23-April-2012,RCB,RR,189,3,143,7,190,20,20,20,20,RCB won by 46 runs
+31st match (D/N),Pune,24-April-2012,24-April-2012,PWI,DC,146,2,148,2,147,20,16,20,20,Daredevils won by 8 wickets (with 24 balls remaining)
+33rd match (D/N),Mohali,25-April-2012,25-April-2012,KXIP,MI,168,3,171,6,169,20,19.5,20,20,MI won by 4 wickets (with 1 ball remaining)
+35th match (N),Pune,26-April-2012,26-April-2012,DCH,PWI,177,4,159,7,178,20,20,20,20,Chargers won by 18 runs
+36th match (N),Delhi,27-April-2012,27-April-2012,DC,MI,207,5,170,9,208,20,20,20,20,Daredevils won by 37 runs
+37th match (D/N),Chennai,28-April-2012,28-April-2012,KXIP,CSK,156,8,149,8,157,20,20,20,20,Kings XI won by 7 runs
+38th match (N),Eden Gardens,28-April-2012,28-April-2012,KKR,RCB,190,4,143,6,191,20,20,20,20,KKR won by 47 runs
+39th match (D/N),Delhi,29-April-2012,29-April-2012,DC,RR,152,6,151,3,153,20,20,20,20,Daredevils won by 1 run
+40th match (N),Wankhede,29-April-2012,29-April-2012,DCH,MI,100,10,101,5,101,18.4,18.1,20,20,MI won by 5 wickets (with 11 balls remaining)
+41st match (N),Chennai,30-April-2012,30-April-2012,CSK,KKR,139,5,140,5,140,20,19.4,20,20,KKR won by 5 wickets (with 2 balls remaining)
+42nd match (D/N),Cuttack,01-May-2012,01-May-2012,DCH,PWI,186,4,173,5,187,20,20,20,20,Chargers won by 13 runs
+43rd match (N),Jaipur,01-May-2012,01-May-2012,RR,DC,141,6,144,4,142,20,15.2,20,20,Daredevils won by 6 wickets (with 28 balls remaining)
+44th match (N),Bengaluru,02-May-2012,02-May-2012,RCB,KXIP,158,5,163,6,159,20,19.5,20,20,Kings XI won by 4 wickets (with 1 ball remaining)
+45th match (N),Pune,03-May-2012,03-May-2012,MI,PWI,120,9,119,6,121,20,20,20,20,MI won by 1 run
+46th match (N),Chennai,04-May-2012,04-May-2012,CSK,DCH,160,6,150,5,161,20,20,20,20,CSK won by 10 runs
+47th match (D/N),Eden Gardens,05-May-2012,05-May-2012,KKR,PWI,150,5,143,8,151,20,20,20,20,KKR won by 7 runs
+48th match (N),Mohali,05-May-2012,05-May-2012,RR,KXIP,177,6,134,8,178,20,20,20,20,RR won by 43 runs
+49th match (D/N),Wankhede,06-May-2012,06-May-2012,CSK,MI,173,8,174,8,174,20,20,20,20,MI won by 2 wickets (with 0 balls remaining)
+50th match (N),Bengaluru,06-May-2012,06-May-2012,DCH,RCB,181,2,185,5,182,20,18.5,20,20,RCB won by 5 wickets (with 7 balls remaining)
+51st match (N),Delhi,07-May-2012,07-May-2012,DC,KKR,153,9,154,4,154,20,18.4,20,20,KKR won by 6 wickets (with 8 balls remaining)
+52nd match (D/N),Pune,08-May-2012,08-May-2012,PWI,RR,125,6,126,3,126,20,16.2,20,20,RR won by 7 wickets (with 22 balls remaining)
+53rd match (N),Hyderabad,08-May-2012,08-May-2012,KXIP,DCH,170,5,145,8,171,20,20,20,20,Kings XI won by 25 runs
+54th match (N),Wankhede,09-May-2012,09-May-2012,MI,RCB,141,6,142,1,142,20,18,20,20,RCB won by 9 wickets (with 12 balls remaining)
+55th match (D/N),Hyderabad,10-May-2012,10-May-2012,DCH,DC,187,4,193,1,188,20,16.4,20,20,Daredevils won by 9 wickets (with 20 balls remaining)
+56th match (N),Jaipur,10-May-2012,10-May-2012,RR,CSK,126,6,127,6,127,20,18.1,20,20,CSK won by 4 wickets (with 11 balls remaining)
+57th match (N),Pune,11-May-2012,11-May-2012,RCB,PWI,173,3,138,9,174,20,20,20,20,RCB won by 35 runs
+58th match (D/N),Eden Gardens,12-May-2012,12-May-2012,MI,KKR,182,1,155,4,183,20,20,20,20,MI won by 27 runs
+59th match (N),Chennai,12-May-2012,12-May-2012,DC,CSK,114,5,115,1,115,20,15.2,20,20,CSK won by 9 wickets (with 28 balls remaining)
+60th match (D/N),Jaipur,13-May-2012,13-May-2012,RR,PWI,170,4,125,9,171,20,20,20,20,RR won by 45 runs
+61st match (N),Mohali,13-May-2012,13-May-2012,DCH,KXIP,190,4,194,6,191,20,20,20,20,Kings XI won by 4 wickets (with 0 balls remaining)
+62nd match (D/N),Bengaluru,14-May-2012,14-May-2012,RCB,MI,171,6,173,5,172,20,19.4,20,20,MI won by 5 wickets (with 2 balls remaining)
+63rd match (N),Eden Gardens,14-May-2012,14-May-2012,KKR,CSK,158,6,160,5,159,20,20,20,20,CSK won by 5 wickets (with 0 balls remaining)
+64th match (N),Delhi,15-May-2012,15-May-2012,KXIP,DC,136,8,140,5,137,20,19,20,20,Daredevils won by 5 wickets (with 6 balls remaining)
+65th match (N),Wankhede,16-May-2012,16-May-2012,KKR,MI,140,7,108,10,141,20,19.1,20,20,KKR won by 32 runs
+66th match (D/N),Dharamsala,17-May-2012,17-May-2012,CSK,KXIP,120,7,123,4,121,20,16.3,20,20,Kings XI won by 6 wickets (with 21 balls remaining)
+67th match (N),Delhi,17-May-2012,17-May-2012,RCB,DC,215,1,194,9,216,20,20,20,20,RCB won by 21 runs
+68th match (N),Hyderabad,18-May-2012,18-May-2012,RR,DCH,126,8,128,5,127,20,18.4,20,20,Chargers won by 5 wickets (with 8 balls remaining)
+69th match (D/N),Dharamsala,19-May-2012,19-May-2012,KXIP,DC,141,8,145,4,142,20,18.2,20,20,Daredevils won by 6 wickets (with 10 balls remaining)
+70th match (N),Pune,19-May-2012,19-May-2012,KKR,PWI,136,4,102,8,137,20,20,20,20,KKR won by 34 runs
+71st match (D/N),Hyderabad,20-May-2012,20-May-2012,DCH,RCB,132,7,123,9,133,20,20,20,20,Chargers won by 9 runs
+72nd match (N),Jaipur,20-May-2012,20-May-2012,RR,MI,162,6,163,0,163,20,18,20,20,MI won by 10 wickets (with 12 balls remaining)
+1st Qualifying Match (N),Pune,22-May-2012,22-May-2012,KKR,DC,162,4,144,8,163,20,20,20,20,KKR won by 18 runs
+Elimination Final (N),Bengaluru,23-May-2012,23-May-2012,CSK,MI,187,5,149,9,188,20,20,20,20,CSK won by 38 runs
+2nd Qualifying Match (N),Chennai,25-May-2012,25-May-2012,CSK,DC,222,5,136,10,223,20,16.5,20,20,CSK won by 86 runs
+Final (N),Chennai,27-May-2012,27-May-2012,CSK,KKR,190,3,192,5,191,20,19.4,20,20,KKR won by 5 wickets (with 2 balls remaining)
+1st match (N),Eden Gardens,03-April-2013,03-April-2013,DC,KKR,128,10,129,4,129,20,18.4,20,20,KKR won by 6 wickets (with 8 balls remaining)
+2nd match (N),Bengaluru,04-April-2013,04-April-2013,RCB,MI,156,5,154,5,157,20,20,20,20,RCB won by 2 runs
+3rd match (N),Hyderabad,05-April-2013,05-April-2013,SRH,PWI,126,6,104,10,127,20,18.5,20,20,SRH won by 22 runs
+4th match (D/N),Delhi,06-April-2013,06-April-2013,RR,DC,165,7,160,6,166,20,20,20,20,RR won by 5 runs
+5th match (N),Chennai,06-April-2013,06-April-2013,MI,CSK,148,6,139,9,149,20,20,20,20,MI won by 9 runs
+6th match (D/N),Pune,07-April-2013,07-April-2013,PWI,KXIP,99,9,100,2,100,20,12.2,20,20,Kings XI won by 8 wickets (with 46 balls remaining)
+7th match (N),Hyderabad,07-April-2013,07-April-2013,RCB,SRH,130,8,130,7,131,20,20,20,20,Match tied (SRH won the one-over eliminator)
+8th match (N),Jaipur,08-April-2013,08-April-2013,RR,KKR,144,6,125,10,145,20,19,20,20,RR won by 19 runs
+9th match (D/N),Bengaluru,09-April-2013,09-April-2013,SRH,RCB,161,6,162,3,162,20,17.4,20,20,RCB won by 7 wickets (with 14 balls remaining)
+10th match (N),Wankhede,09-April-2013,09-April-2013,MI,DC,209,5,165,9,210,20,20,20,20,MI won by 44 runs
+11th match (N),Mohali,10-April-2013,10-April-2013,KXIP,CSK,138,10,139,0,139,19.5,17.2,20,20,CSK won by 10 wickets (with 16 balls remaining)
+12th match (D/N),Bengaluru,11-April-2013,11-April-2013,KKR,RCB,154,8,158,2,155,20,17.3,20,20,RCB won by 8 wickets (with 15 balls remaining)
+13th match (N),Pune,11-April-2013,11-April-2013,RR,PWI,145,5,148,3,146,20,18.4,20,20,Warriors won by 7 wickets (with 8 balls remaining)
+14th match (N),Delhi,12-April-2013,12-April-2013,DC,SRH,114,8,115,7,115,20,19.2,20,20,SRH won by 3 wickets (with 4 balls remaining)
+15th match (D/N),Wankhede,13-April-2013,13-April-2013,MI,PWI,183,3,142,8,184,20,20,20,20,MI won by 41 runs
+16th match (N),Chennai,13-April-2013,13-April-2013,RCB,CSK,165,6,166,6,166,20,19.5,20,20,CSK won by 4 wickets (with 1 ball remaining)
+17th match (D/N),Eden Gardens,14-April-2013,14-April-2013,KKR,SRH,180,4,132,7,181,20,20,20,20,KKR won by 48 runs
+18th match (N),Jaipur,14-April-2013,14-April-2013,KXIP,RR,124,10,126,4,125,18.5,19.2,20,20,RR won by 6 wickets (with 4 balls remaining)
+19th match (N),Chennai,15-April-2013,15-April-2013,PWI,CSK,159,5,135,8,160,20,20,20,20,Warriors won by 24 runs
+20th match (D/N),Mohali,16-April-2013,16-April-2013,KXIP,KKR,157,9,153,9,158,20,20,20,20,Kings XI won by 4 runs
+21st match (N),Bengaluru,16-April-2013,16-April-2013,DC,RCB,152,5,152,7,153,20,20,20,20,Match tied (RCB won the one-over eliminator)
+22nd match (D/N),Pune,17-April-2013,17-April-2013,SRH,PWI,119,8,108,10,120,20,19,20,20,SRH won by 11 runs
+23rd match (N),Jaipur,17-April-2013,17-April-2013,RR,MI,179,3,92,10,180,20,18.2,20,20,RR won by 87 runs
+24th match (N),Delhi,18-April-2013,18-April-2013,CSK,DC,169,4,83,10,170,20,17.3,20,20,CSK won by 86 runs
+25th match (N),Hyderabad,19-April-2013,19-April-2013,KXIP,SRH,123,9,127,5,124,20,18.5,20,20,SRH won by 5 wickets (with 7 balls remaining)
+26th match (D/N),Eden Gardens,20-April-2013,20-April-2013,KKR,CSK,119,9,124,6,120,20,19.1,20,20,CSK won by 4 wickets (with 5 balls remaining)
+27th match (N),Bengaluru,20-April-2013,20-April-2013,RR,RCB,117,10,123,3,118,19.4,17.5,20,20,RCB won by 7 wickets (with 13 balls remaining)
+28th match (D/N),Delhi,21-April-2013,21-April-2013,MI,DC,161,4,165,1,162,20,17,20,20,Daredevils won by 9 wickets (with 18 balls remaining)
+29th match (N),Mohali,21-April-2013,21-April-2013,PWI,KXIP,185,4,186,3,186,20,19.5,20,20,Kings XI won by 7 wickets (with 1 ball remaining)
+30th match (N),Chennai,22-April-2013,22-April-2013,RR,CSK,185,4,186,5,186,20,19.5,20,20,CSK won by 5 wickets (with 1 ball remaining)
+31st match (D/N),Bengaluru,23-April-2013,23-April-2013,RCB,PWI,263,5,133,9,264,20,20,20,20,RCB won by 130 runs
+32nd match (N),Delhi,23-April-2013,23-April-2013,DC,KXIP,120,7,121,5,121,20,17,20,20,Kings XI won by 5 wickets (with 18 balls remaining)
+33rd match (N),Eden Gardens,24-April-2013,24-April-2013,KKR,MI,159,6,162,5,160,20,19.5,20,20,MI won by 5 wickets (with 1 ball remaining)
+34th match (N),Chennai,25-April-2013,25-April-2013,SRH,CSK,159,6,160,5,160,20,19.4,20,20,CSK won by 5 wickets (with 2 balls remaining)
+35th match (N),Eden Gardens,26-April-2013,26-April-2013,KXIP,KKR,149,6,150,4,150,20,18.2,20,20,KKR won by 6 wickets (with 10 balls remaining)
+36th match (D/N),Jaipur,27-April-2013,27-April-2013,SRH,RR,144,9,146,2,145,20,17.5,20,20,RR won by 8 wickets (with 13 balls remaining)
+37th match (N),Wankhede,27-April-2013,27-April-2013,MI,RCB,194,7,136,7,195,20,20,20,20,MI won by 58 runs
+38th match (D/N),Chennai,28-April-2013,28-April-2013,CSK,KKR,200,3,186,4,201,20,20,20,20,CSK won by 14 runs
+39th match (N),Raipur,28-April-2013,28-April-2013,DC,PWI,164,5,149,4,165,20,20,20,20,Daredevils won by 15 runs
+40th match (D/N),Jaipur,29-April-2013,29-April-2013,RCB,RR,171,6,173,6,172,20,19.5,20,20,RR won by 4 wickets (with 1 ball remaining)
+41st match (N),Wankhede,29-April-2013,29-April-2013,MI,KXIP,174,3,170,10,175,20,20,20,20,MI won by 4 runs
+42nd match (N),Pune,30-April-2013,30-April-2013,CSK,PWI,164,3,127,9,165,20,20,20,20,CSK won by 37 runs
+43rd match (D/N),Hyderabad,01-May-2013,01-May-2013,MI,SRH,129,4,130,3,130,20,18,20,20,SRH won by 7 wickets (with 12 balls remaining)
+44th match (N),Raipur,01-May-2013,01-May-2013,KKR,DC,136,7,137,3,137,20,17.5,20,20,Daredevils won by 7 wickets (with 13 balls remaining)
+45th match (D/N),Chennai,02-May-2013,02-May-2013,CSK,KXIP,186,4,171,6,187,20,20,20,20,CSK won by 15 runs
+46th match (N),Pune,02-May-2013,02-May-2013,RCB,PWI,187,3,170,9,188,20,20,20,20,RCB won by 17 runs
+47th match (N),Eden Gardens,03-May-2013,03-May-2013,RR,KKR,132,6,133,2,133,20,17.2,20,20,KKR won by 8 wickets (with 16 balls remaining)
+48th match (N),Hyderabad,04-May-2013,04-May-2013,DC,SRH,80,10,81,4,81,19.1,13.5,20,20,SRH won by 6 wickets (with 37 balls remaining)
+49th match (D/N),Wankhede,05-May-2013,05-May-2013,MI,CSK,139,5,79,10,140,20,15.2,20,20,MI won by 60 runs
+50th match (N),Jaipur,05-May-2013,05-May-2013,PWI,RR,178,4,182,5,179,20,19.5,20,20,RR won by 5 wickets (with 1 ball remaining)
+51st match (N),Mohali,06-May-2013,06-May-2013,RCB,KXIP,190,3,194,4,191,20,18,20,20,Kings XI won by 6 wickets (with 12 balls remaining)
+52nd match (D/N),Jaipur,07-May-2013,07-May-2013,DC,RR,154,4,155,1,155,20,17.5,20,20,RR won by 9 wickets (with 13 balls remaining)
+53rd match (N),Wankhede,07-May-2013,07-May-2013,MI,KKR,170,6,105,10,171,20,18.2,20,20,MI won by 65 runs
+54th match (N),Hyderabad,08-May-2013,08-May-2013,CSK,SRH,223,3,146,8,224,20,20,20,20,CSK won by 77 runs
+55th match (D/N),Mohali,09-May-2013,09-May-2013,KXIP,RR,145,6,147,2,146,20,19,20,20,RR won by 8 wickets (with 6 balls remaining)
+56th match (N),Pune,09-May-2013,09-May-2013,KKR,PWI,152,6,106,10,153,20,19.3,20,20,KKR won by 46 runs
+57th match (N),Delhi,10-May-2013,10-May-2013,RCB,DC,183,4,179,7,184,20,20,20,20,RCB won by 4 runs
+58th match (D/N),Pune,11-May-2013,11-May-2013,PWI,MI,112,8,116,5,113,20,18.5,20,20,MI won by 5 wickets (with 7 balls remaining)
+59th match (N),Mohali,11-May-2013,11-May-2013,SRH,KXIP,150,7,120,9,151,20,20,20,20,SRH won by 30 runs
+60th match (D/N),Ranchi,12-May-2013,12-May-2013,RCB,KKR,115,9,116,5,116,20,19.2,20,20,KKR won by 5 wickets (with 4 balls remaining)
+61st match (N),Jaipur,12-May-2013,12-May-2013,CSK,RR,141,4,144,5,142,20,17.1,20,20,RR won by 5 wickets (with 17 balls remaining)
+62nd match (N),Wankhede,13-May-2013,13-May-2013,SRH,MI,178,3,184,3,179,20,19.3,20,20,MI won by 7 wickets (with 3 balls remaining)
+63rd match (D/N),Bengaluru,14-May-2013,14-May-2013,RCB,KXIP,174,5,176,3,175,20,18.1,20,20,Kings XI won by 7 wickets (with 11 balls remaining)
+64th match (N),Chennai,14-May-2013,14-May-2013,CSK,DC,168,4,135,9,169,20,20,20,20,CSK won by 33 runs
+65th match (D/N),Ranchi,15-May-2013,15-May-2013,PWI,KKR,170,4,163,7,171,20,20,20,20,Warriors won by 7 runs
+66th match (N),Wankhede,15-May-2013,15-May-2013,MI,RR,166,8,152,7,167,20,20,20,20,MI won by 14 runs
+67th match (N),Dharamsala,16-May-2013,16-May-2013,KXIP,DC,171,4,164,7,172,20,20,20,20,Kings XI won by 7 runs
+68th match (N),Hyderabad,17-May-2013,17-May-2013,SRH,RR,136,9,113,9,137,20,20,20,20,SRH won by 23 runs
+69th match (D/N),Dharamsala,18-May-2013,18-May-2013,KXIP,MI,183,8,133,10,184,20,19.1,20,20,Kings XI won by 50 runs
+70th match (N),Bengaluru,18-May-2013,18-May-2013,RCB,CSK,8,10,82,6,9,8,8,8,8,RCB won by 24 runs
+71st match (D/N),Pune,19-May-2013,19-May-2013,PWI,DC,172,5,134,9,173,20,20,20,20,Warriors won by 38 runs
+72nd match (N),Hyderabad,19-May-2013,19-May-2013,KKR,SRH,130,7,132,5,131,20,18.5,20,20,SRH won by 5 wickets (with 7 balls remaining)
+Qualifier 1 (N),Delhi,21-May-2013,21-May-2013,CSK,MI,192,1,144,10,193,20,18.4,20,20,CSK won by 48 runs
+Eliminator (N),Delhi,22-May-2013,22-May-2013,SRH,RR,132,7,135,6,133,20,19.2,20,20,RR won by 4 wickets (with 4 balls remaining)
+Qualifier 2 (N),Eden Gardens,24-May-2013,24-May-2013,RR,MI,165,6,169,6,166,20,19.5,20,20,MI won by 4 wickets (with 1 ball remaining)
+Final (N),Eden Gardens,26-May-2013,26-May-2013,MI,CSK,148,9,125,9,149,20,20,20,20,MI won by 23 runs
+1st match (N),Abu Dhabi,16-April-2014,16-April-2014,KKR,MI,163,5,122,7,164,20,20,20,20,KKR won by 41 runs
+2nd match (N),Sharjah,17-April-2014,17-April-2014,DC,RCB,145,4,146,2,146,20,16.4,20,20,RCB won by 8 wickets (with 20 balls remaining)
+3rd match,Abu Dhabi,18-April-2014,18-April-2014,CSK,KXIP,205,4,206,4,206,20,18.5,20,20,Kings XI won by 6 wickets (with 7 balls remaining)
+4th match (N),Abu Dhabi,18-April-2014,18-April-2014,SRH,RR,133,6,135,6,134,20,19.3,20,20,RR won by 4 wickets (with 3 balls remaining)
+5th match,Dubai (DICS),19-April-2014,19-April-2014,MI,RCB,115,9,116,3,116,20,17.3,20,20,RCB won by 7 wickets (with 15 balls remaining)
+6th match (N),Dubai (DICS),19-April-2014,19-April-2014,KKR,DC,166,5,167,6,167,20,19.3,20,20,Daredevils won by 4 wickets (with 3 balls remaining)
+7th match (N),Sharjah,20-April-2014,20-April-2014,RR,KXIP,191,5,193,3,192,20,18.4,20,20,Kings XI won by 7 wickets (with 8 balls remaining)
+8th match (N),Abu Dhabi,21-April-2014,21-April-2014,CSK,DC,177,7,84,10,178,20,15.4,20,20,CSK won by 93 runs
+9th match (N),Sharjah,22-April-2014,22-April-2014,KXIP,SRH,193,6,121,10,194,20,19.2,20,20,Kings XI won by 72 runs
+10th match (N),Dubai (DICS),23-April-2014,23-April-2014,CSK,RR,140,6,133,10,141,20,19.5,20,20,CSK won by 7 runs
+11th match (N),Sharjah,24-April-2014,24-April-2014,KKR,RCB,150,7,148,5,151,20,20,20,20,KKR won by 2 runs
+12th match,Dubai (DICS),25-April-2014,25-April-2014,SRH,DC,184,1,180,4,185,20,20,20,20,SRH won by 4 runs
+13th match (N),Dubai (DICS),25-April-2014,25-April-2014,MI,CSK,141,7,142,3,142,20,19,20,20,CSK won by 7 wickets (with 6 balls remaining)
+14th match,Abu Dhabi,26-April-2014,26-April-2014,RCB,RR,70,10,71,4,71,15,13,20,20,RR won by 6 wickets (with 42 balls remaining)
+15th match (N),Abu Dhabi,26-April-2014,26-April-2014,KXIP,KKR,132,9,109,10,133,20,18.2,20,20,Kings XI won by 23 runs
+16th match,Sharjah,27-April-2014,27-April-2014,MI,DC,125,6,126,4,126,20,18.5,20,20,Daredevils won by 6 wickets (with 7 balls remaining)
+17th match (N),Sharjah,27-April-2014,27-April-2014,SRH,CSK,145,5,146,5,146,20,19.3,20,20,CSK won by 5 wickets (with 3 balls remaining)
+18th match (N),Dubai (DICS),28-April-2014,28-April-2014,RCB,KXIP,124,8,127,5,125,20,18.5,20,20,Kings XI won by 5 wickets (with 7 balls remaining)
+19th match (N),Abu Dhabi,29-April-2014,29-April-2014,RR,KKR,152,5,152,8,153,20,20,20,20,Match tied (RR won the one-over eliminator)
+20th match (N),Dubai (DICS),30-April-2014,30-April-2014,SRH,MI,172,5,157,7,173,20,20,20,20,SRH won by 15 runs
+21st match (N),Ranchi,02-May-2014,02-May-2014,CSK,KKR,17,10,114,9,18,17,17,17,17,CSK won by 34 runs
+22nd match (D/N),Wankhede,03-May-2014,03-May-2014,KXIP,MI,168,5,170,5,169,20,19.1,20,20,MI won by 5 wickets (with 5 balls remaining)
+23rd match (N),Delhi,03-May-2014,03-May-2014,DC,RR,152,5,156,3,153,20,18.3,20,20,RR won by 7 wickets (with 9 balls remaining)
+24th match (N),Bengaluru,04-May-2014,04-May-2014,SRH,RCB,155,6,158,6,156,20,19.5,20,20,RCB won by 4 wickets (with 1 ball remaining)
+25th match (D/N),Ahmedabad,05-May-2014,05-May-2014,RR,KKR,170,6,160,6,171,20,20,20,20,RR won by 10 runs
+26th match (N),Delhi,05-May-2014,05-May-2014,DC,CSK,178,5,181,2,179,20,19.4,20,20,CSK won by 8 wickets (with 2 balls remaining)
+27th match (N),Wankhede,06-May-2014,06-May-2014,MI,RCB,187,5,168,8,188,20,20,20,20,MI won by 19 runs
+28th match (D/N),Delhi,07-May-2014,07-May-2014,DC,KKR,160,5,161,2,161,20,18.2,20,20,KKR won by 8 wickets (with 10 balls remaining)
+29th match (N),Cuttack,07-May-2014,07-May-2014,KXIP,CSK,231,4,187,6,232,20,20,20,20,Kings XI won by 44 runs
+30th match (N),Ahmedabad,08-May-2014,08-May-2014,SRH,RR,134,9,102,10,135,20,19.5,20,20,SRH won by 32 runs
+31st match (N),Bengaluru,09-May-2014,09-May-2014,KXIP,RCB,198,8,166,9,199,20,20,20,20,Kings XI won by 32 runs
+32nd match (D/N),Delhi,10-May-2014,10-May-2014,DC,SRH,143,7,44,2,144,20,4.2,20,5,SRH won by 8 wickets (with 4 balls remaining) (D/L method)
+33rd match (N),Wankhede,10-May-2014,10-May-2014,MI,CSK,157,6,160,6,158,20,19.3,20,20,CSK won by 4 wickets (with 3 balls remaining)
+34th match (D/N),Cuttack,11-May-2014,11-May-2014,KXIP,KKR,149,8,150,1,150,20,18,20,20,KKR won by 9 wickets (with 12 balls remaining)
+35th match (N),Bengaluru,11-May-2014,11-May-2014,RCB,RR,190,5,191,5,191,20,18.5,20,20,RR won by 5 wickets (with 7 balls remaining)
+36th match (N),Hyderabad,12-May-2014,12-May-2014,SRH,MI,157,3,160,3,158,20,18.4,20,20,MI won by 7 wickets (with 8 balls remaining)
+37th match (D/N),Ranchi,13-May-2014,13-May-2014,RR,CSK,148,8,149,5,149,20,19.4,20,20,CSK won by 5 wickets (with 2 balls remaining)
+38th match (N),Bengaluru,13-May-2014,13-May-2014,RCB,DC,186,4,170,7,187,20,20,20,20,RCB won by 16 runs
+39th match (D/N),Hyderabad,14-May-2014,14-May-2014,SRH,KXIP,205,5,211,4,206,20,18.4,20,20,Kings XI won by 6 wickets (with 8 balls remaining)
+40th match (N),Cuttack,14-May-2014,14-May-2014,MI,KKR,141,5,142,4,142,20,18.4,20,20,KKR won by 6 wickets (with 8 balls remaining)
+41st match (N),Ahmedabad,15-May-2014,15-May-2014,RR,DC,201,6,139,9,202,20,20,20,20,RR won by 62 runs
+42nd match (D/N),Ranchi,18-May-2014,18-May-2014,CSK,RCB,138,4,142,5,139,20,19.5,20,20,RCB won by 5 wickets (with 1 ball remaining)
+43rd match (N),Hyderabad,18-May-2014,18-May-2014,SRH,KKR,142,8,146,3,143,20,19.4,20,20,KKR won by 7 wickets (with 2 balls remaining)
+44th match (D/N),Ahmedabad,19-May-2014,19-May-2014,MI,RR,178,3,153,8,179,20,20,20,20,MI won by 25 runs
+45th match (N),Delhi,19-May-2014,19-May-2014,DC,KXIP,164,7,165,6,165,20,19.4,20,20,Kings XI won by 4 wickets (with 2 balls remaining)
+46th match (D/N),Hyderabad,20-May-2014,20-May-2014,RCB,SRH,160,6,161,3,161,20,19.4,20,20,SRH won by 7 wickets (with 2 balls remaining)
+47th match (N),Eden Gardens,20-May-2014,20-May-2014,CSK,KKR,154,4,156,2,155,20,18,20,20,KKR won by 8 wickets (with 12 balls remaining)
+48th match (N),Mohali,21-May-2014,21-May-2014,KXIP,MI,156,8,159,3,157,20,19,20,20,MI won by 7 wickets (with 6 balls remaining)
+49th match (D/N),Eden Gardens,22-May-2014,22-May-2014,KKR,RCB,195,4,165,5,196,20,20,20,20,KKR won by 30 runs
+50th match (N),Ranchi,22-May-2014,22-May-2014,CSK,SRH,185,3,189,4,186,20,19.4,20,20,SRH won by 6 wickets (with 2 balls remaining)
+51st match (D/N),Wankhede,23-May-2014,23-May-2014,MI,DC,173,10,158,4,174,19.3,20,20,20,MI won by 15 runs
+52nd match (N),Mohali,23-May-2014,23-May-2014,KXIP,RR,179,4,163,8,180,20,20,20,20,Kings XI won by 16 runs
+53rd match (D/N),Bengaluru,24-May-2014,24-May-2014,RCB,CSK,154,6,160,2,155,20,17.4,20,20,CSK won by 8 wickets (with 14 balls remaining)
+54th match (N),Eden Gardens,24-May-2014,24-May-2014,SRH,KKR,160,7,161,6,161,20,14.2,20,20,KKR won by 4 wickets (with 34 balls remaining)
+55th match (D/N),Mohali,25-May-2014,25-May-2014,DC,KXIP,115,10,119,3,116,18.1,13.5,20,20,Kings XI won by 7 wickets (with 37 balls remaining)
+56th match (N),Wankhede,25-May-2014,25-May-2014,RR,MI,189,4,195,5,190,20,14.4,20,20,MI won by 5 wickets (with 32 balls remaining)
+Qualifier 1 (D/N),Eden Gardens,27-May-2014,28-May-2014,KKR,KXIP,163,8,135,8,164,20,20,20,20,KKR won by 28 runs
+Eliminator (N),Brabourne,28-May-2014,28-May-2014,MI,CSK,173,8,176,3,174,20,18.4,20,20,CSK won by 7 wickets (with 8 balls remaining)
+Qualifier 2 (N),Wankhede,30-May-2014,30-May-2014,KXIP,CSK,226,6,202,7,227,20,20,20,20,Kings XI won by 24 runs
+Final (N),Bengaluru,01-June-2014,01-June-2014,KXIP,KKR,199,4,200,7,200,20,19.3,20,20,KKR won by 3 wickets (with 3 balls remaining)
+1st match (N),Eden Gardens,08-April-2015,08-April-2015,MI,KKR,168,3,170,3,169,20,18.3,20,20,KKR won by 7 wickets (with 9 balls remaining)
+2nd match (N),Chennai,09-April-2015,09-April-2015,CSK,DC,150,7,149,9,151,20,20,20,20,CSK won by 1 run
+3rd match (N),Pune,10-April-2015,10-April-2015,RR,KXIP,162,7,136,8,163,20,20,20,20,RR won by 26 runs
+4th match (D/N),Chennai,11-April-2015,11-April-2015,CSK,SRH,209,4,164,6,210,20,20,20,20,CSK won by 45 runs
+5th match (N),Eden Gardens,11-April-2015,11-April-2015,KKR,RCB,177,6,179,7,178,20,19,20,20,RCB won by 3 wickets (with 6 balls remaining)
+6th match (D/N),Delhi,12-April-2015,12-April-2015,DC,RR,184,3,186,7,185,20,20,20,20,RR won by 3 wickets (with 0 balls remaining)
+7th match (N),Wankhede,12-April-2015,12-April-2015,KXIP,MI,177,5,159,7,178,20,20,20,20,Kings XI won by 18 runs
+8th match (N),Bengaluru,13-April-2015,13-April-2015,RCB,SRH,166,10,172,2,167,19.5,17.2,20,20,SRH won by 8 wickets (with 16 balls remaining)
+9th match (N),Ahmedabad,14-April-2015,14-April-2015,MI,RR,164,5,165,3,165,20,19.1,20,20,RR won by 7 wickets (with 5 balls remaining)
+10th match (N),Pune,15-April-2015,15-April-2015,KXIP,DC,165,7,169,5,166,20,19.5,20,20,Daredevils won by 5 wickets (with 1 ball remaining)
+11th match (N),Visakhapatnam,16-April-2015,16-April-2015,SRH,RR,127,5,131,4,128,20,20,20,20,RR won by 6 wickets (with 0 balls remaining)
+12th match (N),Wankhede,17-April-2015,17-April-2015,MI,CSK,183,7,189,4,184,20,16.4,20,20,CSK won by 6 wickets (with 20 balls remaining)
+13th match (D/N),Visakhapatnam,18-April-2015,18-April-2015,DC,SRH,167,4,163,8,168,20,20,20,20,Daredevils won by 4 runs
+14th match (N),Pune,18-April-2015,18-April-2015,KXIP,KKR,155,9,159,6,156,20,17.5,20,20,KKR won by 4 wickets (with 13 balls remaining)
+15th match (D/N),Ahmedabad,19-April-2015,19-April-2015,CSK,RR,156,4,157,2,157,20,18.2,20,20,RR won by 8 wickets (with 10 balls remaining)
+16th match (N),Bengaluru,19-April-2015,19-April-2015,MI,RCB,209,7,191,7,210,20,20,20,20,MI won by 18 runs
+17th match (N),Delhi,20-April-2015,20-April-2015,DC,KKR,146,8,147,4,147,20,18.1,20,20,KKR won by 6 wickets (with 11 balls remaining)
+18th match (N),Ahmedabad,21-April-2015,21-April-2015,RR,KXIP,191,6,191,6,192,20,20,20,20,Match tied (Kings XI won the one-over eliminator)
+19th match (D/N),Visakhapatnam,22-April-2015,22-April-2015,SRH,KKR,176,4,101,4,177,20,12,20,12,SRH won by 16 runs (D/L method)
+20th match (N),Bengaluru,22-April-2015,22-April-2015,CSK,RCB,181,8,154,8,182,20,20,20,20,CSK won by 27 runs
+21st match (N),Delhi,23-April-2015,23-April-2015,DC,MI,190,4,153,9,191,20,20,20,20,Daredevils won by 37 runs
+22nd match (N),Ahmedabad,24-April-2015,24-April-2015,RR,RCB,130,9,134,1,131,20,16.1,20,20,RCB won by 9 wickets (with 23 balls remaining)
+23rd match (D/N),Wankhede,25-April-2015,25-April-2015,MI,SRH,157,8,137,8,158,20,20,20,20,MI won by 20 runs
+24th match (N),Chennai,25-April-2015,25-April-2015,CSK,KXIP,192,3,95,9,193,20,20,20,20,CSK won by 97 runs
+26th match (N),Delhi,26-April-2015,26-April-2015,DC,RCB,95,10,99,0,96,18.2,10.3,20,20,RCB won by 10 wickets (with 57 balls remaining)
+27th match (N),Mohali,27-April-2015,27-April-2015,SRH,KXIP,150,6,130,9,151,20,20,20,20,SRH won by 20 runs
+28th match (N),Chennai,28-April-2015,28-April-2015,CSK,KKR,134,6,132,9,135,20,20,20,20,CSK won by 2 runs
+30th match (N),Eden Gardens,30-April-2015,30-April-2015,CSK,KKR,165,9,169,3,166,20,19.5,20,20,KKR won by 7 wickets (with 1 ball remaining)
+31st match (D/N),Delhi,01-May-2015,01-May-2015,KXIP,DC,118,8,119,1,119,20,13.5,20,20,Daredevils won by 9 wickets (with 37 balls remaining)
+32nd match (N),Wankhede,01-May-2015,01-May-2015,MI,RR,187,5,179,7,188,20,20,20,20,MI won by 8 runs
+33rd match (D/N),Bengaluru,02-May-2015,02-May-2015,KKR,RCB,10,10,115,3,11,10,9.4,10,10,RCB won by 7 wickets (with 2 balls remaining)
+34th match (N),Hyderabad,02-May-2015,02-May-2015,SRH,CSK,192,7,170,6,193,20,20,20,20,SRH won by 22 runs
+35th match (D/N),Mohali,03-May-2015,03-May-2015,MI,KXIP,172,3,149,7,173,20,20,20,20,MI won by 23 runs
+36th match (N),Brabourne,03-May-2015,03-May-2015,RR,DC,189,2,175,7,190,20,20,20,20,RR won by 14 runs
+37th match (D/N),Chennai,04-May-2015,04-May-2015,CSK,RCB,148,9,124,10,149,20,19.4,20,20,CSK won by 24 runs
+38th match (N),Eden Gardens,04-May-2015,04-May-2015,KKR,SRH,167,7,132,9,168,20,20,20,20,KKR won by 35 runs
+39th match (N),Wankhede,05-May-2015,05-May-2015,DC,MI,152,6,153,5,153,20,19.3,20,20,MI won by 5 wickets (with 3 balls remaining)
+40th match (N),Bengaluru,06-May-2015,06-May-2015,RCB,KXIP,226,3,88,10,227,20,13.4,20,20,RCB won by 138 runs
+41st match (D/N),Brabourne,07-May-2015,07-May-2015,SRH,RR,201,4,194,7,202,20,20,20,20,SRH won by 7 runs
+42nd match (N),Eden Gardens,07-May-2015,07-May-2015,KKR,DC,171,7,158,6,172,20,20,20,20,KKR won by 13 runs
+43rd match (N),Chennai,08-May-2015,08-May-2015,CSK,MI,158,5,159,4,159,20,19.2,20,20,MI won by 6 wickets (with 4 balls remaining)
+44th match (D/N),Eden Gardens,09-May-2015,09-May-2015,KXIP,KKR,183,5,184,9,184,20,19.5,20,20,KKR won by 1 wicket (with 1 ball remaining)
+45th match (N),Raipur,09-May-2015,09-May-2015,SRH,DC,163,4,157,4,164,20,20,20,20,SRH won by 6 runs
+46th match (D/N),Wankhede,10-May-2015,10-May-2015,RCB,MI,235,1,196,7,236,20,20,20,20,RCB won by 39 runs
+47th match (N),Chennai,10-May-2015,10-May-2015,CSK,RR,157,5,145,9,158,20,20,20,20,CSK won by 12 runs
+48th match (N),Hyderabad,11-May-2015,11-May-2015,SRH,KXIP,185,5,180,7,186,20,20,20,20,SRH won by 5 runs
+49th match (N),Raipur,12-May-2015,12-May-2015,CSK,DC,119,6,120,4,120,20,16.4,20,20,Daredevils won by 6 wickets (with 20 balls remaining)
+50th match (N),Mohali,13-May-2015,13-May-2015,KXIP,RCB,10,10,84,6,11,10,10,10,10,Kings XI won by 22 runs
+51st match (N),Wankhede,14-May-2015,14-May-2015,MI,KKR,171,4,166,7,172,20,20,20,20,MI won by 5 runs
+52nd match (N),Hyderabad,15-May-2015,15-May-2015,SRH,RCB,11,10,83,4,12,11,5.5,11,6,RCB won by 6 wickets (with 1 ball remaining) (D/L method)
+53rd match (D/N),Mohali,16-May-2015,16-May-2015,KXIP,CSK,130,7,134,3,131,20,16.5,20,20,CSK won by 7 wickets (with 19 balls remaining)
+54th match (N),Brabourne,16-May-2015,16-May-2015,RR,KKR,199,6,190,9,200,20,20,20,20,RR won by 9 runs
+55th match (D/N),Bengaluru,17-May-2015,17-May-2015,DC,RCB,187,5,2,0,188,20,1.1,20,20,No result
+56th match (N),Hyderabad,17-May-2015,17-May-2015,SRH,MI,113,10,114,1,114,20,13.5,20,20,MI won by 9 wickets (with 37 balls remaining)
+Qualifier 1 (N),Wankhede,19-May-2015,19-May-2015,MI,CSK,187,6,162,10,188,20,19,20,20,MI won by 25 runs
+Eliminator (N),Pune,20-May-2015,20-May-2015,RCB,RR,180,4,109,10,181,20,19,20,20,RCB won by 71 runs
+Qualifier 2 (N),Ranchi,22-May-2015,22-May-2015,RCB,CSK,139,8,140,7,140,20,19.5,20,20,CSK won by 3 wickets (with 1 ball remaining)
+Final (N),Eden Gardens,24-May-2015,24-May-2015,MI,CSK,202,5,161,8,203,20,20,20,20,MI won by 41 runs
+1st match (N),Wankhede,09-April-2016,09-April-2016,MI,RPS,121,8,126,1,122,20,14.4,20,20,Supergiants won by 9 wickets (with 32 balls remaining)
+2nd match (N),Eden Gardens,10-April-2016,10-April-2016,DC,KKR,98,10,99,1,99,17.4,14.1,20,20,KKR won by 9 wickets (with 35 balls remaining)
+3rd match (N),Mohali,11-April-2016,11-April-2016,KXIP,GL,161,6,162,5,162,20,17.4,20,20,Guj Lions won by 5 wickets (with 14 balls remaining)
+4th match (N),Bengaluru,12-April-2016,12-April-2016,RCB,SRH,227,4,182,6,228,20,20,20,20,RCB won by 45 runs
+5th match (N),Eden Gardens,13-April-2016,13-April-2016,KKR,MI,187,5,188,4,188,20,19.1,20,20,MI won by 6 wickets (with 5 balls remaining)
+6th match (N),Rajkot,14-April-2016,14-April-2016,RPS,GL,163,5,164,3,164,20,18,20,20,Guj Lions won by 7 wickets (with 12 balls remaining)
+7th match (N),Delhi,15-April-2016,15-April-2016,KXIP,DC,111,9,113,2,112,20,13.3,20,20,Daredevils won by 8 wickets (with 39 balls remaining)
+8th match (D/N),Hyderabad,16-April-2016,16-April-2016,SRH,KKR,142,7,146,2,143,20,18.2,20,20,KKR won by 8 wickets (with 10 balls remaining)
+9th match (N),Wankhede,16-April-2016,16-April-2016,MI,GL,143,8,147,7,144,20,20,20,20,Guj Lions won by 3 wickets (with 0 balls remaining)
+10th match (D/N),Mohali,17-April-2016,17-April-2016,RPS,KXIP,152,7,153,4,153,20,18.4,20,20,Kings XI won by 6 wickets (with 8 balls remaining)
+11th match (N),Bengaluru,17-April-2016,17-April-2016,RCB,DC,191,5,192,3,192,20,19.1,20,20,Daredevils won by 7 wickets (with 5 balls remaining)
+12th match (N),Hyderabad,18-April-2016,18-April-2016,MI,SRH,142,6,145,3,143,20,17.3,20,20,SRH won by 7 wickets (with 15 balls remaining)
+13th match (N),Mohali,19-April-2016,19-April-2016,KXIP,KKR,138,8,141,4,139,20,17.1,20,20,KKR won by 6 wickets (with 17 balls remaining)
+14th match (N),Wankhede,20-April-2016,20-April-2016,RCB,MI,170,7,171,4,171,20,18,20,20,MI won by 6 wickets (with 12 balls remaining)
+15th match (N),Rajkot,21-April-2016,21-April-2016,GL,SRH,135,8,137,0,136,20,14.5,20,20,SRH won by 10 wickets (with 31 balls remaining)
+16th match (N),Pune,22-April-2016,22-April-2016,RCB,RPS,185,3,172,8,186,20,20,20,20,RCB won by 13 runs
+17th match (D/N),Delhi,23-April-2016,23-April-2016,DC,MI,164,4,154,7,165,20,20,20,20,Daredevils won by 10 runs
+18th match (N),Hyderabad,23-April-2016,23-April-2016,KXIP,SRH,143,6,146,5,144,20,17.5,20,20,SRH won by 5 wickets (with 13 balls remaining)
+19th match (D/N),Rajkot,24-April-2016,24-April-2016,RCB,GL,180,2,182,4,181,20,19.3,20,20,Guj Lions won by 6 wickets (with 3 balls remaining)
+20th match (N),Pune,24-April-2016,24-April-2016,RPS,KKR,160,5,162,8,161,20,19.3,20,20,KKR won by 2 wickets (with 3 balls remaining)
+21st match (N),Mohali,25-April-2016,25-April-2016,MI,KXIP,189,6,164,7,190,20,20,20,20,MI won by 25 runs
+22nd match (N),Hyderabad,26-April-2016,26-April-2016,SRH,RPS,118,8,94,3,119,20,11,20,11,Supergiants won by 34 runs (D/L method)
+23rd match (N),Delhi,27-April-2016,27-April-2016,GL,DC,172,6,171,5,173,20,20,20,20,Guj Lions won by 1 run
+24th match (N),Wankhede,28-April-2016,28-April-2016,KKR,MI,174,5,178,4,175,20,18,20,20,MI won by 6 wickets (with 12 balls remaining)
+25th match (N),Pune,29-April-2016,29-April-2016,RPS,GL,195,3,196,7,196,20,20,20,20,Guj Lions won by 3 wickets (with 0 balls remaining)
+26th match (D/N),Delhi,30-April-2016,30-April-2016,DC,KKR,186,8,159,10,187,20,18.3,20,20,Daredevils won by 27 runs
+27th match (N),Hyderabad,30-April-2016,30-April-2016,SRH,RCB,194,5,179,6,195,20,20,20,20,SRH won by 15 runs
+28th match (D/N),Rajkot,01-May-2016,01-May-2016,KXIP,GL,154,10,131,9,155,19.5,20,20,20,Kings XI won by 23 runs
+29th match (N),Pune,01-May-2016,01-May-2016,RPS,MI,159,5,161,2,160,20,18.3,20,20,MI won by 8 wickets (with 9 balls remaining)
+30th match (N),Bengaluru,02-May-2016,02-May-2016,RCB,KKR,185,7,189,5,186,20,19.1,20,20,KKR won by 5 wickets (with 5 balls remaining)
+31st match (N),Rajkot,03-May-2016,03-May-2016,GL,DC,149,7,150,2,150,20,17.2,20,20,Daredevils won by 8 wickets (with 16 balls remaining)
+32nd match (N),Eden Gardens,04-May-2016,04-May-2016,KKR,KXIP,164,3,157,9,165,20,20,20,20,KKR won by 7 runs
+33rd match (N),Delhi,05-May-2016,05-May-2016,DC,RPS,162,7,166,3,163,20,19.1,20,20,Supergiants won by 7 wickets (with 5 balls remaining)
+34th match (N),Hyderabad,06-May-2016,06-May-2016,GL,SRH,126,6,129,5,127,20,19,20,20,SRH won by 5 wickets (with 6 balls remaining)
+35th match (D/N),Bengaluru,07-May-2016,07-May-2016,RPS,RCB,191,6,195,3,192,20,19.3,20,20,RCB won by 7 wickets (with 3 balls remaining)
+36th match (N),Mohali,07-May-2016,07-May-2016,KXIP,DC,181,5,172,5,182,20,20,20,20,Kings XI won by 9 runs
+37th match (D/N),Visakhapatnam,08-May-2016,08-May-2016,SRH,MI,177,3,92,10,178,20,16.3,20,20,SRH won by 85 runs
+38th match (N),Eden Gardens,08-May-2016,08-May-2016,KKR,GL,158,4,164,5,159,20,18,20,20,Guj Lions won by 5 wickets (with 12 balls remaining)
+39th match (N),Mohali,09-May-2016,09-May-2016,RCB,KXIP,175,6,174,4,176,20,20,20,20,RCB won by 1 run
+40th match (N),Visakhapatnam,10-May-2016,10-May-2016,SRH,RPS,137,8,133,8,138,20,20,20,20,SRH won by 4 runs
+41st match (N),Bengaluru,11-May-2016,11-May-2016,RCB,MI,151,4,153,4,152,20,18.4,20,20,MI won by 6 wickets (with 8 balls remaining)
+42nd match (N),Hyderabad,12-May-2016,12-May-2016,SRH,DC,146,8,150,3,147,20,18.1,20,20,Daredevils won by 7 wickets (with 11 balls remaining)
+43rd match (N),Visakhapatnam,13-May-2016,13-May-2016,MI,KXIP,124,9,127,3,125,20,17,20,20,Kings XI won by 7 wickets (with 18 balls remaining)
+44th match (D/N),Bengaluru,14-May-2016,14-May-2016,RCB,GL,248,3,104,10,249,20,18.4,20,20,RCB won by 144 runs
+45th match (N),Eden Gardens,14-May-2016,14-May-2016,RPS,KKR,174,10,66,2,175,17.4,5,174,9,KKR won by 8 wickets (with 24 balls remaining) (D/L method)
+46th match (D/N),Mohali,15-May-2016,15-May-2016,KXIP,SRH,179,4,180,3,180,20,19.4,20,20,SRH won by 7 wickets (with 2 balls remaining)
+47th match (N),Visakhapatnam,15-May-2016,15-May-2016,MI,DC,206,4,126,10,207,20,19.1,20,20,MI won by 80 runs
+48th match (N),Eden Gardens,16-May-2016,16-May-2016,KKR,RCB,183,5,186,1,184,20,18.4,20,20,RCB won by 9 wickets (with 8 balls remaining)
+49th match (N),Visakhapatnam,17-May-2016,17-May-2016,DC,RPS,121,6,76,1,122,20,11,20,11,Supergiants won by 19 runs (D/L method)
+50th match (N),Bengaluru,18-May-2016,18-May-2016,RCB,KXIP,15,10,120,9,16,15,14,15,14,RCB won by 82 runs (D/L method)
+51st match (N),Kanpur,19-May-2016,19-May-2016,KKR,GL,124,8,125,4,125,20,13.3,20,20,Guj Lions won by 6 wickets (with 39 balls remaining)
+52nd match (N),Raipur,20-May-2016,20-May-2016,SRH,DC,158,7,161,4,159,20,20,20,20,Daredevils won by 6 wickets (with 0 balls remaining)
+53rd match (D/N),Visakhapatnam,21-May-2016,21-May-2016,KXIP,RPS,172,7,173,6,173,20,20,20,20,Supergiants won by 4 wickets (with 0 balls remaining)
+54th match (N),Kanpur,21-May-2016,21-May-2016,MI,GL,172,8,173,4,173,20,17.5,20,20,Guj Lions won by 6 wickets (with 13 balls remaining)
+55th match (D/N),Eden Gardens,22-May-2016,22-May-2016,KKR,SRH,171,6,149,8,172,20,20,20,20,KKR won by 22 runs
+56th match (N),Raipur,22-May-2016,22-May-2016,DC,RCB,138,8,139,4,139,20,18.1,20,20,RCB won by 6 wickets (with 11 balls remaining)
+Qualifier 1 (N),Bengaluru,24-May-2016,24-May-2016,GL,RCB,158,10,159,6,159,20,18.2,20,20,RCB won by 4 wickets (with 10 balls remaining)
+Eliminator (N),Delhi,25-May-2016,25-May-2016,SRH,KKR,162,8,140,8,163,20,20,20,20,SRH won by 22 runs
+Qualifier 2 (N),Delhi,27-May-2016,27-May-2016,GL,SRH,162,7,163,6,163,20,19.2,20,20,SRH won by 4 wickets (with 4 balls remaining)
+Final (N),Bengaluru,29-May-2016,29-May-2016,SRH,RCB,208,7,200,7,209,20,20,20,20,SRH won by 8 runs
+1st match (N),Hyderabad,05-April-2017,05-April-2017,SRH,RCB,207,4,172,10,208,20,19.4,20,20,SRH won by 35 runs
+2nd match (N),Pune,06-April-2017,06-April-2017,MI,RPS,184,8,187,3,185,20,19.5,20,20,Supergiant won by 7 wickets (with 1 ball remaining)
+3rd match (N),Rajkot,07-April-2017,07-April-2017,GL,KKR,183,4,184,0,184,20,14.5,20,20,KKR won by 10 wickets (with 31 balls remaining)
+4th match (D/N),Indore,08-April-2017,08-April-2017,RPS,KXIP,163,6,164,4,164,20,19,20,20,Kings XI won by 6 wickets (with 6 balls remaining)
+5th match (N),Bengaluru,08-April-2017,08-April-2017,RCB,DC,157,8,142,9,158,20,20,20,20,RCB won by 15 runs
+6th match (D/N),Hyderabad,09-April-2017,09-April-2017,GL,SRH,135,7,140,1,136,20,15.3,20,20,SRH won by 9 wickets (with 27 balls remaining)
+7th match (N),Wankhede,09-April-2017,09-April-2017,KKR,MI,178,7,180,6,179,20,19.5,20,20,MI won by 4 wickets (with 1 ball remaining)
+8th match (N),Indore,10-April-2017,10-April-2017,RCB,KXIP,148,4,150,2,149,20,14.3,20,20,Kings XI won by 8 wickets (with 33 balls remaining)
+9th match (N),Pune,11-April-2017,11-April-2017,DC,RPS,205,4,108,10,206,20,16.1,20,20,Daredevils won by 97 runs
+10th match (N),Wankhede,12-April-2017,12-April-2017,SRH,MI,158,8,159,6,159,20,18.4,20,20,MI won by 4 wickets (with 8 balls remaining)
+11th match (N),Eden Gardens,13-April-2017,13-April-2017,KXIP,KKR,170,9,171,2,171,20,16.3,20,20,KKR won by 8 wickets (with 21 balls remaining)
+12th match (D/N),Bengaluru,14-April-2017,14-April-2017,RCB,MI,142,5,145,6,143,20,18.5,20,20,MI won by 4 wickets (with 7 balls remaining)
+13th match (N),Rajkot,14-April-2017,14-April-2017,RPS,GL,171,8,172,3,172,20,18,20,20,Guj Lions won by 7 wickets (with 12 balls remaining)
+14th match (D/N),Eden Gardens,15-April-2017,15-April-2017,KKR,SRH,172,6,155,6,173,20,20,20,20,KKR won by 17 runs
+15th match (N),Delhi,15-April-2017,15-April-2017,DC,KXIP,188,6,137,9,189,20,20,20,20,Daredevils won by 51 runs
+16th match (D/N),Wankhede,16-April-2017,16-April-2017,GL,MI,176,4,177,4,177,20,19.3,20,20,MI won by 6 wickets (with 3 balls remaining)
+17th match (N),Bengaluru,16-April-2017,16-April-2017,RPS,RCB,161,8,134,9,162,20,20,20,20,Supergiant won by 27 runs
+18th match (D/N),Delhi,17-April-2017,17-April-2017,DC,KKR,168,7,169,6,169,20,19.5,20,20,KKR won by 4 wickets (with 1 ball remaining)
+19th match (N),Hyderabad,17-April-2017,17-April-2017,SRH,KXIP,159,6,154,10,160,20,19.4,20,20,SRH won by 5 runs
+20th match (N),Rajkot,18-April-2017,18-April-2017,RCB,GL,213,2,192,7,214,20,20,20,20,RCB won by 21 runs
+21st match (N),Hyderabad,19-April-2017,19-April-2017,SRH,DC,191,4,176,5,192,20,20,20,20,SRH won by 15 runs
+22nd match (N),Indore,20-April-2017,20-April-2017,KXIP,MI,198,4,199,2,199,20,15.3,20,20,MI won by 8 wickets (with 27 balls remaining)
+23rd match (N),Eden Gardens,21-April-2017,21-April-2017,KKR,GL,187,5,188,6,188,20,18.2,20,20,Guj Lions won by 4 wickets (with 10 balls remaining)
+24th match (D/N),Pune,22-April-2017,22-April-2017,SRH,RPS,176,3,179,4,177,20,20,20,20,Supergiant won by 6 wickets (with 0 balls remaining)
+25th match (N),Wankhede,22-April-2017,22-April-2017,MI,DC,142,8,128,7,143,20,20,20,20,MI won by 14 runs
+26th match (D/N),Rajkot,23-April-2017,23-April-2017,KXIP,GL,188,7,162,7,189,20,20,20,20,Kings XI won by 26 runs
+27th match (N),Eden Gardens,23-April-2017,23-April-2017,KKR,RCB,131,10,49,10,132,19.3,9.4,20,20,KKR won by 82 runs
+28th match (N),Wankhede,24-April-2017,24-April-2017,RPS,MI,160,6,157,8,161,20,20,20,20,Supergiant won by 3 runs
+30th match (N),Pune,26-April-2017,26-April-2017,RPS,KKR,182,5,184,3,183,20,18.1,20,20,KKR won by 7 wickets (with 11 balls remaining)
+31st match (N),Bengaluru,27-April-2017,27-April-2017,RCB,GL,134,10,135,3,135,20,13.5,20,20,Guj Lions won by 7 wickets (with 37 balls remaining)
+32nd match (D/N),Eden Gardens,28-April-2017,28-April-2017,DC,KKR,160,6,161,3,161,20,16.2,20,20,KKR won by 7 wickets (with 22 balls remaining)
+33rd match (N),Mohali,28-April-2017,28-April-2017,SRH,KXIP,207,3,181,9,208,20,20,20,20,SRH won by 26 runs
+34th match (D/N),Pune,29-April-2017,29-April-2017,RPS,RCB,157,3,96,9,158,20,20,20,20,Supergiant won by 61 runs
+35th match (N),Rajkot,29-April-2017,29-April-2017,GL,MI,153,9,153,10,154,20,20,20,20,Match tied (MI won the one-over eliminator)
+36th match (D/N),Mohali,30-April-2017,30-April-2017,DC,KXIP,67,10,68,0,68,17.1,7.5,20,20,Kings XI won by 10 wickets (with 73 balls remaining)
+37th match (N),Hyderabad,30-April-2017,30-April-2017,SRH,KKR,209,3,161,7,210,20,20,20,20,SRH won by 48 runs
+38th match (D/N),Wankhede,01-May-2017,01-May-2017,RCB,MI,162,8,165,5,163,20,19.5,20,20,MI won by 5 wickets (with 1 ball remaining)
+39th match (N),Pune,01-May-2017,01-May-2017,GL,RPS,161,10,167,5,162,19.5,19.5,20,20,Supergiant won by 5 wickets (with 1 ball remaining)
+40th match (N),Delhi,02-May-2017,02-May-2017,SRH,DC,185,3,189,4,186,20,19.1,20,20,Daredevils won by 6 wickets (with 5 balls remaining)
+41st match (N),Eden Gardens,03-May-2017,03-May-2017,KKR,RPS,155,8,158,6,156,20,19.2,20,20,Supergiant won by 4 wickets (with 4 balls remaining)
+42nd match (N),Delhi,04-May-2017,04-May-2017,GL,DC,208,7,214,3,209,20,17.3,20,20,Daredevils won by 7 wickets (with 15 balls remaining)
+43rd match (N),Bengaluru,05-May-2017,05-May-2017,KXIP,RCB,138,7,119,10,139,20,19,20,20,Kings XI won by 19 runs
+44th match (D/N),Hyderabad,06-May-2017,06-May-2017,RPS,SRH,148,8,136,9,149,20,20,20,20,Supergiant won by 12 runs
+45th match (N),Delhi,06-May-2017,06-May-2017,MI,DC,212,3,66,10,213,20,13.4,20,20,MI won by 146 runs
+46th match (D/N),Bengaluru,07-May-2017,07-May-2017,RCB,KKR,158,6,159,4,159,20,15.1,20,20,KKR won by 6 wickets (with 29 balls remaining)
+47th match (N),Mohali,07-May-2017,07-May-2017,KXIP,GL,189,3,192,4,190,20,19.4,20,20,Guj Lions won by 6 wickets (with 2 balls remaining)
+48th match (N),Hyderabad,08-May-2017,08-May-2017,MI,SRH,138,7,140,3,139,20,18.2,20,20,SRH won by 7 wickets (with 10 balls remaining)
+49th match (N),Mohali,09-May-2017,09-May-2017,KXIP,KKR,167,6,153,6,168,20,20,20,20,Kings XI won by 14 runs
+50th match (N),Kanpur,10-May-2017,10-May-2017,GL,DC,195,5,197,8,196,20,19.4,20,20,Daredevils won by 2 wickets (with 2 balls remaining)
+51st match (N),Wankhede,11-May-2017,11-May-2017,KXIP,MI,230,3,223,6,231,20,20,20,20,Kings XI won by 7 runs
+52nd match (N),Delhi,12-May-2017,12-May-2017,DC,RPS,168,8,161,7,169,20,20,20,20,Daredevils won by 7 runs
+53rd match (D/N),Kanpur,13-May-2017,13-May-2017,GL,SRH,154,10,158,2,155,19.2,18.1,20,20,SRH won by 8 wickets (with 11 balls remaining)
+54th match (N),Eden Gardens,13-May-2017,13-May-2017,MI,KKR,173,5,164,8,174,20,20,20,20,MI won by 9 runs
+55th match (D/N),Pune,14-May-2017,14-May-2017,KXIP,RPS,73,10,78,1,74,15.5,12,20,20,Supergiant won by 9 wickets (with 48 balls remaining)
+56th match (N),Delhi,14-May-2017,14-May-2017,RCB,DC,161,6,151,10,162,20,20,20,20,RCB won by 10 runs
+Qualifier 1 (N),Wankhede,16-May-2017,16-May-2017,RPS,MI,162,4,142,9,163,20,20,20,20,Supergiant won by 20 runs
+Eliminator (N),Bengaluru,17-May-2017,17-May-2017,SRH,KKR,128,7,48,3,129,20,5.2,20,6,KKR won by 7 wickets (with 4 balls remaining) (D/L method)
+Qualifier 2 (N),Bengaluru,19-May-2017,19-May-2017,KKR,MI,107,10,111,4,108,18.5,14.3,20,20,MI won by 6 wickets (with 33 balls remaining)
+Final (N),Hyderabad,21-May-2017,21-May-2017,MI,RPS,129,8,128,6,130,20,20,20,20,MI won by 1 run
+1st match (N),Wankhede,07-April-2018,07-April-2018,MI,CSK,165,4,169,9,166,20,19.5,20,20,CSK won by 1 wicket (with 1 ball remaining)
+2nd match (D/N),Mohali,08-April-2018,08-April-2018,DC,KXIP,166,7,167,4,167,20,18.5,20,20,Kings XI won by 6 wickets (with 7 balls remaining)
+3rd match (N),Eden Gardens,08-April-2018,08-April-2018,RCB,KKR,176,7,177,6,177,20,18.5,20,20,KKR won by 4 wickets (with 7 balls remaining)
+4th match (N),Hyderabad,09-April-2018,09-April-2018,RR,SRH,125,9,127,1,126,20,15.5,20,20,SRH won by 9 wickets (with 25 balls remaining)
+5th match (N),Chennai,10-April-2018,10-April-2018,KKR,CSK,202,6,205,5,203,20,19.5,20,20,CSK won by 5 wickets (with 1 ball remaining)
+6th match (N),Jaipur,11-April-2018,11-April-2018,RR,DC,175,10,60,4,176,17.5,6,175,6,RR won by 10 runs (D/L method)
+7th match (N),Hyderabad,12-April-2018,12-April-2018,MI,SRH,147,8,151,9,148,20,20,20,20,SRH won by 1 wicket (with 0 balls remaining)
+8th match (N),Bengaluru,13-April-2018,13-April-2018,KXIP,RCB,155,10,159,6,156,19.2,19.3,20,20,RCB won by 4 wickets (with 3 balls remaining)
+9th match (D/N),Wankhede,14-April-2018,14-April-2018,MI,DC,194,7,195,3,195,20,20,20,20,Daredevils won by 7 wickets (with 0 balls remaining)
+10th match (N),Eden Gardens,14-April-2018,14-April-2018,KKR,SRH,138,8,139,5,139,20,19,20,20,SRH won by 5 wickets (with 6 balls remaining)
+11th match (D/N),Bengaluru,15-April-2018,15-April-2018,RR,RCB,217,4,198,6,218,20,20,20,20,RR won by 19 runs
+12th match (N),Mohali,15-April-2018,15-April-2018,KXIP,CSK,197,7,193,5,198,20,20,20,20,Kings XI won by 4 runs
+13th match (N),Eden Gardens,16-April-2018,16-April-2018,KKR,DC,200,9,129,10,201,20,14.2,20,20,KKR won by 71 runs
+14th match (N),Wankhede,17-April-2018,17-April-2018,MI,RCB,213,6,167,8,214,20,20,20,20,MI won by 46 runs
+15th match (N),Jaipur,18-April-2018,18-April-2018,RR,KKR,160,8,163,3,161,20,18.5,20,20,KKR won by 7 wickets (with 7 balls remaining)
+16th match (N),Mohali,19-April-2018,19-April-2018,KXIP,SRH,193,3,178,4,194,20,20,20,20,Kings XI won by 15 runs
+17th match (N),Pune,20-April-2018,20-April-2018,CSK,RR,204,5,140,10,205,20,18.3,20,20,CSK won by 64 runs
+18th match (D/N),Eden Gardens,21-April-2018,21-April-2018,KKR,KXIP,191,7,126,1,192,20,11.1,20,13,Kings XI won by 9 wickets (with 11 balls remaining) (D/L method)
+19th match (N),Bengaluru,21-April-2018,21-April-2018,DC,RCB,174,5,176,4,175,20,18,20,20,RCB won by 6 wickets (with 12 balls remaining)
+20th match (D/N),Hyderabad,22-April-2018,22-April-2018,CSK,SRH,182,3,178,6,183,20,20,20,20,CSK won by 4 runs
+21st match (N),Jaipur,22-April-2018,22-April-2018,MI,RR,167,7,168,7,168,20,19.4,20,20,RR won by 3 wickets (with 2 balls remaining)
+22nd match (N),Delhi,23-April-2018,23-April-2018,KXIP,DC,143,8,139,8,144,20,20,20,20,Kings XI won by 4 runs
+23rd match (N),Wankhede,24-April-2018,24-April-2018,SRH,MI,118,10,87,10,119,18.4,18.5,20,20,SRH won by 31 runs
+24th match (N),Bengaluru,25-April-2018,25-April-2018,RCB,CSK,205,8,207,5,206,20,19.4,20,20,CSK won by 5 wickets (with 2 balls remaining)
+25th match (N),Hyderabad,26-April-2018,26-April-2018,SRH,KXIP,132,6,119,10,133,20,19.2,20,20,SRH won by 13 runs
+26th match (N),Delhi,27-April-2018,27-April-2018,DC,KKR,219,4,164,9,220,20,20,20,20,Daredevils won by 55 runs
+27th match (N),Pune,28-April-2018,28-April-2018,CSK,MI,169,5,170,2,170,20,19.4,20,20,MI won by 8 wickets (with 2 balls remaining)
+28th match (D/N),Jaipur,29-April-2018,29-April-2018,SRH,RR,151,7,140,6,152,20,20,20,20,SRH won by 11 runs
+29th match (N),Bengaluru,29-April-2018,29-April-2018,RCB,KKR,175,4,176,4,176,20,19.1,20,20,KKR won by 6 wickets (with 5 balls remaining)
+30th match (N),Pune,30-April-2018,30-April-2018,CSK,DC,211,4,198,5,212,20,20,20,20,CSK won by 13 runs
+31st match (N),Bengaluru,01-May-2018,01-May-2018,RCB,MI,167,7,153,7,168,20,20,20,20,RCB won by 14 runs
+32nd match (N),Delhi,02-May-2018,02-May-2018,DC,RR,171,10,146,5,172,17.1,12,171,12,Daredevils won by 4 runs (D/L method)
+33rd match (N),Eden Gardens,03-May-2018,03-May-2018,CSK,KKR,177,5,180,4,178,20,17.4,20,20,KKR won by 6 wickets (with 14 balls remaining)
+34th match (N),Indore,04-May-2018,04-May-2018,KXIP,MI,174,6,176,4,175,20,19,20,20,MI won by 6 wickets (with 6 balls remaining)
+35th match (D/N),Pune,05-May-2018,05-May-2018,RCB,CSK,127,9,128,4,128,20,18,20,20,CSK won by 6 wickets (with 12 balls remaining)
+36th match (N),Hyderabad,05-May-2018,05-May-2018,DC,SRH,163,5,164,3,164,20,19.5,20,20,SRH won by 7 wickets (with 1 ball remaining)
+37th match (D/N),Wankhede,06-May-2018,06-May-2018,MI,KKR,181,4,168,6,182,20,20,20,20,MI won by 13 runs
+38th match (N),Indore,06-May-2018,06-May-2018,RR,KXIP,152,9,155,4,153,20,18.4,20,20,Kings XI won by 6 wickets (with 8 balls remaining)
+39th match (N),Hyderabad,07-May-2018,07-May-2018,SRH,RCB,146,10,141,6,147,20,20,20,20,SRH won by 5 runs
+40th match (N),Jaipur,08-May-2018,08-May-2018,RR,KXIP,158,8,143,7,159,20,20,20,20,RR won by 15 runs
+41st match (N),Eden Gardens,09-May-2018,09-May-2018,MI,KKR,210,6,108,10,211,20,18.1,20,20,MI won by 102 runs
+42nd match (N),Delhi,10-May-2018,10-May-2018,DC,SRH,187,5,191,1,188,20,18.5,20,20,SRH won by 9 wickets (with 7 balls remaining)
+43rd match (N),Jaipur,11-May-2018,11-May-2018,CSK,RR,176,4,177,6,177,20,19.5,20,20,RR won by 4 wickets (with 1 ball remaining)
+44th match (D/N),Indore,12-May-2018,12-May-2018,KKR,KXIP,245,6,214,8,246,20,20,20,20,KKR won by 31 runs
+45th match (N),Delhi,12-May-2018,12-May-2018,DC,RCB,181,4,187,5,182,20,19,20,20,RCB won by 5 wickets (with 6 balls remaining)
+46th match (D/N),Pune,13-May-2018,13-May-2018,SRH,CSK,179,4,180,2,180,20,19,20,20,CSK won by 8 wickets (with 6 balls remaining)
+47th match (N),Wankhede,13-May-2018,13-May-2018,MI,RR,168,6,171,3,169,20,18,20,20,RR won by 7 wickets (with 12 balls remaining)
+48th match (N),Indore,14-May-2018,14-May-2018,KXIP,RCB,88,10,92,0,89,15.1,8.1,20,20,RCB won by 10 wickets (with 71 balls remaining)
+49th match (N),Eden Gardens,15-May-2018,15-May-2018,RR,KKR,142,10,145,4,143,19,18,20,20,KKR won by 6 wickets (with 12 balls remaining)
+50th match (N),Wankhede,16-May-2018,16-May-2018,MI,KXIP,186,8,183,5,187,20,20,20,20,MI won by 3 runs
+51st match (N),Bengaluru,17-May-2018,17-May-2018,RCB,SRH,218,6,204,3,219,20,20,20,20,RCB won by 14 runs
+52nd match (N),Delhi,18-May-2018,18-May-2018,DC,CSK,162,5,128,6,163,20,20,20,20,Daredevils won by 34 runs
+53rd match (D/N),Jaipur,19-May-2018,19-May-2018,RR,RCB,164,5,134,10,165,20,19.2,20,20,RR won by 30 runs
+54th match (N),Hyderabad,19-May-2018,19-May-2018,SRH,KKR,172,9,173,5,173,20,19.4,20,20,KKR won by 5 wickets (with 2 balls remaining)
+55th match (D/N),Delhi,20-May-2018,20-May-2018,DC,MI,174,4,163,10,175,20,19.3,20,20,Daredevils won by 11 runs
+56th match (N),Pune,20-May-2018,20-May-2018,KXIP,CSK,153,10,159,5,154,19.4,19.1,20,20,CSK won by 5 wickets (with 5 balls remaining)
+Qualifier 1 (N),Wankhede,22-May-2018,22-May-2018,SRH,CSK,139,7,140,8,140,20,19.1,20,20,CSK won by 2 wickets (with 5 balls remaining)
+Eliminator (N),Eden Gardens,23-May-2018,23-May-2018,KKR,RR,169,7,144,4,170,20,20,20,20,KKR won by 25 runs
+Qualifier 2 (N),Eden Gardens,25-May-2018,25-May-2018,SRH,KKR,174,7,160,9,175,20,20,20,20,SRH won by 14 runs
+Final (N),Wankhede,27-May-2018,27-May-2018,SRH,CSK,178,6,181,2,179,20,18.3,20,20,CSK won by 8 wickets (with 9 balls remaining)
+1st Match (N),Chennai,23-March-2019,23-March-2019,RCB,CSK,70,10,71,3,71,17.1,17.4,20,20,CSK won by 7 wickets (with 14 balls remaining)
+2nd Match (D/N),Eden Gardens,24-March-2019,24-March-2019,SRH,KKR,181,3,183,4,182,20,19.4,20,20,KKR won by 6 wickets (with 2 balls remaining)
+3rd Match (N),Wankhede,24-March-2019,24-March-2019,DC,MI,213,6,176,10,214,20,19.2,20,20,DC won by 37 runs
+4th Match (N),Jaipur,25-March-2019,25-March-2019,KXIP,RR,184,4,170,9,185,20,20,20,20,Kings XI won by 14 runs
+5th Match (N),Delhi,26-March-2019,26-March-2019,DC,CSK,147,6,150,4,148,20,19.4,20,20,CSK won by 6 wickets (with 2 balls remaining)
+6th Match (N),Eden Gardens,27-March-2019,27-March-2019,KKR,KXIP,218,4,190,4,219,20,20,20,20,KKR won by 28 runs
+7th Match (N),Bengaluru,28-March-2019,28-March-2019,MI,RCB,187,8,181,5,188,20,20,20,20,MI won by 6 runs
+8th Match (N),Hyderabad,29-March-2019,29-March-2019,RR,SRH,198,2,201,5,199,20,19,20,20,SRH won by 5 wickets (with 6 balls remaining)
+9th Match (D/N),Mohali,30-March-2019,30-March-2019,MI,KXIP,176,7,177,2,177,20,18.4,20,20,Kings XI won by 8 wickets (with 8 balls remaining)
+10th Match (N),Delhi,30-March-2019,30-March-2019,KKR,DC,185,8,185,6,186,20,20,20,20,Match tied (DC won the one-over eliminator)
+11th Match (D/N),Hyderabad,31-March-2019,31-March-2019,SRH,RCB,231,2,113,10,232,20,19.5,20,20,SRH won by 118 runs
+12th Match (N),Chennai,31-March-2019,31-March-2019,CSK,RR,175,5,167,8,176,20,20,20,20,CSK won by 8 runs
+13th Match (N),Mohali,01-April-2019,01-April-2019,KXIP,DC,166,9,152,10,167,20,19.2,20,20,Kings XI won by 14 runs
+14th Match (N),Jaipur,02-April-2019,02-April-2019,RCB,RR,158,4,164,3,159,20,19.5,20,20,RR won by 7 wickets (with 1 ball remaining)
+15th Match (N),Wankhede,03-April-2019,03-April-2019,MI,CSK,170,5,133,8,171,20,20,20,20,MI won by 37 runs
+16th Match (N),Delhi,04-April-2019,04-April-2019,DC,SRH,129,8,131,5,130,20,18.3,20,20,SRH won by 5 wickets (with 9 balls remaining)
+17th Match (N),Bengaluru,05-April-2019,05-April-2019,RCB,KKR,205,3,206,5,206,20,19.1,20,20,KKR won by 5 wickets (with 5 balls remaining)
+18th Match (D/N),Chennai,06-April-2019,06-April-2019,CSK,KXIP,160,3,138,5,161,20,20,20,20,CSK won by 22 runs
+19th Match (N),Hyderabad,06-April-2019,06-April-2019,MI,SRH,136,7,96,10,137,20,17.4,20,20,MI won by 40 runs
+20th Match (D/N),Bengaluru,07-April-2019,07-April-2019,RCB,DC,149,8,152,6,150,20,18.5,20,20,DC won by 4 wickets (with 7 balls remaining)
+21st Match (N),Jaipur,07-April-2019,07-April-2019,RR,KKR,139,3,140,2,140,20,13.5,20,20,KKR won by 8 wickets (with 37 balls remaining)
+22nd Match (N),Mohali,08-April-2019,08-April-2019,SRH,KXIP,150,4,151,4,151,20,19.5,20,20,Kings XI won by 6 wickets (with 1 ball remaining)
+23rd Match (N),Chennai,09-April-2019,09-April-2019,KKR,CSK,108,9,111,3,109,20,17.2,20,20,CSK won by 7 wickets (with 16 balls remaining)
+24th Match (N),Wankhede,10-April-2019,10-April-2019,KXIP,MI,197,4,198,7,198,20,20,20,20,MI won by 3 wickets (with 0 balls remaining)
+25th Match (N),Jaipur,11-April-2019,11-April-2019,RR,CSK,151,7,155,6,152,20,20,20,20,CSK won by 4 wickets (with 0 balls remaining)
+26th Match (N),Eden Gardens,12-April-2019,12-April-2019,KKR,DC,178,7,180,3,179,20,18.5,20,20,DC won by 7 wickets (with 7 balls remaining)
+27th Match (D/N),Wankhede,13-April-2019,13-April-2019,MI,RR,187,5,188,6,188,20,19.3,20,20,RR won by 4 wickets (with 3 balls remaining)
+28th Match (N),Mohali,13-April-2019,13-April-2019,KXIP,RCB,173,4,174,2,174,20,19.2,20,20,RCB won by 8 wickets (with 4 balls remaining)
+29th Match (D/N),Eden Gardens,14-April-2019,14-April-2019,KKR,CSK,161,8,162,5,162,20,19.4,20,20,CSK won by 5 wickets (with 2 balls remaining)
+30th Match (N),Hyderabad,14-April-2019,14-April-2019,DC,SRH,155,7,116,10,156,20,18.5,20,20,DC won by 39 runs
+31st Match (N),Wankhede,15-April-2019,15-April-2019,RCB,MI,171,7,172,5,172,20,19,20,20,MI won by 5 wickets (with 6 balls remaining)
+32nd Match (N),Mohali,16-April-2019,16-April-2019,KXIP,RR,182,6,170,7,183,20,20,20,20,Kings XI won by 12 runs
+33rd Match (N),Hyderabad,17-April-2019,17-April-2019,CSK,SRH,132,5,137,4,133,20,16.5,20,20,SRH won by 6 wickets (with 19 balls remaining)
+34th Match (N),Delhi,18-April-2019,18-April-2019,MI,DC,168,5,128,9,169,20,20,20,20,MI won by 40 runs
+35th Match (N),Eden Gardens,19-April-2019,19-April-2019,RCB,KKR,213,4,203,5,214,20,20,20,20,RCB won by 10 runs
+36th Match (D/N),Jaipur,20-April-2019,20-April-2019,MI,RR,161,5,162,5,162,20,19.1,20,20,RR won by 5 wickets (with 5 balls remaining)
+37th Match (N),Delhi,20-April-2019,20-April-2019,KXIP,DC,163,7,166,5,164,20,19.4,20,20,DC won by 5 wickets (with 2 balls remaining)
+38th Match (D/N),Hyderabad,21-April-2019,21-April-2019,KKR,SRH,159,8,161,1,160,20,15,20,20,SRH won by 9 wickets (with 30 balls remaining)
+39th Match (N),Bengaluru,21-April-2019,21-April-2019,RCB,CSK,161,7,160,8,162,20,20,20,20,RCB won by 1 run
+40th Match (N),Jaipur,22-April-2019,22-April-2019,RR,DC,191,6,193,4,192,20,19.2,20,20,DC won by 6 wickets (with 4 balls remaining)
+41st Match (N),Chennai,23-April-2019,23-April-2019,SRH,CSK,175,3,176,4,176,20,19.5,20,20,CSK won by 6 wickets (with 1 ball remaining)
+42nd Match (N),Bengaluru,24-April-2019,24-April-2019,RCB,KXIP,202,4,185,7,203,20,20,20,20,RCB won by 17 runs
+43rd Match (N),Eden Gardens,25-April-2019,25-April-2019,KKR,RR,175,6,177,7,176,20,19.2,20,20,RR won by 3 wickets (with 4 balls remaining)
+44th Match (N),Chennai,26-April-2019,26-April-2019,MI,CSK,155,4,109,10,156,20,17.4,20,20,MI won by 46 runs
+45th Match (N),Jaipur,27-April-2019,27-April-2019,SRH,RR,160,8,161,3,161,20,19.1,20,20,RR won by 7 wickets (with 5 balls remaining)
+46th Match (D/N),Delhi,28-April-2019,28-April-2019,DC,RCB,187,5,171,7,188,20,20,20,20,DC won by 16 runs
+47th Match (N),Eden Gardens,28-April-2019,28-April-2019,KKR,MI,232,2,198,7,233,20,20,20,20,KKR won by 34 runs
+48th Match (N),Hyderabad,29-April-2019,29-April-2019,SRH,KXIP,212,6,167,8,213,20,20,20,20,SRH won by 45 runs
+49th Match (N),Bengaluru,30-April-2019,30-April-2019,RCB,RR,5,10,41,1,6,5,3.2,5,5,No result
+50th Match (N),Chennai,01-May-2019,01-May-2019,CSK,DC,179,4,99,10,180,20,16.2,20,20,CSK won by 80 runs
+51st Match (N),Wankhede,02-May-2019,02-May-2019,MI,SRH,162,5,162,6,163,20,20,20,20,Match tied (MI won the one-over eliminator)
+52nd Match (N),Mohali,03-May-2019,03-May-2019,KXIP,KKR,183,6,185,3,184,20,18,20,20,KKR won by 7 wickets (with 12 balls remaining)
+53rd Match (D/N),Delhi,04-May-2019,04-May-2019,RR,DC,115,9,121,5,116,20,16.1,20,20,DC won by 5 wickets (with 23 balls remaining)
+54th Match (N),Bengaluru,04-May-2019,04-May-2019,SRH,RCB,175,7,178,6,176,20,19.2,20,20,RCB won by 4 wickets (with 4 balls remaining)
+55th Match (D/N),Mohali,05-May-2019,05-May-2019,CSK,KXIP,170,5,173,4,171,20,18,20,20,Kings XI won by 6 wickets (with 12 balls remaining)
+56th Match (N),Wankhede,05-May-2019,05-May-2019,KKR,MI,133,7,134,1,134,20,16.1,20,20,MI won by 9 wickets (with 23 balls remaining)
+Qualifier 1 (N),Chennai,07-May-2019,07-May-2019,CSK,MI,131,4,132,4,132,20,18.3,20,20,MI won by 6 wickets (with 9 balls remaining)
+Eliminator (N),Visakhapatnam,08-May-2019,08-May-2019,SRH,DC,162,8,165,8,163,20,19.5,20,20,DC won by 2 wickets (with 1 ball remaining)
+Qualifier 2 (N),Visakhapatnam,10-May-2019,10-May-2019,DC,CSK,147,9,151,4,148,20,19,20,20,CSK won by 6 wickets (with 6 balls remaining)
+Final (N),Hyderabad,12-May-2019,12-May-2019,MI,CSK,149,8,148,7,150,20,20,20,20,MI won by 1 run
+1st Match (N),Abu Dhabi,19-September-2020,19-September-2020,MI,CSK,162,9,166,5,163,20,19.2,20,20,CSK won by 5 wickets (with 4 balls remaining)
+2nd Match (N),Dubai (DICS),20-September-2020,20-September-2020,DC,KXIP,157,8,157,8,158,20,20,20,20,Match tied (DC won the one-over eliminator)
+3rd Match (N),Dubai (DICS),21-September-2020,21-September-2020,RCB,SRH,163,5,153,10,164,20,19.4,20,20,RCB won by 10 runs
+4th Match (N),Sharjah,22-September-2020,22-September-2020,RR,CSK,216,7,200,6,217,20,20,20,20,RR won by 16 runs
+5th Match (N),Abu Dhabi,23-September-2020,23-September-2020,MI,KKR,195,5,146,9,196,20,20,20,20,MI won by 49 runs
+6th Match (N),Dubai (DICS),24-September-2020,24-September-2020,KXIP,RCB,206,3,109,10,207,20,17,20,20,Kings XI won by 97 runs
+7th Match (N),Dubai (DICS),25-September-2020,25-September-2020,DC,CSK,175,3,131,7,176,20,20,20,20,DC won by 44 runs
+8th Match (N),Abu Dhabi,26-September-2020,26-September-2020,SRH,KKR,142,4,145,3,143,20,18,20,20,KKR won by 7 wickets (with 12 balls remaining)
+9th Match (N),Sharjah,27-September-2020,27-September-2020,KXIP,RR,223,2,226,6,224,20,19.3,20,20,RR won by 4 wickets (with 3 balls remaining)
+10th Match (N),Dubai (DICS),28-September-2020,28-September-2020,RCB,MI,201,3,201,5,202,20,20,20,20,Match tied (RCB won the one-over eliminator)
+11th Match (N),Abu Dhabi,29-September-2020,29-September-2020,SRH,DC,162,4,147,7,163,20,20,20,20,SRH won by 15 runs
+12th Match (N),Dubai (DICS),30-September-2020,30-September-2020,KKR,RR,174,6,137,9,175,20,20,20,20,KKR won by 37 runs
+13th Match (N),Abu Dhabi,01-October-2020,01-October-2020,MI,KXIP,191,4,143,8,192,20,20,20,20,MI won by 48 runs
+14th Match (N),Dubai (DICS),02-October-2020,02-October-2020,SRH,CSK,164,5,157,5,165,20,20,20,20,SRH won by 7 runs
+15th Match,Abu Dhabi,03-October-2020,03-October-2020,RR,RCB,154,6,158,2,155,20,19.1,20,20,RCB won by 8 wickets (with 5 balls remaining)
+16th Match (N),Sharjah,03-October-2020,03-October-2020,DC,KKR,228,4,210,8,229,20,20,20,20,DC won by 18 runs
+17th Match,Sharjah,04-October-2020,04-October-2020,MI,SRH,208,5,174,7,209,20,20,20,20,MI won by 34 runs
+18th Match (N),Dubai (DICS),04-October-2020,04-October-2020,KXIP,CSK,178,4,181,0,179,20,17.4,20,20,CSK won by 10 wickets (with 14 balls remaining)
+19th Match (N),Dubai (DICS),05-October-2020,05-October-2020,DC,RCB,196,4,137,9,197,20,20,20,20,DC won by 59 runs
+20th Match (N),Abu Dhabi,06-October-2020,06-October-2020,MI,RR,193,4,136,10,194,20,18.1,20,20,MI won by 57 runs
+21st Match (N),Abu Dhabi,07-October-2020,07-October-2020,KKR,CSK,167,10,157,5,168,20,20,20,20,KKR won by 10 runs
+22nd Match (N),Dubai (DICS),08-October-2020,08-October-2020,SRH,KXIP,201,6,132,10,202,20,16.5,20,20,SRH won by 69 runs
+23rd Match (N),Sharjah,09-October-2020,09-October-2020,DC,RR,184,8,138,10,185,20,19.4,20,20,DC won by 46 runs
+24th Match,Abu Dhabi,10-October-2020,10-October-2020,KKR,KXIP,164,6,162,5,165,20,20,20,20,KKR won by 2 runs
+25th Match (N),Dubai (DICS),10-October-2020,10-October-2020,RCB,CSK,169,4,132,8,170,20,20,20,20,RCB won by 37 runs
+26th Match,Dubai (DICS),11-October-2020,11-October-2020,SRH,RR,158,4,163,5,159,20,19.5,20,20,RR won by 5 wickets (with 1 ball remaining)
+27th Match (N),Abu Dhabi,11-October-2020,11-October-2020,DC,MI,162,4,166,5,163,20,19.4,20,20,MI won by 5 wickets (with 2 balls remaining)
+28th Match (N),Sharjah,12-October-2020,12-October-2020,RCB,KKR,194,2,112,9,195,20,20,20,20,RCB won by 82 runs
+29th Match (N),Dubai (DICS),13-October-2020,13-October-2020,CSK,SRH,167,6,147,8,168,20,20,20,20,CSK won by 20 runs
+30th Match (N),Dubai (DICS),14-October-2020,14-October-2020,DC,RR,161,7,148,8,162,20,20,20,20,DC won by 13 runs
+31st Match (N),Sharjah,15-October-2020,15-October-2020,RCB,KXIP,171,6,177,2,172,20,20,20,20,Kings XI won by 8 wickets (with 0 balls remaining)
+32nd Match (N),Abu Dhabi,16-October-2020,16-October-2020,KKR,MI,148,5,149,2,149,20,16.5,20,20,MI won by 8 wickets (with 19 balls remaining)
+33rd Match,Dubai (DICS),17-October-2020,17-October-2020,RR,RCB,177,6,179,3,178,20,19.4,20,20,RCB won by 7 wickets (with 2 balls remaining)
+34th Match (N),Sharjah,17-October-2020,17-October-2020,CSK,DC,179,4,185,5,180,20,19.5,20,20,DC won by 5 wickets (with 1 ball remaining)
+35th Match,Abu Dhabi,18-October-2020,18-October-2020,KKR,SRH,163,5,163,6,164,20,20,20,20,Match tied (KKR won the one-over eliminator)
+36th Match (N),Dubai (DICS),18-October-2020,18-October-2020,MI,KXIP,176,6,176,6,177,20,20,20,20,Match tied (Kings XI won the 2nd Super Over)
+37th Match (N),Abu Dhabi,19-October-2020,19-October-2020,CSK,RR,125,5,126,3,126,20,17.3,20,20,RR won by 7 wickets (with 15 balls remaining)
+38th Match (N),Dubai (DICS),20-October-2020,20-October-2020,DC,KXIP,164,5,167,5,165,20,19,20,20,Kings XI won by 5 wickets (with 6 balls remaining)
+39th Match (N),Abu Dhabi,21-October-2020,21-October-2020,KKR,RCB,84,8,85,2,85,20,13.3,20,20,RCB won by 8 wickets (with 39 balls remaining)
+40th Match (N),Dubai (DICS),22-October-2020,22-October-2020,RR,SRH,154,6,156,2,155,20,18.1,20,20,SRH won by 8 wickets (with 11 balls remaining)
+41st Match (N),Sharjah,23-October-2020,23-October-2020,CSK,MI,114,9,116,0,115,20,12.2,20,20,MI won by 10 wickets (with 46 balls remaining)
+42nd Match,Abu Dhabi,24-October-2020,24-October-2020,KKR,DC,194,6,135,9,195,20,20,20,20,KKR won by 59 runs
+43rd Match (N),Dubai (DICS),24-October-2020,24-October-2020,KXIP,SRH,126,7,114,10,127,20,19.5,20,20,Kings XI won by 12 runs
+44th Match,Dubai (DICS),25-October-2020,25-October-2020,RCB,CSK,145,6,150,2,146,20,18.4,20,20,CSK won by 8 wickets (with 8 balls remaining)
+45th Match (N),Abu Dhabi,25-October-2020,25-October-2020,MI,RR,195,5,196,2,196,20,18.2,20,20,RR won by 8 wickets (with 10 balls remaining)
+46th Match (N),Sharjah,26-October-2020,26-October-2020,KKR,KXIP,149,9,150,2,150,20,18.5,20,20,Kings XI won by 8 wickets (with 7 balls remaining)
+47th Match (N),Dubai (DICS),27-October-2020,27-October-2020,SRH,DC,219,2,131,10,220,20,19,20,20,SRH won by 88 runs
+48th Match (N),Abu Dhabi,28-October-2020,28-October-2020,RCB,MI,164,6,166,5,165,20,19.1,20,20,MI won by 5 wickets (with 5 balls remaining)
+49th Match (N),Dubai (DICS),29-October-2020,29-October-2020,KKR,CSK,172,5,178,4,173,20,20,20,20,CSK won by 6 wickets (with 0 balls remaining)
+50th Match (N),Abu Dhabi,30-October-2020,30-October-2020,KXIP,RR,185,4,186,3,186,20,17.3,20,20,RR won by 7 wickets (with 15 balls remaining)
+51st Match,Dubai (DICS),31-October-2020,31-October-2020,DC,MI,110,9,111,1,111,20,14.2,20,20,MI won by 9 wickets (with 34 balls remaining)
+52nd Match (N),Sharjah,31-October-2020,31-October-2020,RCB,SRH,120,7,121,5,121,20,14.1,20,20,SRH won by 5 wickets (with 35 balls remaining)
+53rd Match,Abu Dhabi,01-November-2020,01-November-2020,KXIP,CSK,153,6,154,1,154,20,18.5,20,20,CSK won by 9 wickets (with 7 balls remaining)
+54th Match (N),Dubai (DICS),01-November-2020,01-November-2020,KKR,RR,191,7,131,9,192,20,20,20,20,KKR won by 60 runs
+55th Match (N),Abu Dhabi,02-November-2020,02-November-2020,RCB,DC,152,7,154,4,153,20,19,20,20,DC won by 6 wickets (with 6 balls remaining)
+56th Match (N),Sharjah,03-November-2020,03-November-2020,MI,SRH,149,8,151,0,150,20,17.1,20,20,SRH won by 10 wickets (with 17 balls remaining)
+Qualifier 1 (N),Dubai (DICS),05-November-2020,05-November-2020,MI,DC,200,5,143,8,201,20,20,20,20,MI won by 57 runs
+Eliminator (N),Abu Dhabi,06-November-2020,06-November-2020,RCB,SRH,131,7,132,4,132,20,19.4,20,20,SRH won by 6 wickets (with 2 balls remaining)
+Qualifier 2 (N),Abu Dhabi,08-November-2020,08-November-2020,DC,SRH,189,3,172,8,190,20,20,20,20,DC won by 17 runs
+Final (N),Dubai (DICS),10-November-2020,10-November-2020,DC,MI,156,7,157,5,157,20,18.4,20,20,MI won by 5 wickets (with 8 balls remaining)
+1st Match (N),Chennai,09-April-2021,09-April-2021,MI,RCB,159,9,160,8,160,20,20,20,20,RCB won by 2 wickets (with 0 balls remaining)
+2nd Match (N),Wankhede,10-April-2021,10-April-2021,CSK,DC,188,7,190,3,189,20,18.4,20,20,DC won by 7 wickets (with 8 balls remaining)
+3rd Match (N),Chennai,11-April-2021,11-April-2021,KKR,SRH,187,6,177,5,188,20,20,20,20,KKR won by 10 runs
+4th Match (N),Wankhede,12-April-2021,12-April-2021,PBKS,RR,221,6,217,7,222,20,20,20,20,PBKS won by 4 runs
+5th Match (N),Chennai,13-April-2021,13-April-2021,MI,KKR,152,10,142,7,153,20,20,20,20,MI won by 10 runs
+6th Match (N),Chennai,14-April-2021,14-April-2021,RCB,SRH,149,8,143,9,150,20,20,20,20,RCB won by 6 runs
+7th Match (N),Wankhede,15-April-2021,15-April-2021,DC,RR,147,8,150,7,148,20,19.4,20,20,RR won by 3 wickets (with 2 balls remaining)
+8th Match (N),Wankhede,16-April-2021,16-April-2021,PBKS,CSK,106,8,107,4,107,20,15.4,20,20,CSK won by 6 wickets (with 26 balls remaining)
+9th Match (N),Chennai,17-April-2021,17-April-2021,MI,SRH,150,5,137,10,151,20,19.4,20,20,MI won by 13 runs
+10th Match (D/N),Chennai,18-April-2021,18-April-2021,RCB,KKR,204,4,166,8,205,20,20,20,20,RCB won by 38 runs
+11th Match (N),Wankhede,18-April-2021,18-April-2021,PBKS,DC,195,4,198,4,196,20,18.2,20,20,DC won by 6 wickets (with 10 balls remaining)
+12th Match (N),Wankhede,19-April-2021,19-April-2021,CSK,RR,188,9,143,9,189,20,20,20,20,CSK won by 45 runs
+13th Match (N),Chennai,20-April-2021,20-April-2021,MI,DC,137,9,138,4,138,20,19.1,20,20,DC won by 6 wickets (with 5 balls remaining)
+14th Match (D/N),Chennai,21-April-2021,21-April-2021,PBKS,SRH,120,10,121,1,121,19.4,18.4,20,20,SRH won by 9 wickets (with 8 balls remaining)
+15th Match (N),Wankhede,21-April-2021,21-April-2021,CSK,KKR,220,3,202,10,221,20,19.1,20,20,CSK won by 18 runs
+16th Match (N),Wankhede,22-April-2021,22-April-2021,RR,RCB,177,9,181,0,178,20,16.3,20,20,RCB won by 10 wickets (with 21 balls remaining)
+17th Match (N),Chennai,23-April-2021,23-April-2021,MI,PBKS,131,6,132,1,132,20,17.4,20,20,PBKS won by 9 wickets (with 14 balls remaining)
+18th Match (N),Wankhede,24-April-2021,24-April-2021,KKR,RR,133,9,134,4,134,20,18.5,20,20,RR won by 6 wickets (with 7 balls remaining)
+19th Match (D/N),Wankhede,25-April-2021,25-April-2021,CSK,RCB,191,4,122,9,192,20,20,20,20,CSK won by 69 runs
+20th Match (N),Chennai,25-April-2021,25-April-2021,DC,SRH,159,4,159,7,160,20,20,20,20,Match tied (DC won the one-over eliminator)
+21st Match (N),Ahmedabad,26-April-2021,26-April-2021,PBKS,KKR,123,9,126,5,124,20,16.4,20,20,KKR won by 5 wickets (with 20 balls remaining)
+22nd Match (N),Ahmedabad,27-April-2021,27-April-2021,RCB,DC,171,5,170,4,172,20,20,20,20,RCB won by 1 run
+23rd Match (N),Delhi,28-April-2021,28-April-2021,SRH,CSK,171,3,173,3,172,20,18.3,20,20,CSK won by 7 wickets (with 9 balls remaining)
+24th Match (D/N),Delhi,29-April-2021,29-April-2021,RR,MI,171,4,172,3,172,20,18.3,20,20,MI won by 7 wickets (with 9 balls remaining)
+25th Match (N),Ahmedabad,29-April-2021,29-April-2021,KKR,DC,154,6,156,3,155,20,16.3,20,20,DC won by 7 wickets (with 21 balls remaining)
+26th Match (N),Ahmedabad,30-April-2021,30-April-2021,PBKS,RCB,179,5,145,8,180,20,20,20,20,PBKS won by 34 runs
+27th Match (N),Delhi,01-May-2021,01-May-2021,CSK,MI,218,4,219,6,219,20,20,20,20,MI won by 4 wickets (with 0 balls remaining)
+28th Match (D/N),Delhi,02-May-2021,02-May-2021,RR,SRH,220,3,165,8,221,20,20,20,20,RR won by 55 runs
+29th Match (N),Ahmedabad,02-May-2021,02-May-2021,PBKS,DC,166,6,167,3,167,20,17.4,20,20,DC won by 7 wickets (with 14 balls remaining)
+30th Match (N),Dubai (DICS),19-September-2021,19-September-2021,CSK,MI,156,6,136,8,157,20,20,20,20,CSK won by 20 runs
+31st Match (N),Abu Dhabi,20-September-2021,20-September-2021,RCB,KKR,92,10,94,1,93,19,10,20,20,KKR won by 9 wickets (with 60 balls remaining)
+32nd Match (N),Dubai (DICS),21-September-2021,21-September-2021,RR,PBKS,185,10,183,4,186,20,20,20,20,RR won by 2 runs
+33rd Match (N),Dubai (DICS),22-September-2021,22-September-2021,SRH,DC,134,9,139,2,135,20,17.5,20,20,DC won by 8 wickets (with 13 balls remaining)
+34th Match (N),Abu Dhabi,23-September-2021,23-September-2021,MI,KKR,155,6,159,3,156,20,15.1,20,20,KKR won by 7 wickets (with 29 balls remaining)
+35th Match (N),Sharjah,24-September-2021,24-September-2021,RCB,CSK,156,6,157,4,157,20,18.1,20,20,CSK won by 6 wickets (with 11 balls remaining)
+36th Match,Abu Dhabi,25-September-2021,25-September-2021,DC,RR,154,6,121,6,155,20,20,20,20,DC won by 33 runs
+37th Match (N),Sharjah,25-September-2021,25-September-2021,PBKS,SRH,125,7,120,7,126,20,20,20,20,PBKS won by 5 runs
+38th Match,Abu Dhabi,26-September-2021,26-September-2021,KKR,CSK,171,6,172,8,172,20,20,20,20,CSK won by 2 wickets (with 0 balls remaining)
+39th Match (N),Dubai (DICS),26-September-2021,26-September-2021,RCB,MI,165,6,111,10,166,20,18.1,20,20,RCB won by 54 runs
+40th Match (N),Dubai (DICS),27-September-2021,27-September-2021,RR,SRH,164,5,167,3,165,20,18.3,20,20,SRH won by 7 wickets (with 9 balls remaining)
+41st Match,Sharjah,28-September-2021,28-September-2021,DC,KKR,127,9,130,7,128,20,18.2,20,20,KKR won by 3 wickets (with 10 balls remaining)
+42nd Match (N),Abu Dhabi,28-September-2021,28-September-2021,PBKS,MI,135,6,137,4,136,20,19,20,20,MI won by 6 wickets (with 6 balls remaining)
+43rd Match (N),Dubai (DICS),29-September-2021,29-September-2021,RR,RCB,149,9,153,3,150,20,17.1,20,20,RCB won by 7 wickets (with 17 balls remaining)
+44th Match (N),Sharjah,30-September-2021,30-September-2021,SRH,CSK,134,7,139,4,135,20,19.4,20,20,CSK won by 6 wickets (with 2 balls remaining)
+45th Match (N),Dubai (DICS),01-October-2021,01-October-2021,KKR,PBKS,165,7,168,5,166,20,19.3,20,20,PBKS won by 5 wickets (with 3 balls remaining)
+46th Match,Sharjah,02-October-2021,02-October-2021,MI,DC,129,8,132,6,130,20,19.1,20,20,DC won by 4 wickets (with 5 balls remaining)
+47th Match (N),Abu Dhabi,02-October-2021,02-October-2021,CSK,RR,189,4,190,3,190,20,17.3,20,20,RR won by 7 wickets (with 15 balls remaining)
+48th Match,Sharjah,03-October-2021,03-October-2021,RCB,PBKS,164,7,158,6,165,20,20,20,20,RCB won by 6 runs
+49th Match (N),Dubai (DICS),03-October-2021,03-October-2021,SRH,KKR,115,8,119,4,116,20,19.4,20,20,KKR won by 6 wickets (with 2 balls remaining)
+50th Match (N),Dubai (DICS),04-October-2021,04-October-2021,CSK,DC,136,5,139,7,137,20,19.4,20,20,DC won by 3 wickets (with 2 balls remaining)
+51st Match (N),Sharjah,05-October-2021,05-October-2021,RR,MI,90,9,94,2,91,20,8.2,20,20,MI won by 8 wickets (with 70 balls remaining)
+52nd Match (N),Abu Dhabi,06-October-2021,06-October-2021,SRH,RCB,141,7,137,6,142,20,20,20,20,SRH won by 4 runs
+53rd Match,Dubai (DICS),07-October-2021,07-October-2021,CSK,PBKS,134,6,139,4,135,20,13,20,20,PBKS won by 6 wickets (with 42 balls remaining)
+54th Match (N),Sharjah,07-October-2021,07-October-2021,KKR,RR,171,4,85,10,172,20,16.1,20,20,KKR won by 86 runs
+55th Match (N),Abu Dhabi,08-October-2021,08-October-2021,MI,SRH,235,9,193,8,236,20,20,20,20,MI won by 42 runs
+56th Match (N),Dubai (DICS),08-October-2021,08-October-2021,DC,RCB,164,5,166,3,165,20,20,20,20,RCB won by 7 wickets (with 0 balls remaining)
+Qualifier 1 (N),Dubai (DICS),10-October-2021,10-October-2021,DC,CSK,172,5,173,6,173,20,19.4,20,20,CSK won by 4 wickets (with 2 balls remaining)
+Eliminator (N),Sharjah,11-October-2021,11-October-2021,RCB,KKR,138,7,139,6,139,20,19.4,20,20,KKR won by 4 wickets (with 2 balls remaining)
+Qualifier 2 (N),Sharjah,13-October-2021,13-October-2021,DC,KKR,135,5,136,7,136,20,19.5,20,20,KKR won by 3 wickets (with 1 ball remaining)
+Final (N),Dubai (DICS),15-October-2021,15-October-2021,CSK,KKR,192,3,165,9,193,20,20,20,20,CSK won by 27 runs
+1st Match (N),Wankhede,26-March-2022,26-March-2022,CSK,KKR,131,5,133,4,132,20,18.3,20,20,KKR won by 6 wickets (with 9 balls remaining)
+2nd Match (D/N),Brabourne,27-March-2022,27-March-2022,MI,DC,177,5,179,6,178,20,18.2,20,20,DC won by 4 wickets (with 10 balls remaining)
+3rd Match (N),DY Patil,27-March-2022,27-March-2022,RCB,PBKS,205,2,208,5,206,20,19,20,20,PBKS won by 5 wickets (with 6 balls remaining)
+4th Match (N),Wankhede,28-March-2022,28-March-2022,LSG,GT,158,6,161,5,159,20,19.4,20,20,GT won by 5 wickets (with 2 balls remaining)
+5th Match (N),Pune,29-March-2022,29-March-2022,RR,SRH,210,6,149,7,211,20,20,20,20,RR won by 61 runs
+6th Match (N),DY Patil,30-March-2022,30-March-2022,KKR,RCB,128,10,132,7,129,18.5,19.2,20,20,RCB won by 3 wickets (with 4 balls remaining)
+7th Match (N),Brabourne,31-March-2022,31-March-2022,CSK,LSG,210,7,211,4,211,20,19.3,20,20,LSG won by 6 wickets (with 3 balls remaining)
+8th Match (N),Wankhede,01-April-2022,01-April-2022,PBKS,KKR,137,10,141,4,138,18.2,14.3,20,20,KKR won by 6 wickets (with 33 balls remaining)
+9th Match (D/N),DY Patil,02-April-2022,02-April-2022,RR,MI,193,8,170,8,194,20,20,20,20,RR won by 23 runs
+10th Match (N),Pune,02-April-2022,02-April-2022,GT,DC,171,6,157,9,172,20,20,20,20,GT won by 14 runs
+11th Match (N),Brabourne,03-April-2022,03-April-2022,PBKS,CSK,180,8,126,10,181,20,18,20,20,PBKS won by 54 runs
+12th Match (N),DY Patil,04-April-2022,04-April-2022,LSG,SRH,169,7,157,9,170,20,20,20,20,LSG won by 12 runs
+13th Match (N),Wankhede,05-April-2022,05-April-2022,RR,RCB,169,3,173,6,170,20,19.1,20,20,RCB won by 4 wickets (with 5 balls remaining)
+14th Match (N),Pune,06-April-2022,06-April-2022,MI,KKR,161,4,162,5,162,20,16,20,20,KKR won by 5 wickets (with 24 balls remaining)
+15th Match (N),DY Patil,07-April-2022,07-April-2022,DC,LSG,149,3,155,4,150,20,19.4,20,20,LSG won by 6 wickets (with 2 balls remaining)
+16th Match (N),Brabourne,08-April-2022,08-April-2022,PBKS,GT,189,9,190,4,190,20,20,20,20,GT won by 6 wickets (with 0 balls remaining)
+17th Match (D/N),DY Patil,09-April-2022,09-April-2022,CSK,SRH,154,7,155,2,155,20,17.4,20,20,SRH won by 8 wickets (with 14 balls remaining)
+18th Match (N),Pune,09-April-2022,09-April-2022,MI,RCB,151,6,152,3,152,20,18.3,20,20,RCB won by 7 wickets (with 9 balls remaining)
+19th Match (D/N),Brabourne,10-April-2022,10-April-2022,DC,KKR,215,5,171,10,216,20,19.4,20,20,DC won by 44 runs
+20th Match (N),Wankhede,10-April-2022,10-April-2022,RR,LSG,165,6,162,8,166,20,20,20,20,RR won by 3 runs
+21st Match (N),DY Patil,11-April-2022,11-April-2022,GT,SRH,162,7,168,2,163,20,19.1,20,20,SRH won by 8 wickets (with 5 balls remaining)
+22nd Match (N),DY Patil,12-April-2022,12-April-2022,CSK,RCB,216,4,193,9,217,20,20,20,20,CSK won by 23 runs
+23rd Match (N),Pune,13-April-2022,13-April-2022,PBKS,MI,198,5,186,9,199,20,20,20,20,PBKS won by 12 runs
+24th Match (N),DY Patil,14-April-2022,14-April-2022,GT,RR,192,4,155,9,193,20,20,20,20,GT won by 37 runs
+25th Match (N),Brabourne,15-April-2022,15-April-2022,KKR,SRH,175,8,176,3,176,20,17.5,20,20,SRH won by 7 wickets (with 13 balls remaining)
+26th Match (D/N),Brabourne,16-April-2022,16-April-2022,LSG,MI,199,4,181,9,200,20,20,20,20,LSG won by 18 runs
+27th Match (N),Wankhede,16-April-2022,16-April-2022,RCB,DC,189,5,173,7,190,20,20,20,20,RCB won by 16 runs
+28th Match (D/N),DY Patil,17-April-2022,17-April-2022,PBKS,SRH,151,10,152,3,152,20,18.5,20,20,SRH won by 7 wickets (with 7 balls remaining)
+29th Match (N),Pune,17-April-2022,17-April-2022,CSK,GT,169,5,170,7,170,20,19.5,20,20,GT won by 3 wickets (with 1 ball remaining)
+30th Match (N),Brabourne,18-April-2022,18-April-2022,RR,KKR,217,5,210,10,218,20,19.4,20,20,RR won by 7 runs
+31st Match (N),DY Patil,19-April-2022,19-April-2022,RCB,LSG,181,6,163,8,182,20,20,20,20,RCB won by 18 runs
+32nd Match (N),Brabourne,20-April-2022,20-April-2022,PBKS,DC,115,10,119,1,116,20,10.3,20,20,DC won by 9 wickets (with 57 balls remaining)
+33rd Match (N),DY Patil,21-April-2022,21-April-2022,MI,CSK,155,7,156,7,156,20,20,20,20,CSK won by 3 wickets (with 0 balls remaining)
+34th Match (N),Wankhede,22-April-2022,22-April-2022,RR,DC,222,2,207,8,223,20,20,20,20,RR won by 15 runs
+35th Match (D/N),DY Patil,23-April-2022,23-April-2022,GT,KKR,156,9,148,8,157,20,20,20,20,GT won by 8 runs
+36th Match (N),Brabourne,23-April-2022,23-April-2022,RCB,SRH,68,10,72,1,69,16.1,8,20,20,SRH won by 9 wickets (with 72 balls remaining)
+37th Match (N),Wankhede,24-April-2022,24-April-2022,LSG,MI,168,6,132,8,169,20,20,20,20,LSG won by 36 runs
+38th Match (N),Wankhede,25-April-2022,25-April-2022,PBKS,CSK,187,4,176,6,188,20,20,20,20,PBKS won by 11 runs
+39th Match (N),Pune,26-April-2022,26-April-2022,RR,RCB,144,8,115,10,145,20,19.3,20,20,RR won by 29 runs
+40th Match (N),Wankhede,27-April-2022,27-April-2022,SRH,GT,195,6,199,5,196,20,20,20,20,GT won by 5 wickets (with 0 balls remaining)
+41st Match (N),Wankhede,28-April-2022,28-April-2022,KKR,DC,146,9,150,6,147,20,19,20,20,DC won by 4 wickets (with 6 balls remaining)
+42nd Match (N),Pune,29-April-2022,29-April-2022,LSG,PBKS,153,8,133,8,154,20,20,20,20,LSG won by 20 runs
+43rd Match (D/N),Brabourne,30-April-2022,30-April-2022,RCB,GT,170,6,174,4,171,20,19.3,20,20,GT won by 6 wickets (with 3 balls remaining)
+44th Match (N),DY Patil,30-April-2022,30-April-2022,RR,MI,158,6,161,5,159,20,19.2,20,20,MI won by 5 wickets (with 4 balls remaining)
+45th Match (D/N),Wankhede,01-May-2022,01-May-2022,LSG,DC,195,3,189,7,196,20,20,20,20,LSG won by 6 runs
+46th Match (N),Pune,01-May-2022,01-May-2022,CSK,SRH,202,2,189,6,203,20,20,20,20,CSK won by 13 runs
+47th Match (N),Wankhede,02-May-2022,02-May-2022,RR,KKR,152,5,158,3,153,20,19.1,20,20,KKR won by 7 wickets (with 5 balls remaining)
+48th Match (N),DY Patil,03-May-2022,03-May-2022,GT,PBKS,143,8,145,2,144,20,16,20,20,PBKS won by 8 wickets (with 24 balls remaining)
+49th Match (N),Pune,04-May-2022,04-May-2022,RCB,CSK,173,8,160,8,174,20,20,20,20,RCB won by 13 runs
+50th Match (N),Brabourne,05-May-2022,05-May-2022,DC,SRH,207,3,186,8,208,20,20,20,20,DC won by 21 runs
+51st Match (N),Brabourne,06-May-2022,06-May-2022,MI,GT,177,6,172,5,178,20,20,20,20,MI won by 5 runs
+52nd Match (D/N),Wankhede,07-May-2022,07-May-2022,PBKS,RR,189,5,190,4,190,20,19.4,20,20,RR won by 6 wickets (with 2 balls remaining)
+53rd Match (N),Pune,07-May-2022,07-May-2022,LSG,KKR,176,7,101,10,177,20,14.3,20,20,LSG won by 75 runs
+54th Match (D/N),Wankhede,08-May-2022,08-May-2022,RCB,SRH,192,3,125,10,193,20,19.2,20,20,RCB won by 67 runs
+55th Match (N),DY Patil,08-May-2022,08-May-2022,CSK,DC,208,6,117,10,209,20,17.4,20,20,CSK won by 91 runs
+56th Match (N),DY Patil,09-May-2022,09-May-2022,KKR,MI,165,9,113,10,166,20,17.3,20,20,KKR won by 52 runs
+57th Match (N),Pune,10-May-2022,10-May-2022,GT,LSG,144,4,82,10,145,20,13.5,20,20,GT won by 62 runs
+58th Match (N),DY Patil,11-May-2022,11-May-2022,RR,DC,160,6,161,2,161,20,18.1,20,20,DC won by 8 wickets (with 11 balls remaining)
+59th Match (N),Wankhede,12-May-2022,12-May-2022,CSK,MI,97,10,103,5,98,16,14.5,20,20,MI won by 5 wickets (with 31 balls remaining)
+60th Match (N),Brabourne,13-May-2022,13-May-2022,PBKS,RCB,209,9,155,9,210,20,20,20,20,PBKS won by 54 runs
+61st Match (N),Pune,14-May-2022,14-May-2022,KKR,SRH,177,6,123,8,178,20,20,20,20,KKR won by 54 runs
+62nd Match (D/N),Wankhede,15-May-2022,15-May-2022,CSK,GT,133,5,137,3,134,20,19.1,20,20,GT won by 7 wickets (with 5 balls remaining)
+63rd Match (N),Brabourne,15-May-2022,15-May-2022,RR,LSG,178,6,154,8,179,20,20,20,20,RR won by 24 runs
+64th Match (N),DY Patil,16-May-2022,16-May-2022,DC,PBKS,159,7,142,9,160,20,20,20,20,DC won by 17 runs
+65th Match (N),Wankhede,17-May-2022,17-May-2022,SRH,MI,193,6,190,7,194,20,20,20,20,SRH won by 3 runs
+66th Match (N),DY Patil,18-May-2022,18-May-2022,LSG,KKR,210,0,208,8,211,20,20,20,20,LSG won by 2 runs
+67th Match (N),Wankhede,19-May-2022,19-May-2022,GT,RCB,168,5,170,2,169,20,18.4,20,20,RCB won by 8 wickets (with 8 balls remaining)
+68th Match (N),Brabourne,20-May-2022,20-May-2022,CSK,RR,150,6,151,5,151,20,19.4,20,20,RR won by 5 wickets (with 2 balls remaining)
+69th Match (N),Wankhede,21-May-2022,21-May-2022,DC,MI,159,7,160,5,160,20,19.1,20,20,MI won by 5 wickets (with 5 balls remaining)
+70th Match (N),Wankhede,22-May-2022,22-May-2022,SRH,PBKS,157,8,160,5,158,20,15.1,20,20,PBKS won by 5 wickets (with 29 balls remaining)
+Qualifier 1 (N),Eden Gardens,24-May-2022,24-May-2022,RR,GT,188,6,191,3,189,20,19.3,20,20,GT won by 7 wickets (with 3 balls remaining)
+Eliminator (N),Eden Gardens,25-May-2022,25-May-2022,RCB,LSG,207,4,193,6,208,20,20,20,20,RCB won by 14 runs
+Qualifier 2 (N),Ahmedabad,27-May-2022,27-May-2022,RCB,RR,157,8,161,3,158,20,18.1,20,20,RR won by 7 wickets (with 11 balls remaining)
+Final (N),Ahmedabad,29-May-2022,29-May-2022,RR,GT,130,9,133,3,131,20,18.1,20,20,GT won by 7 wickets (with 11 balls remaining)
+1st Match (N),Ahmedabad,31-March-2023,31-March-2023,CSK,GT,178,7,182,5,179,20,19.2,20,20,GT won by 5 wickets (with 4 balls remaining)
+2nd Match (D/N),Mohali,01-April-2023,01-April-2023,PBKS,KKR,191,5,146,7,192,20,16,20,16,PBKS won by 7 runs (DLS method)
+3rd Match (N),Lucknow,01-April-2023,01-April-2023,LSG,DC,193,6,143,9,194,20,20,20,20,LSG won by 50 runs
+4th Match (D/N),Hyderabad,02-April-2023,02-April-2023,RR,SRH,203,5,131,8,204,20,20,20,20,RR won by 72 runs
+5th Match (N),Bengaluru,02-April-2023,02-April-2023,MI,RCB,171,7,172,2,172,20,16.2,20,20,RCB won by 8 wickets (with 22 balls remaining)
+6th Match (N),Chennai,03-April-2023,03-April-2023,CSK,LSG,217,7,205,7,218,20,20,20,20,CSK won by 12 runs
+7th Match (N),Delhi,04-April-2023,04-April-2023,DC,GT,162,8,163,4,163,20,18.1,20,20,GT won by 6 wickets (with 11 balls remaining)
+8th Match (N),Guwahati,05-April-2023,05-April-2023,PBKS,RR,197,4,192,7,198,20,20,20,20,PBKS won by 5 runs
+9th Match (N),Eden Gardens,06-April-2023,06-April-2023,KKR,RCB,204,7,123,10,205,20,17.4,20,20,KKR won by 81 runs
+10th Match (N),Lucknow,07-April-2023,07-April-2023,SRH,LSG,121,8,127,5,122,20,16,20,20,LSG won by 5 wickets (with 24 balls remaining)
+11th Match (D/N),Guwahati,08-April-2023,08-April-2023,RR,DC,199,4,142,9,200,20,20,20,20,RR won by 57 runs
+12th Match (N),Wankhede,08-April-2023,08-April-2023,MI,CSK,157,8,159,3,158,20,18.1,20,20,CSK won by 7 wickets (with 11 balls remaining)
+13th Match (D/N),Ahmedabad,09-April-2023,09-April-2023,GT,KKR,204,4,207,7,205,20,20,20,20,KKR won by 3 wickets (with 0 balls remaining)
+14th Match (N),Hyderabad,09-April-2023,09-April-2023,PBKS,SRH,143,9,145,2,144,20,17.1,20,20,SRH won by 8 wickets (with 17 balls remaining)
+15th Match (N),Bengaluru,10-April-2023,10-April-2023,RCB,LSG,212,2,213,9,213,20,20,20,20,LSG won by 1 wicket (with 0 balls remaining)
+16th Match (N),Delhi,11-April-2023,11-April-2023,DC,MI,172,10,173,4,173,19.4,20,20,20,MI won by 6 wickets (with 0 balls remaining)
+17th Match (N),Chennai,12-April-2023,12-April-2023,RR,CSK,175,8,172,6,176,20,20,20,20,RR won by 3 runs
+18th Match (N),Mohali,13-April-2023,13-April-2023,PBKS,GT,153,8,154,4,154,20,19.5,20,20,GT won by 6 wickets (with 1 ball remaining)
+19th Match (N),Eden Gardens,14-April-2023,14-April-2023,SRH,KKR,228,4,205,7,229,20,20,20,20,SRH won by 23 runs
+20th Match (D/N),Bengaluru,15-April-2023,15-April-2023,RCB,DC,174,6,151,9,175,20,20,20,20,RCB won by 23 runs
+21st Match (N),Lucknow,15-April-2023,15-April-2023,LSG,PBKS,159,8,161,8,160,20,19.3,20,20,PBKS won by 2 wickets (with 3 balls remaining)
+22nd Match (D/N),Wankhede,16-April-2023,16-April-2023,KKR,MI,185,6,186,5,186,20,17.4,20,20,MI won by 5 wickets (with 14 balls remaining)
+23rd Match (N),Ahmedabad,16-April-2023,16-April-2023,GT,RR,177,7,179,7,178,20,19.2,20,20,RR won by 3 wickets (with 4 balls remaining)
+24th Match (N),Bengaluru,17-April-2023,17-April-2023,CSK,RCB,226,6,218,8,227,20,20,20,20,CSK won by 8 runs
+25th Match (N),Hyderabad,18-April-2023,18-April-2023,MI,SRH,192,5,178,10,193,20,19.5,20,20,MI won by 14 runs
+26th Match (N),Jaipur,19-April-2023,19-April-2023,LSG,RR,154,7,144,6,155,20,20,20,20,LSG won by 10 runs
+27th Match (D/N),Mohali,20-April-2023,20-April-2023,RCB,PBKS,174,4,150,10,175,20,18.2,20,20,RCB won by 24 runs
+28th Match (N),Delhi,20-April-2023,20-April-2023,KKR,DC,127,10,128,6,128,20,19.2,20,20,DC won by 4 wickets (with 4 balls remaining)
+29th Match (N),Chennai,21-April-2023,21-April-2023,SRH,CSK,134,7,138,3,135,20,18.4,20,20,CSK won by 7 wickets (with 8 balls remaining)
+30th Match (D/N),Lucknow,22-April-2023,22-April-2023,GT,LSG,135,6,128,7,136,20,20,20,20,GT won by 7 runs
+31st Match (N),Wankhede,22-April-2023,22-April-2023,PBKS,MI,214,8,201,6,215,20,20,20,20,PBKS won by 13 runs
+32nd Match (D/N),Bengaluru,23-April-2023,23-April-2023,RCB,RR,189,9,182,6,190,20,20,20,20,RCB won by 7 runs
+33rd Match (N),Eden Gardens,23-April-2023,23-April-2023,CSK,KKR,235,4,186,8,236,20,20,20,20,CSK won by 49 runs
+34th Match (N),Hyderabad,24-April-2023,24-April-2023,DC,SRH,144,9,137,6,145,20,20,20,20,DC won by 7 runs
+35th Match (N),Ahmedabad,25-April-2023,25-April-2023,GT,MI,207,6,152,9,208,20,20,20,20,GT won by 55 runs
+36th Match (N),Bengaluru,26-April-2023,26-April-2023,KKR,RCB,200,5,179,8,201,20,20,20,20,KKR won by 21 runs
+37th Match (N),Jaipur,27-April-2023,27-April-2023,RR,CSK,202,5,170,6,203,20,20,20,20,RR won by 32 runs
+38th Match (N),Mohali,28-April-2023,28-April-2023,LSG,PBKS,257,5,201,10,258,20,19.5,20,20,LSG won by 56 runs
+39th Match (D/N),Eden Gardens,29-April-2023,29-April-2023,KKR,GT,179,7,180,3,180,20,17.5,20,20,GT won by 7 wickets (with 13 balls remaining)
+40th Match (N),Delhi,29-April-2023,29-April-2023,SRH,DC,197,6,188,6,198,20,20,20,20,SRH won by 9 runs
+41st Match (D/N),Chennai,30-April-2023,30-April-2023,CSK,PBKS,200,4,201,6,201,20,20,20,20,PBKS won by 4 wickets (with 0 balls remaining)
+42nd Match (N),Wankhede,30-April-2023,30-April-2023,RR,MI,212,7,214,4,213,20,19.3,20,20,MI won by 6 wickets (with 3 balls remaining)
+43rd Match (N),Lucknow,01-May-2023,01-May-2023,RCB,LSG,126,9,108,10,127,20,19.5,20,20,RCB won by 18 runs
+44th Match (N),Ahmedabad,02-May-2023,02-May-2023,DC,GT,130,8,125,6,131,20,20,20,20,DC won by 5 runs
+46th Match (N),Mohali,03-May-2023,03-May-2023,PBKS,MI,214,3,216,4,215,20,18.5,20,20,MI won by 6 wickets (with 7 balls remaining)
+47th Match (N),Hyderabad,04-May-2023,04-May-2023,KKR,SRH,171,9,166,8,172,20,20,20,20,KKR won by 5 runs
+48th Match (N),Jaipur,05-May-2023,05-May-2023,RR,GT,118,10,119,1,119,17.5,13.5,20,20,GT won by 9 wickets (with 37 balls remaining)
+49th Match (D/N),Chennai,06-May-2023,06-May-2023,MI,CSK,139,8,140,4,140,20,17.4,20,20,CSK won by 6 wickets (with 14 balls remaining)
+50th Match (N),Delhi,06-May-2023,06-May-2023,RCB,DC,181,4,187,3,182,20,16.4,20,20,DC won by 7 wickets (with 20 balls remaining)
+51st Match (D/N),Ahmedabad,07-May-2023,07-May-2023,GT,LSG,227,2,171,7,228,20,20,20,20,GT won by 56 runs
+52nd Match (N),Jaipur,07-May-2023,07-May-2023,RR,SRH,214,2,217,6,215,20,20,20,20,SRH won by 4 wickets (with 0 balls remaining)
+53rd Match (N),Eden Gardens,08-May-2023,08-May-2023,PBKS,KKR,179,7,182,5,180,20,20,20,20,KKR won by 5 wickets (with 0 balls remaining)
+54th Match (N),Wankhede,09-May-2023,09-May-2023,RCB,MI,199,6,200,4,200,20,16.3,20,20,MI won by 6 wickets (with 21 balls remaining)
+55th Match (N),Chennai,10-May-2023,10-May-2023,CSK,DC,167,8,140,8,168,20,20,20,20,CSK won by 27 runs
+56th Match (N),Eden Gardens,11-May-2023,11-May-2023,KKR,RR,149,8,151,1,150,20,13.1,20,20,RR won by 9 wickets (with 41 balls remaining)
+57th Match (N),Wankhede,12-May-2023,12-May-2023,MI,GT,218,5,191,8,219,20,20,20,20,MI won by 27 runs
+58th Match (D/N),Hyderabad,13-May-2023,13-May-2023,SRH,LSG,182,6,185,3,183,20,19.2,20,20,LSG won by 7 wickets (with 4 balls remaining)
+59th Match (N),Delhi,13-May-2023,13-May-2023,PBKS,DC,167,7,136,8,168,20,20,20,20,PBKS won by 31 runs
+60th Match (D/N),Jaipur,14-May-2023,14-May-2023,RCB,RR,171,5,59,10,172,20,10.3,20,20,RCB won by 112 runs
+61st Match (N),Chennai,14-May-2023,14-May-2023,CSK,KKR,144,6,147,4,145,20,18.3,20,20,KKR won by 6 wickets (with 9 balls remaining)
+62nd Match (N),Ahmedabad,15-May-2023,15-May-2023,GT,SRH,188,9,154,9,189,20,20,20,20,GT won by 34 runs
+63rd Match (N),Lucknow,16-May-2023,16-May-2023,LSG,MI,177,3,172,5,178,20,20,20,20,LSG won by 5 runs
+64th Match (N),Dharamsala,17-May-2023,17-May-2023,DC,PBKS,213,2,198,8,214,20,20,20,20,DC won by 15 runs
+65th Match (N),Hyderabad,18-May-2023,18-May-2023,SRH,RCB,186,5,187,2,187,20,19.2,20,20,RCB won by 8 wickets (with 4 balls remaining)
+66th Match (N),Dharamsala,19-May-2023,19-May-2023,PBKS,RR,187,5,189,6,188,20,19.4,20,20,RR won by 4 wickets (with 2 balls remaining)
+67th Match (D/N),Delhi,20-May-2023,20-May-2023,CSK,DC,223,3,146,9,224,20,20,20,20,CSK won by 77 runs
+68th Match (N),Eden Gardens,20-May-2023,20-May-2023,LSG,KKR,176,8,175,7,177,20,20,20,20,LSG won by 1 run
+69th Match (D/N),Wankhede,21-May-2023,21-May-2023,SRH,MI,200,5,201,2,201,20,18,20,20,MI won by 8 wickets (with 12 balls remaining)
+70th Match (N),Bengaluru,21-May-2023,21-May-2023,RCB,GT,197,5,198,4,198,20,19.1,20,20,GT won by 6 wickets (with 5 balls remaining)
+Qualifier 1 (N),Chennai,23-May-2023,23-May-2023,CSK,GT,172,7,157,10,173,20,20,20,20,CSK won by 15 runs
+Eliminator (N),Chennai,24-May-2023,24-May-2023,MI,LSG,182,8,101,10,183,20,16.3,20,20,MI won by 81 runs
+Qualifier 2 (N),Ahmedabad,26-May-2023,26-May-2023,GT,MI,233,3,171,10,234,20,18.2,20,20,GT won by 62 runs
+Final (N),Ahmedabad,28-May-2023,29-May-2023,GT,CSK,214,4,171,5,215,20,15,20,15,CSK won by 5 wickets (with 0 balls remaining) (DLS method)
